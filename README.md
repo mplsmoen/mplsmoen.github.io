@@ -6,7 +6,7 @@ A collection of simple, standalone HTML apps, hosted for free with GitHub Pages 
  
 | Project | Description | Live Link |
 |---|---|---|
-| [Minnesota Sports Dashboard](./mn-sports-dashboard/) | A dashboard for following Minnesota sports teams: scores, schedules, and standings in one place. | [View live](https://mplsmoen.github.io/mn-sports-dashboard/) |
+| [Minnesota Sports Dashboard](./mn-sports/) | A dashboard for following Minnesota sports teams: scores, schedules, and standings in one place. | [View live](https://mplsmoen.github.io/mn-sports/) |
  
 ## Minnesota Sports Dashboard
  
@@ -25,14 +25,14 @@ A single-page dashboard for keeping up with Minnesota pro teams.
 git clone https://github.com/mplsmoen/mplsmoen.github.io.git
 ```
  
-2. Open `mn-sports-dashboard/index.html` in your browser. That's it.
+2. Open `mn-sports/index.html` in your browser. That's it.
 ## Repository Structure
  
 ```text
 mplsmoen.github.io/
 ├── README.md
 ├── index.html                 (optional landing page linking to all projects)
-└── mn-sports-dashboard/
+└── mn-sports/
     └── index.html
 ```
  
@@ -48,7 +48,7 @@ Because this repo is named `mplsmoen.github.io`, it is a GitHub user site, and e
 Each project folder gets its own URL:
  
 ```text
-https://mplsmoen.github.io/mn-sports-dashboard/
+https://mplsmoen.github.io/mn-sports/
 ```
  
 ## Adding a New Project
