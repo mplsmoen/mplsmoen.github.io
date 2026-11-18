@@ -38,8 +38,11 @@ header p{margin:0;color:var(--mute)}
 .chip:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 main{max-width:760px;margin:0 auto;padding:0 20px 60px}
 h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mute);letter-spacing:.03em}
-.game{--tc:color-mix(in srgb,var(--c),var(--ink) var(--lift));display:grid;grid-template-columns:76px 1fr auto;gap:16px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:12px 16px 12px 12px;margin-bottom:10px;transition:border-color .15s}
+.game{--tc:color-mix(in srgb,var(--c),var(--ink) var(--lift));display:grid;grid-template-columns:88px 1fr;gap:16px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:12px 16px 12px 12px;margin-bottom:10px;transition:border-color .15s}
 .game:hover{border-color:color-mix(in srgb,var(--c),var(--ink) 30%)}
+.lcol{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
+.lcol .when{align-self:stretch}
+.lcol .pill.tv{font-size:11px;line-height:1.25;white-space:normal;padding:3px 9px}
 .when{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:64px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 22px/1 "Barlow Condensed",sans-serif}
 .when i{font:600 11px Barlow,sans-serif;font-style:normal;letter-spacing:.08em;margin-top:3px;opacity:.85}
 .when.live{background:var(--live);color:#fff;font-size:18px}
@@ -54,7 +57,7 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .pill.lk{text-decoration:none;padding:4px 11px;border:1px solid color-mix(in srgb,var(--c) 65%,var(--ink));background:transparent;color:var(--ink)}
 .pill.lk:hover{background:color-mix(in srgb,var(--c) 25%,transparent)}
 .pill.tv{background:color-mix(in srgb,var(--c) 14%,transparent);color:color-mix(in srgb,var(--c) 55%,var(--ink))}
-.res{text-align:right;font:700 26px/1 "Barlow Condensed",sans-serif;white-space:nowrap}
+.res{text-align:center;font:700 24px/1 "Barlow Condensed",sans-serif;white-space:nowrap}
 .res small{display:block;font:700 11px Barlow,sans-serif;letter-spacing:.08em;margin-bottom:3px}
 .res.w small{color:#3ddc84}.res.l small{color:var(--mute)}
 .res.l{color:var(--mute)}
@@ -74,6 +77,7 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .stwrap{grid-column:1/-1;border-top:1px solid var(--line);padding-top:10px;margin-top:2px;cursor:default}
 .pill.rank{background:color-mix(in srgb,var(--c) 14%,transparent);color:color-mix(in srgb,var(--c) 55%,var(--ink))}
 .picksbtn{margin-top:12px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:7px 14px;font:600 14px Barlow,sans-serif;cursor:pointer}
+.picksbtn+.picksbtn{margin-left:8px}
 .picksbtn:hover{border-color:var(--mute)}
 .picks{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:9px}
 .pklab{font:600 11px Barlow,sans-serif;letter-spacing:.07em;text-transform:uppercase;color:var(--mute);margin-right:2px}
@@ -100,7 +104,7 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .msg{padding:30px 0;color:var(--mute)}
 #diag{margin-bottom:8px}
 footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-size:13px}
-@media (max-width:480px){.game{grid-template-columns:64px 1fr;gap:12px}.res{grid-column:2;text-align:left}h1{font-size:36px}}
+@media (max-width:480px){.game{grid-template-columns:76px 1fr;gap:12px}h1{font-size:36px}}
 </style>
 </head>
 <body>
@@ -109,6 +113,7 @@ footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-
   <h1>Minnesota <span>Sports</span></h1>
   <p>Upcoming games and live scores for the Twin Cities pros and every Gophers team, in your local time.</p>
   <button class="picksbtn" id="picksbtn"></button>
+  <button class="picksbtn" id="authbtn" hidden></button>
 </header>
 <details class="filters" id="filters"><summary id="fsum">Teams</summary><div class="chips" id="chips"></div></details>
 <main id="out"><div class="msg">Loading schedules…</div></main>
@@ -314,13 +319,27 @@ const gkey=g=>g.t.n+"|"+g.date.getTime()+"|"+g.opp;
 function prefetchStandings(list){list.forEach(g=>{if(g.t.static||stReq.has(gk(g.t)))return;stReq.add(gk(g.t));getStandings(g.t).then(render)})}
 // ---- Picks: choose a winner before the game starts, graded automatically afterward ----
 let PICKS={};try{PICKS=JSON.parse(localStorage.getItem("mn-picks")||"{}")||{}}catch(e){PICKS={}}
-const savePicks=()=>{try{localStorage.setItem("mn-picks",JSON.stringify(PICKS))}catch(e){}};
+const saveLocal=()=>{try{localStorage.setItem("mn-picks",JSON.stringify(PICKS))}catch(e){}};
+const savePicks=()=>{saveLocal();schedulePush()};
+const livePick=k=>PICKS[k]&&!PICKS[k].x?PICKS[k]:null;
+const livePicks=()=>Object.values(PICKS).filter(p=>!p.x);
+// stable fingerprint (key order doesn't matter) and a merge where the most recently changed pick wins
+const sig=o=>JSON.stringify(Object.keys(o).sort().map(k=>[k,Object.keys(o[k]).sort().map(f=>[f,o[k][f]])]));
+function mergeP(a,b){
+  const out={};
+  new Set([...Object.keys(a),...Object.keys(b)]).forEach(k=>{
+    const x=a[k],y=b[k]; if(!x||!y){out[k]=x||y;return}
+    const ux=x.u||0,uy=y.u||0;
+    out[k]=ux>uy?x:uy>ux?y:(x.r&&!y.r)?x:y;
+  });
+  return out;
+}
 const shortName=n=>n.startsWith("Gophers")?"Gophers":n.replace("Minnesota ","");
 const pickKey=g=>g.t.n+"|"+g.eid;
 const dayShort=new Intl.DateTimeFormat(undefined,{month:"short",day:"numeric"});
 function pickUI(g){
   if(g.t.static||!g.eid)return {pill:"",row:""};
-  const k=pickKey(g),p=PICKS[k];
+  const k=pickKey(g),p=livePick(k);
   if(g.state==="pre"&&g.date.getTime()>Date.now()){
     const b=(side,txt)=>`<button class="pk${p&&p.p===side?" on":""}" data-k="${esc(k)}" data-p="${side}">${esc(txt)}</button>`;
     return {pill:"",row:`<div class="picks"><span class="pklab">Your pick</span>${b("m",shortName(g.t.n))}${g.t.s==="soccer"?b("d","Draw"):""}${b("o",g.opp)}</div>`};
@@ -332,29 +351,29 @@ function pickUI(g){
 function gradeAll(){
   let ch=false;
   Object.entries(PICKS).forEach(([k,p])=>{
-    if(p.r)return;
+    if(p.x||p.r)return;
     const g=allGames.find(x=>x.eid&&pickKey(x)===k); if(!g||g.state!=="post")return;
     const a=parseFloat(g.my),b=parseFloat(g.their); if(isNaN(a)||isNaN(b))return;
     const w=a>b?"m":a<b?"o":g.win===true?"m":g.win===false?"o":"d";
-    p.r=p.p===w?"w":"l";p.sc=g.my+"-"+g.their;ch=true;
+    p.r=p.p===w?"w":"l";p.sc=g.my+"-"+g.their;p.u=Date.now();ch=true;
   });
   if(ch)savePicks();
 }
 function pickStats(){
-  const gr=Object.values(PICKS).filter(p=>p.r).sort((a,b)=>b.d-a.d);
+  const gr=livePicks().filter(p=>p.r).sort((a,b)=>b.d-a.d);
   const w=gr.filter(p=>p.r==="w").length;
   let st=0;for(const p of gr){const up=p.r==="w";if(st===0)st=up?1:-1;else if(up===(st>0))st+=up?1:-1;else break}
   return {gr,w,l:gr.length-w,pct:gr.length?Math.round(100*w/gr.length):0,st};
 }
 function updateBadge(){
-  const s=pickStats(),b=document.getElementById("picksbtn"),n=Object.keys(PICKS).length;
+  const s=pickStats(),b=document.getElementById("picksbtn"),n=livePicks().length;
   b.textContent="\u{1F3C6} "+(s.gr.length?`Picks ${s.w}\u2013${s.l} \u00b7 ${s.pct}%${s.st?` \u00b7 ${s.st>0?"W":"L"}${Math.abs(s.st)}`:""}`:n?"Picks: waiting on results":"Picks: choose a winner on any upcoming game");
 }
 function paintPicks(){
-  const s=pickStats(),pend=Object.values(PICKS).filter(p=>!p.r).length,by={};
+  const s=pickStats(),pend=livePicks().filter(p=>!p.r).length,by={};
   s.gr.forEach(p=>{const x=by[p.t]=by[p.t]||{w:0,l:0};p.r==="w"?x.w++:x.l++});
   const teams=Object.entries(by).sort((a,b)=>(b[1].w+b[1].l)-(a[1].w+a[1].l)).map(([n,x])=>`<tr><td>${esc(n)}</td><td>${x.w}\u2013${x.l}</td><td>${Math.round(100*x.w/(x.w+x.l))}%</td></tr>`).join("");
-  const hist=Object.values(PICKS).sort((a,b)=>b.d-a.d).slice(0,40).map(p=>{
+  const hist=livePicks().sort((a,b)=>b.d-a.d).slice(0,40).map(p=>{
     const lab=p.p==="m"?shortName(p.t):p.p==="o"?p.opp:"Draw";
     return `<tr><td>${dayShort.format(new Date(p.d))}</td><td>${esc(shortName(p.t))} vs ${esc(p.opp)}</td><td>${esc(lab)}</td><td class="hr ${p.r||""}">${p.r==="w"?"\u2713 "+esc(p.sc||""):p.r==="l"?"\u2717 "+esc(p.sc||""):"pending"}</td></tr>`}).join("");
   document.getElementById("picksp").innerHTML=`<button class="sheetx" id="px" aria-label="Close">\u2715</button><div class="shtitle">My picks</div>
@@ -370,7 +389,7 @@ function exportPicks(){
 }
 function importPicks(){
   const i=document.createElement("input");i.type="file";i.accept="application/json";
-  i.onchange=()=>{const f=i.files[0];if(!f)return;f.text().then(t=>{Object.assign(PICKS,JSON.parse(t));savePicks();gradeAll();render();paintPicks()}).catch(()=>alert("That file couldn't be read."))};
+  i.onchange=()=>{const f=i.files[0];if(!f)return;f.text().then(t=>{PICKS=mergeP(PICKS,JSON.parse(t));savePicks();gradeAll();render();paintPicks()}).catch(()=>alert("That file couldn't be read."))};
   i.click();
 }
 function tparts(d){const p=timeFmt.formatToParts(d);
@@ -380,17 +399,17 @@ function card(g,mode){
   const [tm,ap]=tparts(g.date);
   const when=g.tbd&&!live&&!done?`<div class="when">TBD</div>`:live?`<div class="when live">LIVE</div>`:done?`<div class="when">FINAL</div>`:`<div class="when">${tm}<i>${ap}</i></div>`;
   const r=done?(g.win===true?"w":g.win===false?"l":""):"";
-  const score=(live||done)?(g.my==null&&g.their==null?"<div></div>":`<div class="res ${r}">${r?`<small>${r==="w"?"WIN":"LOSS"}</small>`:""}${esc(g.my??"")}–${esc(g.their??"")}</div>`):(g.tv?`<div><span class="pill tv">${esc(g.tv)}</span></div>`:"<div></div>");
+  const score=(live||done)?(g.my==null&&g.their==null?"":`<div class="res ${r}">${r?`<small>${r==="w"?"WIN":"LOSS"}</small>`:""}${esc(g.my??"")}–${esc(g.their??"")}</div>`):(g.tv?`<div><span class="pill tv">${esc(g.tv)}</span></div>`:"");
   const today=g.date.toDateString()===new Date().toDateString();
   const lk=done?[g.box,"Box score"]:live?[g.prev,"Live"]:today?[g.prev,"Preview"]:null;
   const link=lk?`<a class="pill lk" href="${esc(lk[0])}" target="_blank" rel="noopener">${lk[1]} \u2197</a>`:"";
   const extra=(live||done)&&g.detail&&g.detail!=="Final"?`<span class="pill">${esc(g.detail)}</span>`:"";
   const key=gkey(g),isOpen=OPEN.has(key),rk=g.t.static?"":rankText(g.t,g.mid);
   const pk=pickUI(g);
-  return `<div class="game${g.mid?" tap":""}" data-key="${esc(key)}" data-t="${esc(g.t.n)}" data-id="${g.mid||""}" style="--c:${g.t.c};--c2:${g.t.c2}">${when}
+  return `<div class="game${g.mid?" tap":""}" data-key="${esc(key)}" data-t="${esc(g.t.n)}" data-id="${g.mid||""}" style="--c:${g.t.c};--c2:${g.t.c2}"><div class="lcol">${when}${score}</div>
     <div><div class="vs"><span class="dot"></span>${esc(g.t.n)}${recFor(g,"m")?`<span class="rc">${esc(recFor(g,"m"))}</span>`:""}</div>
     <div class="opp"><em>${g.home?"vs":"at"}</em>${esc(g.opp)}${recFor(g,"o")?`<span class="rc">${esc(recFor(g,"o"))}</span>`:""}</div>
-    <div class="sub"><span class="pill">${g.venue?esc(g.venue):g.home?"HOME":"AWAY"}</span>${extra}${rk?`<span class="pill rank">${esc(rk)}</span>`:""}${link}${pk.pill}</div>${pk.row}</div>${score}${isOpen?`<div class="stwrap">${stTable(g.t,g.mid)}</div>`:""}</div>`;
+    <div class="sub"><span class="pill">${g.venue?esc(g.venue):g.home?"HOME":"AWAY"}</span>${extra}${rk?`<span class="pill rank">${esc(rk)}</span>`:""}${link}${pk.pill}</div>${pk.row}</div>${isOpen?`<div class="stwrap">${stTable(g.t,g.mid)}</div>`:""}</div>`;
 }
 function render(){
   const ok=g=>filter==="all"||filter===g.t.g||filter===g.t.n;
@@ -436,9 +455,53 @@ out.addEventListener("click",e=>{
   const b=e.target.closest(".pk");if(!b)return;
   const k=b.dataset.k,side=b.dataset.p,g=allGames.find(x=>x.eid&&pickKey(x)===k);
   if(!g||g.date.getTime()<=Date.now())return;
-  if(PICKS[k]&&PICKS[k].p===side)delete PICKS[k];else PICKS[k]={p:side,t:g.t.n,opp:g.opp,d:g.date.getTime()};
+  const cur=livePick(k);
+  if(cur&&cur.p===side)PICKS[k]={x:1,u:Date.now()};else PICKS[k]={p:side,t:g.t.n,opp:g.opp,d:g.date.getTime(),u:Date.now()};
   savePicks();render();
 });
+// ---- Optional sign-in (Firebase) so picks follow you across devices ----
+// Paste your Firebase web app config here. Until you do, sign-in stays hidden and picks stay in this browser.
+const FIREBASE_CONFIG={apiKey:"YOUR_API_KEY",authDomain:"YOUR_PROJECT_ID.firebaseapp.com",projectId:"YOUR_PROJECT_ID",appId:"YOUR_APP_ID"};
+const SYNC_ON=!/^YOUR_/.test(FIREBASE_CONFIG.apiKey);
+let fbUser=null,fbDb=null,fbAuth=null,fbUnsub=null,pushT=null;
+const authBtn=document.getElementById("authbtn");
+function setAuthBtn(){authBtn.textContent=fbUser?"\u2601 "+((fbUser.displayName||fbUser.email||"Signed in").split(" ")[0])+" \u00b7 Sign out":"Sign in to sync picks"}
+const loadScript=src=>new Promise((ok,no)=>{const e=document.createElement("script");e.src=src;e.onload=ok;e.onerror=no;document.head.appendChild(e)});
+function schedulePush(){
+  if(!fbUser||!fbDb)return;
+  clearTimeout(pushT);
+  pushT=setTimeout(()=>{fbDb.doc("users/"+fbUser.uid).set({picksJson:JSON.stringify(PICKS),updated:Date.now()}).catch(()=>{authBtn.textContent="\u26A0 Sync failed"})},500);
+}
+function onRemote(snap){
+  let remote={};try{remote=JSON.parse((snap.data()||{}).picksJson||"{}")}catch(e){}
+  const merged=mergeP(PICKS,remote);
+  if(sig(merged)!==sig(PICKS)){PICKS=merged;saveLocal();render();if(!psheet.hidden)paintPicks()}
+  if(sig(merged)!==sig(remote))schedulePush();
+}
+function onUser(u){
+  fbUser=u;setAuthBtn();
+  if(fbUnsub){fbUnsub();fbUnsub=null}
+  if(u)fbUnsub=fbDb.doc("users/"+u.uid).onSnapshot(onRemote,()=>{authBtn.textContent="\u26A0 Sync failed"});
+}
+function initAuth(){
+  if(!SYNC_ON)return;
+  authBtn.hidden=false;setAuthBtn();
+  const v="https://www.gstatic.com/firebasejs/10.14.1/";
+  loadScript(v+"firebase-app-compat.js").then(()=>Promise.all([loadScript(v+"firebase-auth-compat.js"),loadScript(v+"firebase-firestore-compat.js")])).then(()=>{
+    firebase.initializeApp(FIREBASE_CONFIG);fbAuth=firebase.auth();fbDb=firebase.firestore();
+    fbAuth.onAuthStateChanged(onUser);
+  }).catch(()=>{authBtn.textContent="Sync unavailable"});
+  authBtn.onclick=()=>{
+    if(!fbAuth)return;
+    if(fbUser){
+      if(confirm("Sign out? Your picks stay saved in your account."))fbAuth.signOut().then(()=>{PICKS={};saveLocal();render()});
+      return;
+    }
+    fbAuth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).catch(e=>{
+      if(e&&e.code==="auth/popup-blocked")fbAuth.signInWithRedirect(new firebase.auth.GoogleAuthProvider());
+    });
+  };
+}
 const psheet=document.getElementById("picksheet");
 document.getElementById("picksbtn").onclick=()=>{paintPicks();psheet.hidden=false};
 psheet.addEventListener("click",e=>{
@@ -446,9 +509,10 @@ psheet.addEventListener("click",e=>{
   if(id==="picksheet"||id==="px")psheet.hidden=true;
   else if(id==="pexp")exportPicks();
   else if(id==="pimp")importPicks();
-  else if(id==="prst"&&confirm("Erase all picks and results? This can't be undone.")){PICKS={};savePicks();render();paintPicks()}
+  else if(id==="prst"&&confirm("Erase all picks and results? This can't be undone.")){Object.keys(PICKS).forEach(k=>{PICKS[k]={x:1,u:Date.now()}});savePicks();render();paintPicks()}
 });
 document.addEventListener("keydown",e=>{if(e.key==="Escape")psheet.hidden=true});
+initAuth();
 buildChips();load();
 </script>
 </body>
