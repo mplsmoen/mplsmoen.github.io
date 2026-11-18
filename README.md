@@ -6,9 +6,9 @@ A collection of simple, standalone HTML apps, hosted for free with GitHub Pages 
  
 | Project | Description | Live Link |
 |---|---|---|
-| [Minnesota Sports Dashboard](./mn-sports/) | A dashboard for following Minnesota sports teams: scores, schedules, and standings in one place. | [View live](https://mplsmoen.github.io/mn-sports/) |
+| [Minnesota Sports](./mn-sports/) | A dashboard for following Minnesota sports teams: scores, schedules, and standings in one place. | [View live](https://mplsmoen.github.io/mn-sports/) |
  
-## Minnesota Sports Dashboard
+## Minnesota Sports
  
 A single-page dashboard for keeping up with Minnesota pro teams.
  
