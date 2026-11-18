@@ -1,88 +1,63 @@
-# Project Name
+# mplsmoen.github.io
  
-A short, one-sentence description of what this project does and who it's for.
+A collection of simple, standalone HTML apps, hosted for free with GitHub Pages at **https://mplsmoen.github.io/**. No build step or server needed: each project is just HTML (plus CSS and JavaScript) that runs in the browser.
  
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+## Projects
  
-## Table of Contents
+| Project | Description | Live Link |
+|---|---|---|
+| [Minnesota Sports Dashboard](./mn-sports-dashboard/) | A dashboard for following Minnesota sports teams: scores, schedules, and standings in one place. | [View live](https://mplsmoen.github.io/mn-sports-dashboard/) |
  
-- [About](#about)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-## About
+## Minnesota Sports Dashboard
  
-Explain the project in a few sentences: the problem it solves, why you built it, and what makes it useful.
+A single-page dashboard for keeping up with Minnesota pro teams.
  
-## Features
+### Features
  
-- Feature one
-- Feature two
-- Feature three
-## Getting Started
+- Scores and schedules for Minnesota teams
+- Standings at a glance
+- Works on desktop and mobile
+- Runs entirely in the browser, no install required
+### Run it locally
  
-### Prerequisites
- 
-List what needs to be installed first, for example:
- 
-- Node.js 18+
-- npm or yarn
-### Installation
- 
-1. Clone the repository
+1. Clone the repo
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/mplsmoen/mplsmoen.github.io.git
 ```
  
-2. Move into the project folder
-```bash
-cd your-repo
+2. Open `mn-sports-dashboard/index.html` in your browser. That's it.
+## Repository Structure
+ 
+```text
+mplsmoen.github.io/
+├── README.md
+├── index.html                 (optional landing page linking to all projects)
+└── mn-sports-dashboard/
+    └── index.html
 ```
  
-3. Install dependencies
-```bash
-npm install
+Each new project gets its own folder with an `index.html` inside.
+ 
+## Hosting with GitHub Pages
+ 
+Because this repo is named `mplsmoen.github.io`, it is a GitHub user site, and everything on the `main` branch is served from the root of https://mplsmoen.github.io/.
+ 
+1. Push your files to the `main` branch.
+2. In the repo, go to **Settings → Pages** and confirm **Source** is **Deploy from a branch**, with the `main` branch and `/ (root)` folder selected.
+3. After a minute or two, your changes are live.
+Each project folder gets its own URL:
+ 
+```text
+https://mplsmoen.github.io/mn-sports-dashboard/
 ```
  
-4. Start the project
-```bash
-npm start
-```
+## Adding a New Project
  
-## Usage
- 
-Show a basic example of how to use the project:
- 
-```bash
-npm run example
-```
- 
-Add screenshots or a short GIF here if it helps:
- 
-```markdown
-![Screenshot](docs/screenshot.png)
-```
- 
-## Contributing
- 
-Contributions are welcome.
- 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/my-feature`)
-3. Commit your changes (`git commit -m "Add my feature"`)
-4. Push to the branch (`git push origin feature/my-feature`)
-5. Open a Pull Request
+1. Create a new folder, such as `my-new-project/`.
+2. Add an `index.html` inside it.
+3. Add a row to the Projects table above.
+4. Commit and push. GitHub Pages updates automatically.
 ## License
  
 Distributed under the MIT License. See `LICENSE` for details.
- 
-## Contact
- 
-Your Name – [@your-handle](https://github.com/your-username) – you@example.com
- 
-Project link: [https://github.com/your-username/your-repo](https://github.com/your-username/your-repo)
  
