@@ -461,7 +461,15 @@ out.addEventListener("click",e=>{
 });
 // ---- Optional sign-in (Firebase) so picks follow you across devices ----
 // Paste your Firebase web app config here. Until you do, sign-in stays hidden and picks stay in this browser.
-const FIREBASE_CONFIG={apiKey:"YOUR_API_KEY",authDomain:"YOUR_PROJECT_ID.firebaseapp.com",projectId:"YOUR_PROJECT_ID",appId:"YOUR_APP_ID"};
+const FIREBASE_CONFIG={
+  apiKey:"AIzaSyA-_abQAmVnF-4QMCJ2PPWJLozkNUlfbzI",
+  authDomain:"mnsports-fa0a0.firebaseapp.com",
+  projectId:"mnsports-fa0a0",
+  storageBucket:"mnsports-fa0a0.firebasestorage.app",
+  messagingSenderId:"833038553674",
+  appId:"1:833038553674:web:75e84a2eecc41f8d460cb3",
+  measurementId:"G-CTKV8CV4MG"
+};
 const SYNC_ON=!/^YOUR_/.test(FIREBASE_CONFIG.apiKey);
 let fbUser=null,fbDb=null,fbAuth=null,fbUnsub=null,pushT=null;
 const authBtn=document.getElementById("authbtn");
