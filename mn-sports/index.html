@@ -104,6 +104,16 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .pbtns button{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:7px 14px;font:600 13px Barlow,sans-serif;cursor:pointer}
 .pbtns button:hover{border-color:var(--mute)}
 .hr.w{color:#2fbf71}.hr.l{color:var(--live)}.hr{white-space:nowrap}
+.layout{position:relative;max-width:1140px;margin:0 auto;display:grid;grid-template-columns:minmax(0,760px) 340px;gap:24px;justify-content:center;align-items:start}
+.col{min-width:0}
+.news{position:sticky;top:12px;margin-top:76px;max-height:calc(100vh - 24px);overflow:auto;padding-right:20px}
+.news h2{margin:0 0 10px}
+.nitem{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:8px;color:inherit;text-decoration:none;transition:border-color .15s}
+.nitem:hover{border-color:var(--mute)}
+.nlogo{width:44px;height:44px;border-radius:10px;background:#fff;padding:5px;object-fit:contain}
+.nt{font:600 15px/1.25 Barlow,sans-serif;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.nm{font-size:12px;color:var(--mute);margin-top:4px}
+@media (max-width:980px){.layout{display:block}.news{position:static;max-height:none;margin:0 0 30px;padding:0 20px}}
 .msg{padding:30px 0;color:var(--mute)}
 #diag{margin-bottom:8px}
 footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-size:13px}
@@ -111,7 +121,9 @@ footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-
 </style>
 </head>
 <body>
-<button class="theme" id="theme" aria-label="Switch to light mode">\u2600\uFE0E</button>
+<div class="layout">
+<button class="theme" id="theme" aria-label="Switch to light mode">☀︎</button>
+<div class="col">
 <header>
   <h1>Minnesota <span>Sports</span></h1>
   <p>Upcoming games and live scores for the Twin Cities pros and every Gophers team, in your local time.</p>
@@ -122,6 +134,9 @@ footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-
 <main id="out"><div class="msg">Loading schedules…</div></main>
 <div class="sheet" id="picksheet" hidden><div class="sheetp" id="picksp"></div></div>
 <footer><div id="diag"></div>Schedules come from ESPN's public data. Not affiliated with ESPN, any league, team, or the University of Minnesota.</footer>
+</div>
+<aside class="news" aria-label="Minnesota headlines"><h2>Minnesota headlines</h2><div id="newslist"><div class="msg">Loading headlines…</div></div></aside>
+</div>
 
 <script>
 // group: "pro" | "gopher". sport/league are ESPN path parts. id is the ESPN team id.
@@ -144,7 +159,7 @@ const TEAMS=[
 ].map(t=>({...t,c:t.c||"#7A0019",c2:t.c2||"#FFCC33"}));
 
 const URL_=t=>`https://site.api.espn.com/apis/site/v2/sports/${t.s}/${t.l}/teams/${t.id}/schedule`;
-let games=[],recent=[],failed=[],diag=[],days=7,diagMN="",allGames=[],filter="all";
+let games=[],recent=[],failed=[],diag=[],days=7,diagMN="",allGames=[],newsDiag="",filter="all";
 const out=document.getElementById("out"),chips=document.getElementById("chips");
 
 function parse(t,ev){
@@ -226,7 +241,7 @@ function recFor(g,who){
 }
 function showDiag(){
   const d=document.getElementById("diag");
-  if(d)d.textContent=[diagMN,`Records: team lookups ${rst.tOk} ok, ${rst.tEmpty} empty, ${rst.tErr} failed; scoreboards ${rst.sbOk} ok, ${rst.sbErr} failed`].filter(Boolean).join(" \u00b7 ");
+  if(d)d.textContent=[diagMN,newsDiag,`Records: team lookups ${rst.tOk} ok, ${rst.tEmpty} empty, ${rst.tErr} failed; scoreboards ${rst.sbOk} ok, ${rst.sbErr} failed`].filter(Boolean).join(" \u00b7 ");
 }
 async function loadRecords(list){
   const jobs=[];
@@ -366,6 +381,39 @@ function importPicks(){
   i.onchange=()=>{const f=i.files[0];if(!f)return;f.text().then(t=>{PICKS=mergeP(PICKS,JSON.parse(t));savePicks();gradeAll();render();paintPicks()}).catch(()=>alert("That file couldn't be read."))};
   i.click();
 }
+// ---- Headlines: newest first across every team, max 15 ----
+function logoFor(t){
+  const b="https://a.espncdn.com/i/teamlogos/";
+  if(t.s==="soccer")return b+"soccer/500/"+t.id+".png";
+  if(t.l.includes("college"))return b+"ncaa/500/"+t.id+".png";
+  return b+t.l+"/500/min.png";
+}
+function relTime(ts){
+  const m=Math.round((Date.now()-ts)/6e4);if(m<1)return"just now";if(m<60)return m+"m ago";
+  const h=Math.round(m/60);if(h<24)return h+"h ago";
+  const d=Math.round(h/24);return d<7?d+"d ago":dayShort.format(new Date(ts));
+}
+async function loadNews(){
+  const all=[],seen=new Set();let got=0,fail=0;
+  await Promise.all(TEAMS.map(async t=>{
+    try{
+      const j=await getJSON(`https://site.api.espn.com/apis/site/v2/sports/${t.s}/${t.l}/news?team=${t.id}&limit=10`);
+      (j.articles||[]).forEach(a=>{
+        const href=a.links&&a.links.web&&a.links.web.href,ts=Date.parse(a.published);
+        if(!href||!a.headline||isNaN(ts))return;
+        const tc=(a.categories||[]).filter(c=>c.type==="team");
+        if(tc.length&&!tc.some(c=>String(c.teamId!=null?c.teamId:c.team&&c.team.id)===String(t.id)))return;
+        got++;
+        if(seen.has(href))return;seen.add(href);
+        all.push({t,h:a.headline,href,ts});
+      });
+    }catch(e){fail++}
+  }));
+  all.sort((a,b)=>b.ts-a.ts);
+  const top=all.slice(0,15);
+  newsDiag=`News: ${got} articles from ${TEAMS.length-fail} of ${TEAMS.length} teams, ${top.length} shown`;showDiag();
+  document.getElementById("newslist").innerHTML=top.length?top.map(n=>`<a class="nitem" href="${esc(n.href)}" target="_blank" rel="noopener"><img class="nlogo" src="${logoFor(n.t)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><div><div class="nt">${esc(n.h)}</div><div class="nm">${esc(shortName(n.t.n))} \u00b7 ${relTime(n.ts)}</div></div></a>`).join(""):`<div class="msg">No headlines found.</div>`;
+}
 function tparts(d){const p=timeFmt.formatToParts(d);
   return [p.filter(x=>x.type!=="dayPeriod"&&x.type!=="literal"||x.type==="literal"&&x.value===":").map(x=>x.value).join(""),(p.find(x=>x.type==="dayPeriod")||{}).value||""]}
 // Keeps the record glued to the last word of a name, so a long name can wrap but the record never lands on its own line
@@ -500,7 +548,7 @@ psheet.addEventListener("click",e=>{
 });
 document.addEventListener("keydown",e=>{if(e.key==="Escape")psheet.hidden=true});
 initAuth();
-buildChips();load();
+buildChips();load();loadNews();setInterval(loadNews,15*6e4);
 </script>
 </body>
 </html>
