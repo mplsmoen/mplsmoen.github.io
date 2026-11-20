@@ -46,8 +46,11 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .when{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:64px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 22px/1 "Barlow Condensed",sans-serif}
 .when i{font:600 11px Barlow,sans-serif;font-style:normal;letter-spacing:.08em;margin-top:3px;opacity:.85}
 .when.live{background:var(--live);color:#fff;font-size:18px}
+.vs .dot{margin-top:.28em}
+.nw{white-space:nowrap}
+.vs .rc{margin-left:8px}
 .dot{flex:none;width:13px;height:13px;border-radius:50%;background:var(--tc);border:2px solid var(--c2)}
-.vs{display:flex;align-items:center;gap:9px;font:700 25px/1.1 "Barlow Condensed",sans-serif}
+.vs{display:flex;align-items:flex-start;gap:9px;font:700 25px/1.1 "Barlow Condensed",sans-serif}
 .opp{font:500 15px Barlow,sans-serif;color:var(--mute);margin:3px 0 6px}
 .rc{font:600 14px Barlow,sans-serif;color:var(--mute);letter-spacing:.02em}
 .opp .rc{margin-left:7px;font-size:13px}
@@ -118,7 +121,7 @@ footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-
 <details class="filters" id="filters"><summary id="fsum">Teams</summary><div class="chips" id="chips"></div></details>
 <main id="out"><div class="msg">Loading schedules…</div></main>
 <div class="sheet" id="picksheet" hidden><div class="sheetp" id="picksp"></div></div>
-<footer><div id="diag"></div>Schedules come from ESPN's public data. The Lunar Owls schedule is entered by hand from unrivaled.basketball and doesn't show scores. Not affiliated with ESPN, any league, team, or the University of Minnesota.</footer>
+<footer><div id="diag"></div>Schedules come from ESPN's public data. Not affiliated with ESPN, any league, team, or the University of Minnesota.</footer>
 
 <script>
 // group: "pro" | "gopher". sport/league are ESPN path parts. id is the ESPN team id.
@@ -130,7 +133,6 @@ const TEAMS=[
  {n:"Minnesota Wild",g:"pro",s:"hockey",l:"nhl",id:30,c:"#154734",c2:"#A6192E"},
  {n:"Minnesota United",g:"pro",s:"soccer",l:"usa.1",id:17362,c:"#8CD2F4",c2:"#231F20",board:true},
  {n:"Minnesota Lynx",g:"pro",s:"basketball",l:"wnba",id:8,c:"#78BE20",c2:"#236192"},
- {n:"Lunar Owls",g:"pro",static:true,c:"#6C5CE7",c2:"#E8E8F0"},
  {n:"Gophers Football",g:"gopher",s:"football",l:"college-football",id:135},
  {n:"Gophers Men's Basketball",g:"gopher",s:"basketball",l:"mens-college-basketball",id:135},
  {n:"Gophers Women's Basketball",g:"gopher",s:"basketball",l:"womens-college-basketball",id:135},
@@ -141,33 +143,6 @@ const TEAMS=[
  {n:"Gophers Softball",g:"gopher",s:"baseball",l:"college-softball",id:135}
 ].map(t=>({...t,c:t.c||"#7A0019",c2:t.c2||"#FFCC33"}));
 
-// Unrivaled isn't on ESPN, so the Lunar Owls' 2027 schedule is entered by hand from unrivaled.basketball/lunar-owls/schedule.
-// [UTC start, "vs" game?, opponent, unrivaled.basketball game id, city, time TBD?]
-const UNRIVALED=[
- ["2027-01-09T03:00:00Z",1,"Rose","i1e9w5u3tsbm","Inglewood, CA"],
- ["2027-01-12T04:30:00Z",1,"Laces","8jda1nncbkq4","San Francisco, CA"],
- ["2027-01-20T02:00:00Z",0,"Hive","zb1ch6ipyq17","Miami, FL"],
- ["2027-01-23T00:30:00Z",0,"Breeze","u3lydm70ypoo","Brooklyn, NY"],
- ["2027-01-24T19:00:00Z",1,"Mist","s75kvacwpezk","Minneapolis, MN"],
- ["2027-01-30T02:00:00Z",0,"Phantom","x2q8gsybmrai","Miami, FL"],
- ["2027-02-01T02:30:00Z",1,"Vinyl","kgds9dpg604s","Miami, FL"],
- ["2027-02-06T02:00:00Z",1,"Breeze","mxtxl4gg79w1","Miami, FL"],
- ["2027-02-08T02:30:00Z",0,"Laces","jq3qz8jdqvwe","Miami, FL"],
- ["2027-02-14T02:30:00Z",0,"Mist","sgbvvf58r88d","Miami, FL"],
- ["2027-02-24T01:00:00Z",0,"Rose","8uqjur1dq8sn","Miami, FL"],
- ["2027-02-27T00:30:00Z",1,"Phantom","yih7mbwk00pd","Miami, FL"],
- ["2027-03-01T01:00:00Z",0,"Vinyl","rrivj51hxfvh","Miami, FL"],
- ["2027-03-05T17:00:00Z",1,"Hive","5uvcm71i2j47","Miami, FL",1]
-];
-function staticGames(t){
-  const now=Date.now();
-  return UNRIVALED.map(([iso,vs,opp,id,city,tbd])=>{
-    const d=new Date(iso),t0=d.getTime();
-    const st=now<t0?"pre":now<t0+3*36e5?"in":"post";
-    return {t,date:d,home:!!vs,opp:opp+" BC",state:st,detail:"",my:null,their:null,tv:"",tbd:!!tbd,venue:city,
-      box:`https://www.unrivaled.basketball/game/${id}/box-score`,prev:`https://www.unrivaled.basketball/game/${id}`};
-  });
-}
 const URL_=t=>`https://site.api.espn.com/apis/site/v2/sports/${t.s}/${t.l}/teams/${t.id}/schedule`;
 let games=[],recent=[],failed=[],diag=[],days=7,diagMN="",allGames=[],filter="all";
 const out=document.getElementById("out"),chips=document.getElementById("chips");
@@ -198,7 +173,6 @@ async function load(){
   const board=(t,q)=>getJSON(`https://site.api.espn.com/apis/site/v2/sports/${t.s}/${t.l}/scoreboard?${q}`).then(j=>add(t,mine(t,j)));
   const day=n=>ymd(new Date(Date.now()+n*864e5));
   await Promise.all(TEAMS.map(async t=>{
-    if(t.static){games.push(...staticGames(t));return}
     let ok=false;
     const run=async(label,fn)=>{try{diag.push(t.n+" "+label+": "+await fn());ok=true}catch(e){diag.push(t.n+" "+label+": error")}};
     await run("schedule",async()=>add(t,await getJSON(URL_(t))));
@@ -394,6 +368,11 @@ function importPicks(){
 }
 function tparts(d){const p=timeFmt.formatToParts(d);
   return [p.filter(x=>x.type!=="dayPeriod"&&x.type!=="literal"||x.type==="literal"&&x.value===":").map(x=>x.value).join(""),(p.find(x=>x.type==="dayPeriod")||{}).value||""]}
+// Keeps the record glued to the last word of a name, so a long name can wrap but the record never lands on its own line
+function nameRec(n,r){
+  const i=n.lastIndexOf(" "),head=i>0?esc(n.slice(0,i))+" ":"",last=esc(i>0?n.slice(i+1):n);
+  return head+`<span class="nw">${last}${r?`<span class="rc">${esc(r)}</span>`:""}</span>`;
+}
 function card(g,mode){
   const live=g.state==="in",done=mode==="final";
   const [tm,ap]=tparts(g.date);
@@ -407,8 +386,8 @@ function card(g,mode){
   const key=gkey(g),isOpen=OPEN.has(key),rk=g.t.static?"":rankText(g.t,g.mid);
   const pk=pickUI(g);
   return `<div class="game${g.mid?" tap":""}" data-key="${esc(key)}" data-t="${esc(g.t.n)}" data-id="${g.mid||""}" style="--c:${g.t.c};--c2:${g.t.c2}"><div class="lcol">${when}${score}</div>
-    <div><div class="vs"><span class="dot"></span>${esc(g.t.n)}${recFor(g,"m")?`<span class="rc">${esc(recFor(g,"m"))}</span>`:""}</div>
-    <div class="opp"><em>${g.home?"vs":"at"}</em>${esc(g.opp)}${recFor(g,"o")?`<span class="rc">${esc(recFor(g,"o"))}</span>`:""}</div>
+    <div><div class="vs"><span class="dot"></span><span>${nameRec(g.t.n,recFor(g,"m"))}</span></div>
+    <div class="opp"><em>${g.home?"vs":"at"}</em>${nameRec(g.opp,recFor(g,"o"))}</div>
     <div class="sub"><span class="pill">${g.venue?esc(g.venue):g.home?"HOME":"AWAY"}</span>${extra}${rk?`<span class="pill rank">${esc(rk)}</span>`:""}${link}${pk.pill}</div>${pk.row}</div>${isOpen?`<div class="stwrap">${stTable(g.t,g.mid)}</div>`:""}</div>`;
 }
 function render(){
