@@ -18,10 +18,10 @@
 *{box-sizing:border-box}
 body{padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 Barlow,system-ui,sans-serif}
-.theme{position:absolute;top:calc(14px + env(safe-area-inset-top));right:calc(14px + env(safe-area-inset-right));width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:18px;line-height:1;cursor:pointer;z-index:3}
+.theme{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:18px;line-height:1;cursor:pointer;z-index:3}
 .theme:hover{border-color:var(--mute)}
 .theme:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-header{padding:28px 64px 12px 20px;max-width:760px;margin:0 auto}
+header{padding:28px 20px 12px;max-width:760px;margin:0 auto}
 h1{font:700 44px/1 "Barlow Condensed",Impact,sans-serif;margin:0 0 6px;letter-spacing:.01em}
 h1 span{color:var(--maroon)}
 header p{margin:0;color:var(--mute)}
@@ -114,6 +114,9 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .nt{font:600 15px/1.25 Barlow,sans-serif;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .nm{font-size:12px;color:var(--mute);margin-top:4px}
 @media (max-width:980px){.layout{display:block}.news{position:static;max-height:none;margin:0 0 30px;padding:0 20px}}
+.tools{position:absolute;top:14px;right:14px;z-index:3;display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap;max-width:calc(100% - 28px)}
+.tools .picksbtn{margin:0;padding:8px 14px;line-height:1.1}
+@media (max-width:980px){.tools{position:static;max-width:none;padding:12px 16px 0}.layout header{padding-top:12px}.tools .picksbtn{font-size:13px;padding:8px 12px}}
 .msg{padding:30px 0;color:var(--mute)}
 #diag{margin-bottom:8px}
 footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-size:13px}
@@ -122,20 +125,21 @@ footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-
 </head>
 <body>
 <div class="layout">
-<button class="theme" id="theme" aria-label="Switch to light mode">☀︎</button>
+<div class="tools">
+  <button class="picksbtn" id="picksbtn"></button>
+  <button class="picksbtn" id="authbtn" hidden></button>
+  <button class="theme" id="theme" aria-label="Switch to light mode">☀︎</button>
+</div>
 <div class="col">
 <header>
   <h1>Minnesota <span>Sports</span></h1>
-  <p>Upcoming games and live scores for the Twin Cities pros and every Gophers team, in your local time.</p>
-  <button class="picksbtn" id="picksbtn"></button>
-  <button class="picksbtn" id="authbtn" hidden></button>
 </header>
 <details class="filters" id="filters"><summary id="fsum">Teams</summary><div class="chips" id="chips"></div></details>
 <main id="out"><div class="msg">Loading schedules…</div></main>
 <div class="sheet" id="picksheet" hidden><div class="sheetp" id="picksp"></div></div>
 <footer><div id="diag"></div>Schedules come from ESPN's public data. Not affiliated with ESPN, any league, team, or the University of Minnesota.</footer>
 </div>
-<aside class="news" aria-label="Minnesota headlines"><h2>Minnesota headlines</h2><div id="newslist"><div class="msg">Loading headlines…</div></div></aside>
+<aside class="news" aria-label="MN Sports Headlines"><h2>MN Sports Headlines</h2><div id="newslist"><div class="msg">Loading headlines…</div></div></aside>
 </div>
 
 <script>
@@ -204,8 +208,10 @@ async function load(){
   }));
   allGames=games.slice();gradeAll();
   const now=Date.now();
-  recent=games.filter(g=>g.state==="post"&&g.date.getTime()>=now-36*3600e3&&g.date.getTime()<=now).sort((a,b)=>a.date-b.date);
-  games=games.filter(g=>g.state==="in"||(g.state!=="post"&&g.date.getTime()>=now-4*3600e3)).sort((a,b)=>a.date-b.date);
+  const d0=new Date();d0.setHours(0,0,0,0);const y0=new Date(d0);y0.setDate(y0.getDate()-1);
+  const sod=d0.getTime(),syd=y0.getTime();
+  recent=games.filter(g=>g.state==="post"&&g.date.getTime()>=syd&&g.date.getTime()<sod).sort((a,b)=>a.date-b.date);
+  games=games.filter(g=>g.state==="in"||g.date.getTime()>=sod).sort((a,b)=>a.date-b.date);
   render();
   diagMN="Data check (Minnesota United): "+diag.filter(x=>x.startsWith("Minnesota United")).map(x=>x.replace("Minnesota United ","")).join(" | ");
   showDiag();
@@ -356,7 +362,7 @@ function pickStats(){
 }
 function updateBadge(){
   const s=pickStats(),b=document.getElementById("picksbtn"),n=livePicks().length;
-  b.textContent="\u{1F3C6} "+(s.gr.length?`Picks ${s.w}\u2013${s.l} \u00b7 ${s.pct}%${s.st?` \u00b7 ${s.st>0?"W":"L"}${Math.abs(s.st)}`:""}`:n?"Picks: waiting on results":"Picks: choose a winner on any upcoming game");
+  b.textContent="\u{1F3C6} "+(s.gr.length?`Picks ${s.w}\u2013${s.l} \u00b7 ${s.pct}%${s.st?` \u00b7 ${s.st>0?"W":"L"}${Math.abs(s.st)}`:""}`:n?"Picks: waiting on results":"Picks: none yet");
 }
 function paintPicks(){
   const s=pickStats(),pend=livePicks().filter(p=>!p.r).length,by={};
@@ -446,12 +452,12 @@ function render(){
   let html="",last="";
   if(rec.length){
     html+=`<h2>Last night's scores</h2>`+rec.map(g=>card(g,"final")).join("");
-    if(list.length)html+=`<h2 style="margin-top:34px">Coming up</h2>`;
+    if(list.length)html+=`<h2 style="margin-top:34px">Today and upcoming</h2>`;
   }
   list.forEach(g=>{
     const d=dayFmt.format(g.date);
     if(d!==last){html+=`<h2>${d}</h2>`;last=d}
-    html+=card(g,"up");
+    html+=card(g,g.state==="post"?"final":"up");
   });
   if(!list.length&&!rec.length)html=`<div class="msg">${left?`No games in the next ${days} days.`:"No upcoming games found for this filter."}</div>`;
   if(left>0)html+=`<button class="more" id="more">Show another week \u00b7 ${left} more game${left>1?"s":""}</button>`;
@@ -500,7 +506,7 @@ const FIREBASE_CONFIG={
 const SYNC_ON=!/^YOUR_/.test(FIREBASE_CONFIG.apiKey);
 let fbUser=null,fbDb=null,fbAuth=null,fbUnsub=null,pushT=null;
 const authBtn=document.getElementById("authbtn");
-function setAuthBtn(){authBtn.textContent=fbUser?"\u2601 "+((fbUser.displayName||fbUser.email||"Signed in").split(" ")[0])+" \u00b7 Sign out":"Sign in to sync picks"}
+function setAuthBtn(){authBtn.textContent=fbUser?"\u2601 "+((fbUser.displayName||fbUser.email||"Signed in").split(" ")[0])+" \u00b7 Sign out":"Sign in to sync"}
 const loadScript=src=>new Promise((ok,no)=>{const e=document.createElement("script");e.src=src;e.onload=ok;e.onerror=no;document.head.appendChild(e)});
 function schedulePush(){
   if(!fbUser||!fbDb)return;
