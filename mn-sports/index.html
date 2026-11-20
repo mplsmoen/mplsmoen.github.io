@@ -25,13 +25,15 @@ header{padding:28px 20px 12px;max-width:760px;margin:0 auto}
 h1{font:700 44px/1 "Barlow Condensed",Impact,sans-serif;margin:0 0 6px;letter-spacing:.01em}
 h1 span{color:var(--maroon)}
 header p{margin:0;color:var(--mute)}
-.filters{max-width:760px;margin:0 auto;padding:8px 20px;position:sticky;top:0;background:var(--bg);z-index:2}
-.filters summary{cursor:pointer;font:600 16px "Barlow Condensed",sans-serif;letter-spacing:.03em;padding:6px 0;list-style:none}
+.filters{position:relative}
+.filters summary{cursor:pointer;list-style:none;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:8px 14px;font:600 14px/1.1 Barlow,sans-serif;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.filters summary:hover{border-color:var(--mute)}
 .filters summary::-webkit-details-marker{display:none}
 .filters summary::before{content:"\25B8";display:inline-block;width:1.1em;transition:transform .15s}
 .filters[open] summary::before{transform:rotate(90deg)}
 .filters summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-.chips{display:flex;gap:8px;flex-wrap:wrap;padding:8px 0 4px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.filters .chips{position:absolute;right:0;top:calc(100% + 8px);width:min(420px,calc(100vw - 32px));background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px;z-index:20}
 .chip{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 12px;border-radius:999px;font:500 14px Barlow,sans-serif;cursor:pointer}
 .chip[aria-pressed=true]{background:var(--maroon);border-color:var(--maroon);color:#fff}
 .chip.g[aria-pressed=true]{background:var(--gold);border-color:var(--gold);color:#4a0010}
@@ -106,7 +108,7 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .hr.w{color:#2fbf71}.hr.l{color:var(--live)}.hr{white-space:nowrap}
 .layout{position:relative;max-width:1140px;margin:0 auto;display:grid;grid-template-columns:minmax(0,760px) 340px;gap:24px;justify-content:center;align-items:start}
 .col{min-width:0}
-.news{position:sticky;top:12px;margin-top:76px;max-height:calc(100vh - 24px);overflow:auto;padding-right:20px}
+.news{position:sticky;top:12px;margin-top:104px;max-height:calc(100vh - 24px);overflow:auto;padding-right:20px}
 .news h2{margin:0 0 10px}
 .nitem{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:8px;color:inherit;text-decoration:none;transition:border-color .15s}
 .nitem:hover{border-color:var(--mute)}
@@ -114,7 +116,8 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .nt{font:600 15px/1.25 Barlow,sans-serif;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .nm{font-size:12px;color:var(--mute);margin-top:4px}
 @media (max-width:980px){.layout{display:block}.news{position:static;max-height:none;margin:0 0 30px;padding:0 20px}}
-.tools{position:absolute;top:14px;right:14px;z-index:3;display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap;max-width:calc(100% - 28px)}
+.tools{position:absolute;top:14px;right:14px;z-index:3;display:flex;flex-direction:column;gap:8px;align-items:flex-end;max-width:calc(100% - 28px)}
+.trow{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
 .tools .picksbtn{margin:0;padding:8px 14px;line-height:1.1}
 @media (max-width:980px){.tools{position:static;max-width:none;padding:12px 16px 0}.layout header{padding-top:12px}.tools .picksbtn{font-size:13px;padding:8px 12px}}
 .msg{padding:30px 0;color:var(--mute)}
@@ -126,15 +129,19 @@ footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-
 <body>
 <div class="layout">
 <div class="tools">
-  <button class="picksbtn" id="picksbtn"></button>
+  <div class="trow">
   <button class="picksbtn" id="authbtn" hidden></button>
   <button class="theme" id="theme" aria-label="Switch to light mode">☀︎</button>
+  </div>
+  <div class="trow">
+  <button class="picksbtn" id="picksbtn"></button>
+  <details class="filters" id="filters"><summary id="fsum">Teams</summary><div class="chips" id="chips"></div></details>
+  </div>
 </div>
 <div class="col">
 <header>
   <h1>Minnesota <span>Sports</span></h1>
 </header>
-<details class="filters" id="filters"><summary id="fsum">Teams</summary><div class="chips" id="chips"></div></details>
 <main id="out"><div class="msg">Loading schedules…</div></main>
 <div class="sheet" id="picksheet" hidden><div class="sheetp" id="picksp"></div></div>
 <footer><div id="diag"></div>Schedules come from ESPN's public data. Not affiliated with ESPN, any league, team, or the University of Minnesota.</footer>
@@ -552,7 +559,8 @@ psheet.addEventListener("click",e=>{
   else if(id==="pimp")importPicks();
   else if(id==="prst"&&confirm("Erase all picks and results? This can't be undone.")){Object.keys(PICKS).forEach(k=>{PICKS[k]={x:1,u:Date.now()}});savePicks();render();paintPicks()}
 });
-document.addEventListener("keydown",e=>{if(e.key==="Escape")psheet.hidden=true});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){psheet.hidden=true;document.getElementById("filters").open=false}});
+document.addEventListener("click",e=>{const f=document.getElementById("filters");if(f.open&&!f.contains(e.target))f.open=false});
 initAuth();
 buildChips();load();loadNews();setInterval(loadNews,15*6e4);
 </script>
