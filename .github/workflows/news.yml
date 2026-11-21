@@ -1,0 +1,25 @@
+name: Update headlines
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch headlines
+        run: node mn-sports/scripts/fetch-news.mjs
+        env:
+          OUT: mn-sports/news-extra.json
+      - name: Commit changes
+        run: |
+          git config user.name "headline-bot"
+          git config user.email "headline-bot@users.noreply.github.com"
+          git add mn-sports/news-extra.json
+          git diff --staged --quiet || (git commit -m "Update headlines" && git push)
