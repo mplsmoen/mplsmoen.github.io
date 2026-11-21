@@ -1,0 +1,914 @@
+{
+ "updated": "2026-11-21T23:06:53.948Z",
+ "status": {
+  "vikings|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Star Tribune": "ok 10",
+  "wild|The Athletic": "ok 15",
+  "twins|Star Tribune": "ok 10",
+  "lynx|Star Tribune": "ok 10",
+  "wild|Star Tribune": "ok 10",
+  "united|Star Tribune": "ok 10",
+  "twins|Twins Daily": "ok 12",
+  "gophers|Star Tribune": "ok 10",
+  "vikings|Star Tribune": "ok 10",
+  "twins|The Athletic": "ok 15",
+  "timberwolves|The Athletic": "ok 15"
+ },
+ "items": [
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T22:22:01.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T22:22:01.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T22:22:01.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T22:22:01.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T22:22:01.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T22:22:01.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T22:22:01.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T20:35:10.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T20:35:10.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T20:35:10.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T20:35:10.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T20:35:10.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T20:35:10.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T20:35:10.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T20:30:09.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T20:30:09.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T20:30:09.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T20:30:09.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T20:30:09.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T20:30:09.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T20:30:09.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Quinn Hughes out for rest of Wild road trip with undisclosed injury",
+   "url": "https://www.nytimes.com/athletic/7800922/2026/11/21/quinn-hughes-injury-wild-road-trip/",
+   "ts": "2026-11-21T19:41:40.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "The Twins' Signing of Sonny Gray Creates Room to Fix the Bullpen",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-twins-signing-of-sonny-gray-creates-room-to-fix-the-bullpen-r21489/",
+   "ts": "2026-11-21T15:03:01.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Sonny Gray's Return: What&#x2019;s Old Is New&#x2026; Or At Least Not the Same",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/sonny-grays-return-whats-old-is-new%E2%80%A6-or-at-least-not-the-same-r21487/",
+   "ts": "2026-11-21T12:38:02.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Jesper Wallstedt has become Wild's MVP, thriving with heavy workload: 'Looks like Carey Price'",
+   "url": "https://www.nytimes.com/athletic/7798834/2026/11/21/jesper-wallstedt-workload-wild-mvp/",
+   "ts": "2026-11-21T12:00:55.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Confident in youth movement, Twins move on from valued members of their former core",
+   "url": "https://www.nytimes.com/athletic/7799534/2026/11/21/twins-royce-lewis-trade-confident-future-young-core/",
+   "ts": "2026-11-21T12:00:22.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "NHL report cards: Grading every team at the quarter mark of the 2026-27 season",
+   "url": "https://www.nytimes.com/athletic/7798842/2026/11/21/nhl-season-team-grades-quarter-mark/",
+   "ts": "2026-11-21T11:31:16.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Bailey Ober, Nolan Gorman and other intriguing non-tendered players",
+   "url": "https://www.nytimes.com/athletic/7799492/2026/11/20/mlb-non-tendered-players-bailey-ober-nolan-gorman/",
+   "ts": "2026-11-21T03:10:04.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Dodgers get Royce Lewis in swap with Twins that's all about upside: MLB trade grades",
+   "url": "https://www.nytimes.com/athletic/7799388/2026/11/20/dodgers-twins-royce-lewis-mlb-trade-grade/",
+   "ts": "2026-11-21T02:27:37.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "The Twins value stuff over command. Bobby Miller is the latest example of that",
+   "url": "https://www.nytimes.com/athletic/7799292/2026/11/20/bobby-miller-twins-dodgers-trade-analysis/",
+   "ts": "2026-11-21T02:10:51.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Non-Tender Deadline: Lewis, Ober, Larnach and Wallner Move On from Twins",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/non-tender-deadline-lewis-ober-larnach-and-wallner-move-on-from-twins-r21494/",
+   "ts": "2026-11-20T23:13:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Dodgers trade Bobby Miller, prospect for Twins’ Royce Lewis",
+   "url": "https://www.nytimes.com/athletic/7799003/2026/11/20/dodgers-twins-trade-royce-lewis/",
+   "ts": "2026-11-20T22:31:10.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "BREAKING: Minnesota Twins Trade Royce Lewis to the Los Angeles Dodgers",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/breaking-minnesota-twins-trade-royce-lewis-to-the-los-angeles-dodgers-r21493/",
+   "ts": "2026-11-20T22:29:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Twins are not expected to offer contract to Trevor Larnach: Source",
+   "url": "https://www.nytimes.com/athletic/7798491/2026/11/20/twins-nontender-trevor-larnach/",
+   "ts": "2026-11-20T18:50:31.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Twins Expected to Non-Tender Trevor Larnach",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-expected-to-non-tender-trevor-larnach-r21492/",
+   "ts": "2026-11-20T18:49:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "With Sonny Gray on board, Twins decline to bring back mainstay Bailey Ober: Source",
+   "url": "https://www.nytimes.com/athletic/7798390/2026/11/20/twins-non-tender-bailey-ober/",
+   "ts": "2026-11-20T17:45:19.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Twins to Non-Tender Bailey Ober",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-to-non-tender-bailey-ober-r21488/",
+   "ts": "2026-11-20T17:16:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Does the Sonny Gray Signing Make a Joe Ryan Trade More or Less Likely?",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/does-the-sonny-gray-signing-make-a-joe-ryan-trade-more-or-less-likely-r21484/",
+   "ts": "2026-11-20T15:43:01.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "NHL Power Rankings: In honor of 'Grand Theft Auto VI,' let's remember some guys",
+   "url": "https://www.nytimes.com/athletic/7797676/2026/11/20/nhl-power-rankings-grand-theft-auto/",
+   "ts": "2026-11-20T15:19:48.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Forum Friday: Sonny Gray's Deal, Rule 5 Roster, Jeffers Trade Buzz, Cedar Rapids Catchers, Larnach Trade Buzz",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/forum-friday-sonny-grays-deal-rule-5-roster-jeffers-trade-buzz-cedar-rapids-catchers-larnach-trade-buzz-r21485/",
+   "ts": "2026-11-20T15:13:02.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Unpopular Opinion: I Will Bet on Royce Lewis",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/unpopular-opinion-i-will-bet-on-royce-lewis-r21486/",
+   "ts": "2026-11-20T14:03:18.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "The similarities between Karl-Anthony Towns and LaMelo Ball are uncanny",
+   "url": "https://www.nytimes.com/athletic/7796983/2026/11/20/karl-anthony-towns-lamelo-ball-timberwolves-knicks/",
+   "ts": "2026-11-20T13:45:43.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Predicting Minnesota Twins' Non-Tender Decisions Ahead of Friday&#x2019;s Deadline",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/predicting-minnesota-twins-non-tender-decisions-ahead-of-fridays-deadline-r21476/",
+   "ts": "2026-11-20T12:30:01.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Filip Gustavsson's road back to Wild after hip surgery — and why he didn't have it sooner",
+   "url": "https://www.nytimes.com/athletic/7796613/2026/11/20/filip-gustavsson-wild-hip-surgery-injury-return/",
+   "ts": "2026-11-20T12:13:45.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Wild lose Quinn Hughes, but finally beat Flames in their Saddledome finale",
+   "url": "https://www.nytimes.com/athletic/7796933/2026/11/20/wild-flames-hughes-injury-saddledome-kaprizov/",
+   "ts": "2026-11-20T05:15:49.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Karl-Anthony Towns extends double-double streak in 'bittersweet' return to Minnesota",
+   "url": "https://www.nytimes.com/athletic/7796867/2026/11/20/karl-anthony-towns-minnesota-timberwolves-knicks-nba-return/",
+   "ts": "2026-11-20T05:01:51.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Wild's Quinn Hughes leaves game after hit from Adam Klapka: 'We hope he’s good'",
+   "url": "https://www.nytimes.com/athletic/7796855/2026/11/19/quinn-hughes-wild-injury-adam-klapka/",
+   "ts": "2026-11-20T04:25:26.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Why Did Ryan Jeffers Accept the Qualifying Offer?",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/why-did-ryan-jeffers-accept-the-qualifying-offer-r21473/",
+   "ts": "2026-11-20T00:08:01.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Grizzlies or Wolves likely to move to Eastern Conference after NBA expansion: Sources",
+   "url": "https://www.nytimes.com/athletic/7795746/2026/11/19/nba-expansion-realignment-grizzlies-wolves/",
+   "ts": "2026-11-20T00:07:23.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Why Sonny Gray believes Twins can win now: 'Near future is very bright in Minnesota'",
+   "url": "https://www.nytimes.com/athletic/7795849/2026/11/19/sonny-gray-twins-win-now-future-very-bright/",
+   "ts": "2026-11-19T21:43:15.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "The Sonny Gray Deal is a Huge Risk, and We Shouldn't Care",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-sonny-gray-deal-is-a-huge-risk-and-we-shouldnt-care-r21481/",
+   "ts": "2026-11-19T20:35:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Anthony Edwards says injured knee reacted differently once season started, no set return date",
+   "url": "https://www.nytimes.com/athletic/7795304/2026/11/19/anthony-edwards-injury-update-knee-minnesota-timberwolves/",
+   "ts": "2026-11-19T19:13:54.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Ask Russo and Smith: Submit your questions for The Athletic’s Minnesota Wild mailbag",
+   "url": "https://www.nytimes.com/athletic/7795366/2026/11/19/minnesota-wild-mailbag-november-2026/",
+   "ts": "2026-11-19T17:55:12.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Brock Faber’s high standards haven’t budged as he settles back into Wild lineup",
+   "url": "https://www.nytimes.com/athletic/7792866/2026/11/19/brock-faber-wild-lineup/",
+   "ts": "2026-11-19T12:00:08.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Twins sign Sonny Gray to 2-year deal, bringing veteran starter back to Minnesota",
+   "url": "https://www.nytimes.com/athletic/7740198/2026/11/18/sonny-gray-signs-with-twins/",
+   "ts": "2026-11-18T20:45:49.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Behind the Wild’s ‘Step Brothers’ spoof with John Hynes and the Foligno brothers",
+   "url": "https://www.nytimes.com/athletic/7792742/2026/11/18/john-hynes-marcus-nick-foligno-step-brothers-spoof/",
+   "ts": "2026-11-18T19:08:48.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Wolves sweep Blazers, keep finding ways to win. 'We’ve got a really good roster'",
+   "url": "https://www.nytimes.com/athletic/7791665/2026/11/18/wolves-lyles-dosunmu-hyland-ball-blazers/",
+   "ts": "2026-11-18T12:30:10.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Wild's win exemplifies what's made them 'probably the best team in the league'",
+   "url": "https://www.nytimes.com/athletic/7791419/2026/11/18/wild-win-best-team-predators-faber-goal/",
+   "ts": "2026-11-18T12:20:44.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Wild just keep rolling with goals from all 4 lines in Predators rout: Takeaways",
+   "url": "https://www.nytimes.com/athletic/7790854/2026/11/17/wild-predators-eriksson-ek-boldy-streak/",
+   "ts": "2026-11-18T04:04:56.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Alex Rodriguez says ‘I thank God every day’ that his bid to buy the Mets failed",
+   "url": "https://www.nytimes.com/athletic/7790546/2026/11/17/alex-rodriguez-mets-bid/",
+   "ts": "2026-11-17T22:35:51.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Ryan Jeffers re-signs with Twins after ownership's promises to improve",
+   "url": "https://www.nytimes.com/athletic/7790204/2026/11/17/ryan-jeffers-accepts-twins-qualifying-offer/",
+   "ts": "2026-11-17T21:21:57.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "The shaping of the Wild’s Jack Capuano: Heartbreak, Mom’s texts and the wait for another shot",
+   "url": "https://www.nytimes.com/athletic/7787625/2026/11/17/wild-jack-capuano-coach/",
+   "ts": "2026-11-17T12:03:24.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Minnesota Wild live news: Michael Russo and Joe Smith bring you all the latest updates",
+   "url": "https://www.nytimes.com/athletic/7687434/2026/11/17/minnesota-wild-news-schedule/",
+   "ts": "2026-11-17T10:25:03.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "NBA Power Rankings: Celtics rise to contenders tier as injuries impact almost every team",
+   "url": "https://www.nytimes.com/athletic/7786874/2026/11/16/nba-power-rankings-celtics-lakers-sixers-injuries/",
+   "ts": "2026-11-16T17:09:22.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "NHL 2026-27: Schedule, game projections and scores",
+   "url": "https://www.nytimes.com/athletic/interactive/nhl-season-2026-projections-playoffs-forecast/scores-schedule-win-probabilities/",
+   "ts": "2026-11-16T12:58:43.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Chris Finch isn't just Micah Nori's old boss. These NBA coaches have 'become family'",
+   "url": "https://www.nytimes.com/athletic/7785049/2026/11/16/micah-nori-chris-finch-friendship-blazers-timberwolves-nba-coaches/",
+   "ts": "2026-11-16T10:17:12.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "LaMelo Ball says loss to Bulls can reset Timberwolves: 'We got our heads busted in'",
+   "url": "https://www.nytimes.com/athletic/7782731/2026/11/15/lamelo-ball-timerberwolves-bulls-score-analysis/",
+   "ts": "2026-11-15T11:01:51.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Even with 'top-end talent' in hand, Twins could target starting rotation in free agency",
+   "url": "https://www.nytimes.com/athletic/7780631/2026/11/14/twins-starting-pitchers-bullpen-offseason-free-agency/",
+   "ts": "2026-11-14T12:00:38.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Bones Hyland’s summer grind paying off big for Timberwolves",
+   "url": "https://www.nytimes.com/athletic/7778297/2026/11/13/bones-hylands-minnesota-timberwolves-dallas-mavericks/",
+   "ts": "2026-11-13T11:00:39.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Every NBA team’s biggest surprise so far in the 2026-27 season",
+   "url": "https://www.nytimes.com/athletic/7776021/2026/11/13/nba-early-surprises-yaxel-lendeborg-cooper-flagg/",
+   "ts": "2026-11-13T10:07:57.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Two days in October: Inside Chris Finch’s meticulous world with the Timberwolves",
+   "url": "https://www.nytimes.com/athletic/7772124/2026/11/12/timberwolves-chris-finch-mind/",
+   "ts": "2026-11-12T10:30:02.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Twins have 'genuine interest' in reuniting with free-agent catcher Ryan Jeffers",
+   "url": "https://www.nytimes.com/athletic/7772334/2026/11/11/twins-free-agent-catcher-ryan-jeffers-reunite/",
+   "ts": "2026-11-11T13:00:31.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "NBA Power Rankings: Spurs soar to No. 1; Lakers, Timberwolves join contenders tier",
+   "url": "https://www.nytimes.com/athletic/7767779/2026/11/09/nba-power-rankings-spurs-lakers-timberwolves-warriors/",
+   "ts": "2026-11-09T16:46:35.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Trey Lyles has been a surprising stabilizer for the Timberwolves",
+   "url": "https://www.nytimes.com/athletic/7767176/2026/11/09/trey-lyles-timberwolves-surprise/",
+   "ts": "2026-11-09T13:02:57.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "With offseason underway, Twins ready to ‘exhaust our energy’ to improve roster",
+   "url": "https://www.nytimes.com/athletic/7757223/2026/11/05/minnesota-twins-offseason-plans/",
+   "ts": "2026-11-05T23:41:35.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Without Jonathan Kuminga, Timberwolves would be ‘lost right now’",
+   "url": "https://www.nytimes.com/athletic/7755724/2026/11/05/jonathan-kuminga-timberwolves-role/",
+   "ts": "2026-11-05T11:50:50.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Biggest offseason needs for all 30 MLB teams for the 2026-27 offseason",
+   "url": "https://www.nytimes.com/athletic/7742903/2026/11/03/mlb-offseason-biggest-team-needs-2026-2027/",
+   "ts": "2026-11-03T10:30:11.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Randy Arozarena, David Bednar among 8 MLB players to receive qualifying offer",
+   "url": "https://www.nytimes.com/athletic/7748794/2026/11/02/mlb-free-agent-qualifying-offers/",
+   "ts": "2026-11-02T22:02:55.000Z"
+  }
+ ]
+}
