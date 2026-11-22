@@ -1,29 +1,78 @@
 {
- "updated": "2026-11-22T21:14:14.801Z",
+ "updated": "2026-11-22T22:12:11.705Z",
  "status": {
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
   "united|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "wild|Star Tribune": "ok 10",
   "united|Star Tribune": "ok 10",
-  "lynx|Star Tribune": "ok 10",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "twins|Star Tribune": "ok 10",
-  "timberwolves|The Athletic": "ok 15",
+  "timberwolves|Star Tribune": "ok 10",
+  "lynx|Star Tribune": "ok 10",
   "gophers|Star Tribune": "ok 10",
   "vikings|Star Tribune": "ok 10",
-  "timberwolves|Star Tribune": "ok 10",
-  "twins|Twins Daily": "ok 12"
+  "twins|Star Tribune": "ok 10",
+  "wild|The Athletic": "ok 15",
+  "twins|The Athletic": "ok 15",
+  "twins|Twins Daily": "ok 12",
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
   {
    "team": "wild",
    "src": "Star Tribune",
+   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T21:10:20.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T21:10:20.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T21:10:20.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T21:10:20.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T21:10:20.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T21:10:20.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T21:10:20.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
    "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
    "url": "https://www.startribune.com/us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa/601926799",
    "ts": "2026-11-22T19:55:00.000Z"
@@ -36,14 +85,14 @@
    "ts": "2026-11-22T19:55:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
    "url": "https://www.startribune.com/us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa/601926799",
    "ts": "2026-11-22T19:55:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
    "url": "https://www.startribune.com/us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa/601926799",
@@ -64,7 +113,7 @@
    "ts": "2026-11-22T19:55:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "US Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa",
    "url": "https://www.startribune.com/us-army-plans-to-invoke-emergency-provisions-to-detonate-bomb-making-chemicals-in-iowa/601926799",
@@ -85,14 +134,14 @@
    "ts": "2026-11-22T19:33:23.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Eden Prairie couple convicted in $15 million health care scheme",
    "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
    "ts": "2026-11-22T19:33:23.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Eden Prairie couple convicted in $15 million health care scheme",
    "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
@@ -113,7 +162,7 @@
    "ts": "2026-11-22T19:33:23.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Eden Prairie couple convicted in $15 million health care scheme",
    "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
@@ -134,14 +183,14 @@
    "ts": "2026-11-22T19:30:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
    "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
    "ts": "2026-11-22T19:30:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
    "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
@@ -162,60 +211,11 @@
    "ts": "2026-11-22T19:30:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
    "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
    "ts": "2026-11-22T19:30:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T19:10:06.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T19:10:06.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T19:10:06.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T19:10:06.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T19:10:06.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T19:10:06.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Delta outage delays more than 1,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T19:10:06.000Z"
   },
   {
    "team": "twins",
@@ -260,14 +260,14 @@
    "ts": "2026-11-22T12:55:05.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Inflation could mean higher holiday spending but fewer gifts under the tree",
    "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
    "ts": "2026-11-22T12:55:05.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Inflation could mean higher holiday spending but fewer gifts under the tree",
    "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
@@ -288,7 +288,7 @@
    "ts": "2026-11-22T12:55:05.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Inflation could mean higher holiday spending but fewer gifts under the tree",
    "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
@@ -337,28 +337,28 @@
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
    "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Slow Thanksgiving week? Color in this turkey",
    "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
    "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Slow Thanksgiving week? Color in this turkey",
    "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
@@ -393,14 +393,14 @@
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
    "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Slow Thanksgiving week? Color in this turkey",
    "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
@@ -421,14 +421,14 @@
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -449,7 +449,7 @@
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -470,14 +470,14 @@
    "ts": "2026-11-22T11:15:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
    "ts": "2026-11-22T11:15:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
@@ -498,7 +498,7 @@
    "ts": "2026-11-22T11:15:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
@@ -540,14 +540,14 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -568,7 +568,7 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
