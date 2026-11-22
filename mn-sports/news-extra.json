@@ -1,130 +1,123 @@
 {
- "updated": "2026-11-22T03:47:14.896Z",
+ "updated": "2026-11-22T04:51:41.180Z",
  "status": {
   "vikings|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "twins|Star Tribune": "ok 10",
+  "united|Pioneer Press": "error: HTTP 403",
   "timberwolves|Star Tribune": "ok 10",
-  "lynx|Star Tribune": "ok 10",
+  "twins|Star Tribune": "ok 10",
   "vikings|Star Tribune": "ok 10",
   "wild|Star Tribune": "ok 10",
-  "twins|The Athletic": "ok 15",
   "united|Star Tribune": "ok 10",
+  "lynx|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
   "gophers|Star Tribune": "ok 10",
-  "wild|The Athletic": "ok 15"
+  "lynx|Star Tribune": "ok 10",
+  "twins|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15",
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
   {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Live: Cretin-Derham Hall leads Brainerd 22-19 with under 5 minutes left",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T03:34:39.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "Live: Cretin-Derham Hall leads Brainerd 22-19 with under 5 minutes left",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T03:34:39.000Z"
+   "title": "Live: Last place Canucks putting up a fight against Minnesota Wild",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-22T04:32:45.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
-   "title": "Live: Cretin-Derham Hall leads Brainerd 22-19 with under 5 minutes left",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T03:34:39.000Z"
+   "title": "Live: Last place Canucks putting up a fight against Minnesota Wild",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-22T04:32:45.000Z"
   },
   {
    "team": "vikings",
    "src": "Star Tribune",
-   "title": "Live: Cretin-Derham Hall leads Brainerd 22-19 with under 5 minutes left",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T03:34:39.000Z"
+   "title": "Live: Last place Canucks putting up a fight against Minnesota Wild",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-22T04:32:45.000Z"
   },
   {
    "team": "wild",
    "src": "Star Tribune",
-   "title": "Live: Cretin-Derham Hall leads Brainerd 22-19 with under 5 minutes left",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T03:34:39.000Z"
+   "title": "Live: Last place Canucks putting up a fight against Minnesota Wild",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-22T04:32:45.000Z"
   },
   {
    "team": "united",
    "src": "Star Tribune",
-   "title": "Live: Cretin-Derham Hall leads Brainerd 22-19 with under 5 minutes left",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T03:34:39.000Z"
+   "title": "Live: Last place Canucks putting up a fight against Minnesota Wild",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-22T04:32:45.000Z"
   },
   {
    "team": "gophers",
    "src": "Star Tribune",
-   "title": "Live: Cretin-Derham Hall leads Brainerd 22-19 with under 5 minutes left",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T03:34:39.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Live: Wild are looking for sixth straight win as they face Canucks without Quinn Hughes",
+   "title": "Live: Last place Canucks putting up a fight against Minnesota Wild",
    "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T01:02:04.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Live: Wild are looking for sixth straight win as they face Canucks without Quinn Hughes",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T01:02:04.000Z"
+   "ts": "2026-11-22T04:32:45.000Z"
   },
   {
    "team": "lynx",
    "src": "Star Tribune",
-   "title": "Live: Wild are looking for sixth straight win as they face Canucks without Quinn Hughes",
+   "title": "Live: Last place Canucks putting up a fight against Minnesota Wild",
    "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T01:02:04.000Z"
+   "ts": "2026-11-22T04:32:45.000Z"
   },
   {
-   "team": "vikings",
+   "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "Live: Wild are looking for sixth straight win as they face Canucks without Quinn Hughes",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T01:02:04.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Live: Wild are looking for sixth straight win as they face Canucks without Quinn Hughes",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T01:02:04.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Live: Wild are looking for sixth straight win as they face Canucks without Quinn Hughes",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T01:02:04.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Live: Wild are looking for sixth straight win as they face Canucks without Quinn Hughes",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T01:02:04.000Z"
+   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-22T04:17:24.000Z"
   },
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-22T00:07:08.000Z"
+   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-22T04:17:24.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-22T04:17:24.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-22T04:17:24.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-22T04:17:24.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-22T04:17:24.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-22T04:17:24.000Z"
   },
   {
    "team": "timberwolves",
@@ -134,7 +127,7 @@
    "ts": "2026-11-22T00:07:08.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
    "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
@@ -169,11 +162,11 @@
    "ts": "2026-11-22T00:07:08.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
-   "title": "Live: Timberwolves keep pressure on and get the win over Grizzlies",
-   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
-   "ts": "2026-11-22T00:00:00.000Z"
+   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-22T00:07:08.000Z"
   },
   {
    "team": "timberwolves",
@@ -183,7 +176,7 @@
    "ts": "2026-11-22T00:00:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Live: Timberwolves keep pressure on and get the win over Grizzlies",
    "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
@@ -218,11 +211,11 @@
    "ts": "2026-11-22T00:00:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T23:34:16.000Z"
+   "title": "Live: Timberwolves keep pressure on and get the win over Grizzlies",
+   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
+   "ts": "2026-11-22T00:00:00.000Z"
   },
   {
    "team": "timberwolves",
@@ -232,7 +225,7 @@
    "ts": "2026-11-21T23:34:16.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
    "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
@@ -267,11 +260,11 @@
    "ts": "2026-11-21T23:34:16.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T23:34:16.000Z"
   },
   {
    "team": "timberwolves",
@@ -281,7 +274,7 @@
    "ts": "2026-11-21T19:48:53.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Twin Cities has officially gone later than ever without any snow",
    "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
@@ -310,6 +303,13 @@
   },
   {
    "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Twin Cities has officially gone later than ever without any snow",
    "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
@@ -323,13 +323,6 @@
    "ts": "2026-11-21T19:41:40.000Z"
   },
   {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
@@ -337,7 +330,7 @@
    "ts": "2026-11-21T18:30:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
    "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
@@ -366,6 +359,13 @@
   },
   {
    "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
    "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
@@ -400,20 +400,6 @@
    "ts": "2026-11-21T12:00:22.000Z"
   },
   {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
@@ -428,14 +414,14 @@
    "ts": "2026-11-21T12:00:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
    "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
    "ts": "2026-11-21T12:00:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Do tech outages have you on edge? You’re not alone",
    "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
@@ -492,6 +478,20 @@
   },
   {
    "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Do tech outages have you on edge? You’re not alone",
    "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
@@ -505,13 +505,6 @@
    "ts": "2026-11-21T11:31:16.000Z"
   },
   {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
@@ -519,7 +512,7 @@
    "ts": "2026-11-21T11:00:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
    "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
@@ -548,6 +541,13 @@
   },
   {
    "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
    "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
