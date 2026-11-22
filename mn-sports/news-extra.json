@@ -1,32 +1,130 @@
 {
- "updated": "2026-11-22T18:07:20.030Z",
+ "updated": "2026-11-22T19:22:53.985Z",
  "status": {
   "vikings|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
-  "vikings|Star Tribune": "ok 10",
   "gophers|Star Tribune": "ok 10",
-  "twins|Twins Daily": "ok 12",
   "wild|Star Tribune": "ok 10",
+  "vikings|Star Tribune": "ok 10",
   "wild|The Athletic": "ok 15",
-  "twins|Star Tribune": "ok 10",
   "timberwolves|Star Tribune": "ok 10",
+  "twins|Twins Daily": "ok 12",
   "lynx|Star Tribune": "ok 10",
   "united|Star Tribune": "ok 10",
-  "timberwolves|The Athletic": "ok 15"
+  "twins|Star Tribune": "ok 10",
+  "twins|The Athletic": "ok 15"
  },
  "items": [
   {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Delta system outage delays more than 1,000 flights nationwide, disrupts travel at MSP",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T19:10:06.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Delta system outage delays more than 1,000 flights nationwide, disrupts travel at MSP",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T19:10:06.000Z"
+  },
+  {
    "team": "vikings",
    "src": "Star Tribune",
-   "title": "Minnesota fraud: Eden Prairie couple convicted in $15 million health care scheme",
-   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
-   "ts": "2026-11-22T16:53:44.000Z"
+   "title": "Delta system outage delays more than 1,000 flights nationwide, disrupts travel at MSP",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T19:10:06.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Delta system outage delays more than 1,000 flights nationwide, disrupts travel at MSP",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T19:10:06.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Delta system outage delays more than 1,000 flights nationwide, disrupts travel at MSP",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T19:10:06.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Delta system outage delays more than 1,000 flights nationwide, disrupts travel at MSP",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T19:10:06.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Delta system outage delays more than 1,000 flights nationwide, disrupts travel at MSP",
+   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
+   "ts": "2026-11-22T19:10:06.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+   "url": "https://www.startribune.com/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/601926766",
+   "ts": "2026-11-22T19:00:03.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+   "url": "https://www.startribune.com/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/601926766",
+   "ts": "2026-11-22T19:00:03.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+   "url": "https://www.startribune.com/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/601926766",
+   "ts": "2026-11-22T19:00:03.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+   "url": "https://www.startribune.com/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/601926766",
+   "ts": "2026-11-22T19:00:03.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+   "url": "https://www.startribune.com/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/601926766",
+   "ts": "2026-11-22T19:00:03.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+   "url": "https://www.startribune.com/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/601926766",
+   "ts": "2026-11-22T19:00:03.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+   "url": "https://www.startribune.com/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992/601926766",
+   "ts": "2026-11-22T19:00:03.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "3 Twins Who Could Make Noise in the 2027 MLB Awards Races",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/3-twins-who-could-make-noise-in-the-2027-mlb-awards-races-r21474/",
+   "ts": "2026-11-22T18:30:02.000Z"
   },
   {
    "team": "gophers",
@@ -43,7 +141,7 @@
    "ts": "2026-11-22T16:53:44.000Z"
   },
   {
-   "team": "twins",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Minnesota fraud: Eden Prairie couple convicted in $15 million health care scheme",
    "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
@@ -71,53 +169,11 @@
    "ts": "2026-11-22T16:53:44.000Z"
   },
   {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "FAA says all Delta flights delayed as automated system falters",
-   "url": "https://www.startribune.com/faa-says-all-delta-flights-delayed-as-automated-system-falters/601926745",
-   "ts": "2026-11-22T16:35:12.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "FAA says all Delta flights delayed as automated system falters",
-   "url": "https://www.startribune.com/faa-says-all-delta-flights-delayed-as-automated-system-falters/601926745",
-   "ts": "2026-11-22T16:35:12.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "FAA says all Delta flights delayed as automated system falters",
-   "url": "https://www.startribune.com/faa-says-all-delta-flights-delayed-as-automated-system-falters/601926745",
-   "ts": "2026-11-22T16:35:12.000Z"
-  },
-  {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "FAA says all Delta flights delayed as automated system falters",
-   "url": "https://www.startribune.com/faa-says-all-delta-flights-delayed-as-automated-system-falters/601926745",
-   "ts": "2026-11-22T16:35:12.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "FAA says all Delta flights delayed as automated system falters",
-   "url": "https://www.startribune.com/faa-says-all-delta-flights-delayed-as-automated-system-falters/601926745",
-   "ts": "2026-11-22T16:35:12.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "FAA says all Delta flights delayed as automated system falters",
-   "url": "https://www.startribune.com/faa-says-all-delta-flights-delayed-as-automated-system-falters/601926745",
-   "ts": "2026-11-22T16:35:12.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "FAA says all Delta flights delayed as automated system falters",
-   "url": "https://www.startribune.com/faa-says-all-delta-flights-delayed-as-automated-system-falters/601926745",
-   "ts": "2026-11-22T16:35:12.000Z"
+   "title": "Minnesota fraud: Eden Prairie couple convicted in $15 million health care scheme",
+   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
+   "ts": "2026-11-22T16:53:44.000Z"
   },
   {
    "team": "twins",
@@ -141,13 +197,6 @@
    "ts": "2026-11-22T13:00:34.000Z"
   },
   {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Inflation could mean higher holiday spending but fewer gifts under the tree",
-   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
-   "ts": "2026-11-22T12:55:05.000Z"
-  },
-  {
    "team": "gophers",
    "src": "Star Tribune",
    "title": "Inflation could mean higher holiday spending but fewer gifts under the tree",
@@ -162,7 +211,7 @@
    "ts": "2026-11-22T12:55:05.000Z"
   },
   {
-   "team": "twins",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Inflation could mean higher holiday spending but fewer gifts under the tree",
    "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
@@ -184,6 +233,13 @@
   },
   {
    "team": "united",
+   "src": "Star Tribune",
+   "title": "Inflation could mean higher holiday spending but fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Inflation could mean higher holiday spending but fewer gifts under the tree",
    "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
@@ -204,27 +260,6 @@
    "ts": "2026-11-22T12:13:08.000Z"
   },
   {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
    "team": "gophers",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
@@ -236,13 +271,6 @@
    "src": "Star Tribune",
    "title": "Slow Thanksgiving week? Color in this turkey",
    "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
@@ -260,31 +288,17 @@
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
    "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Slow Thanksgiving week? Color in this turkey",
    "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
@@ -302,13 +316,6 @@
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
    "team": "lynx",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
@@ -320,13 +327,6 @@
    "src": "Star Tribune",
    "title": "Slow Thanksgiving week? Color in this turkey",
    "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
@@ -344,18 +344,18 @@
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "united",
+   "team": "twins",
    "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "twins",
    "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
   },
   {
    "team": "gophers",
@@ -372,7 +372,7 @@
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -400,11 +400,11 @@
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "twins",
    "src": "Star Tribune",
-   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
-   "ts": "2026-11-22T11:15:00.000Z"
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
    "team": "gophers",
@@ -421,7 +421,7 @@
    "ts": "2026-11-22T11:15:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
@@ -443,6 +443,13 @@
   },
   {
    "team": "united",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
+  {
+   "team": "twins",
    "src": "Star Tribune",
    "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
@@ -456,13 +463,6 @@
    "ts": "2026-11-22T11:00:35.000Z"
   },
   {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
-   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
-   "ts": "2026-11-22T11:00:00.000Z"
-  },
-  {
    "team": "gophers",
    "src": "Star Tribune",
    "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
@@ -477,7 +477,7 @@
    "ts": "2026-11-22T11:00:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
    "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
@@ -499,6 +499,13 @@
   },
   {
    "team": "united",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
    "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
@@ -519,13 +526,6 @@
    "ts": "2026-11-22T08:00:21.000Z"
   },
   {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
    "team": "gophers",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
@@ -540,7 +540,7 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "twins",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -562,6 +562,13 @@
   },
   {
    "team": "united",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -713,13 +720,6 @@
    "title": "The similarities between Karl-Anthony Towns and LaMelo Ball are uncanny",
    "url": "https://www.nytimes.com/athletic/7796983/2026/11/20/karl-anthony-towns-lamelo-ball-timberwolves-knicks/",
    "ts": "2026-11-20T13:45:43.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Predicting Minnesota Twins' Non-Tender Decisions Ahead of Friday&#x2019;s Deadline",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/predicting-minnesota-twins-non-tender-decisions-ahead-of-fridays-deadline-r21476/",
-   "ts": "2026-11-20T12:30:01.000Z"
   },
   {
    "team": "wild",
