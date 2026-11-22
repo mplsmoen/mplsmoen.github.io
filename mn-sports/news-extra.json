@@ -1,210 +1,175 @@
 {
- "updated": "2026-11-21T23:06:53.948Z",
+ "updated": "2026-11-22T00:04:15.310Z",
  "status": {
-  "vikings|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
+  "timberwolves|The Athletic": "ok 15",
   "twins|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Star Tribune": "ok 10",
-  "wild|The Athletic": "ok 15",
-  "twins|Star Tribune": "ok 10",
-  "lynx|Star Tribune": "ok 10",
   "wild|Star Tribune": "ok 10",
-  "united|Star Tribune": "ok 10",
+  "vikings|Star Tribune": "ok 10",
+  "twins|Star Tribune": "ok 10",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Star Tribune": "ok 10",
   "twins|Twins Daily": "ok 12",
   "gophers|Star Tribune": "ok 10",
-  "vikings|Star Tribune": "ok 10",
-  "twins|The Athletic": "ok 15",
-  "timberwolves|The Athletic": "ok 15"
+  "united|Star Tribune": "ok 10",
+  "lynx|Star Tribune": "ok 10",
+  "twins|The Athletic": "ok 15"
  },
  "items": [
   {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-21T22:22:01.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-21T22:22:01.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-21T22:22:01.000Z"
-  },
-  {
    "team": "wild",
    "src": "Star Tribune",
-   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "title": "Live: DGF leads Waseca 8-7 at halftime",
    "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-21T22:22:01.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-21T22:22:01.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-21T22:22:01.000Z"
+   "ts": "2026-11-21T23:48:26.000Z"
   },
   {
    "team": "vikings",
    "src": "Star Tribune",
-   "title": "Live: Waseca, Dilworth-Glyndon-Felton meet in semifinals for second straight year",
+   "title": "Live: DGF leads Waseca 8-7 at halftime",
    "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-21T22:22:01.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-21T20:35:10.000Z"
+   "ts": "2026-11-21T23:48:26.000Z"
   },
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-21T20:35:10.000Z"
+   "title": "Live: DGF leads Waseca 8-7 at halftime",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T23:48:26.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-21T20:35:10.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-21T20:35:10.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-21T20:35:10.000Z"
+   "title": "Live: DGF leads Waseca 8-7 at halftime",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T23:48:26.000Z"
   },
   {
    "team": "gophers",
    "src": "Star Tribune",
-   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "title": "Live: DGF leads Waseca 8-7 at halftime",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T23:48:26.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Live: DGF leads Waseca 8-7 at halftime",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T23:48:26.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Live: DGF leads Waseca 8-7 at halftime",
+   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
+   "ts": "2026-11-21T23:48:26.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
    "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-21T20:35:10.000Z"
+   "ts": "2026-11-21T23:43:40.000Z"
   },
   {
    "team": "vikings",
    "src": "Star Tribune",
-   "title": "Live: Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
    "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-21T20:35:10.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T20:30:09.000Z"
+   "ts": "2026-11-21T23:43:40.000Z"
   },
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T20:30:09.000Z"
+   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T23:43:40.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T23:43:40.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T23:43:40.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T23:43:40.000Z"
   },
   {
    "team": "lynx",
    "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T20:30:09.000Z"
+   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
+   "ts": "2026-11-21T23:43:40.000Z"
   },
   {
    "team": "wild",
    "src": "Star Tribune",
    "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
    "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T20:30:09.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T20:30:09.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T20:30:09.000Z"
+   "ts": "2026-11-21T23:34:16.000Z"
   },
   {
    "team": "vikings",
    "src": "Star Tribune",
    "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
    "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T20:30:09.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
+   "ts": "2026-11-21T23:34:16.000Z"
   },
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T23:34:16.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T23:34:16.000Z"
   },
   {
-   "team": "wild",
+   "team": "gophers",
    "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T23:34:16.000Z"
   },
   {
    "team": "united",
    "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T23:34:16.000Z"
   },
   {
-   "team": "gophers",
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
+   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
+   "ts": "2026-11-21T23:34:16.000Z"
+  },
+  {
+   "team": "wild",
    "src": "Star Tribune",
    "title": "Twin Cities has officially gone later than ever without any snow",
    "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
@@ -218,7 +183,49 @@
    "ts": "2026-11-21T19:48:53.000Z"
   },
   {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
    "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Twin Cities has officially gone later than ever without any snow",
+   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
+   "ts": "2026-11-21T19:48:53.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
    "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
@@ -232,21 +239,7 @@
    "ts": "2026-11-21T19:43:05.000Z"
   },
   {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-21T19:43:05.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-21T19:43:05.000Z"
-  },
-  {
-   "team": "united",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
    "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
@@ -260,7 +253,14 @@
    "ts": "2026-11-21T19:43:05.000Z"
   },
   {
-   "team": "vikings",
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
+   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
+   "ts": "2026-11-21T19:43:05.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Live: Quinn Hughes leaves Wild road trip with injury ahead of game vs. Canucks",
    "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
@@ -274,7 +274,14 @@
    "ts": "2026-11-21T19:41:40.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
    "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
@@ -288,21 +295,7 @@
    "ts": "2026-11-21T18:30:00.000Z"
   },
   {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
-   "team": "united",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
    "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
@@ -316,7 +309,14 @@
    "ts": "2026-11-21T18:30:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
+   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
+   "ts": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
    "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
@@ -351,14 +351,28 @@
    "ts": "2026-11-21T12:00:22.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "wild",
    "src": "Star Tribune",
    "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
    "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
    "ts": "2026-11-21T12:00:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Do tech outages have you on edge? You’re not alone",
    "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
@@ -379,42 +393,14 @@
    "ts": "2026-11-21T12:00:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
    "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
    "ts": "2026-11-21T12:00:00.000Z"
   },
   {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "united",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Do tech outages have you on edge? You’re not alone",
    "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
@@ -435,14 +421,28 @@
    "ts": "2026-11-21T12:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
    "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
    "ts": "2026-11-21T12:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Do tech outages have you on edge? You’re not alone",
+   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
+   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
+   "ts": "2026-11-21T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Do tech outages have you on edge? You’re not alone",
    "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
@@ -456,14 +456,28 @@
    "ts": "2026-11-21T11:31:16.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "wild",
    "src": "Star Tribune",
    "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
    "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
    "ts": "2026-11-21T11:00:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "The secret nighttime lives of Minnesota’s flying squirrels",
    "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
@@ -484,42 +498,14 @@
    "ts": "2026-11-21T11:00:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
    "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
    "ts": "2026-11-21T11:00:00.000Z"
   },
   {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
-   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
-   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "united",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "The secret nighttime lives of Minnesota’s flying squirrels",
    "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
@@ -540,14 +526,28 @@
    "ts": "2026-11-21T11:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
    "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
    "ts": "2026-11-21T11:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "The secret nighttime lives of Minnesota’s flying squirrels",
+   "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
+   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
+   "ts": "2026-11-21T11:00:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "The secret nighttime lives of Minnesota’s flying squirrels",
    "url": "https://www.startribune.com/they-jump-glide-and-glow-under-uv-light-theyre-flying-squirrels/601923444",
