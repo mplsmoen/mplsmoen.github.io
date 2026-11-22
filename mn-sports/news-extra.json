@@ -1,32 +1,501 @@
 {
- "updated": "2026-11-22T12:09:57.565Z",
+ "updated": "2026-11-22T13:28:25.877Z",
  "status": {
   "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
   "wild|The Athletic": "ok 15",
-  "twins|Twins Daily": "ok 12",
+  "vikings|Star Tribune": "ok 10",
+  "lynx|Star Tribune": "ok 10",
+  "gophers|Star Tribune": "ok 10",
+  "twins|Star Tribune": "ok 10",
+  "united|Star Tribune": "ok 10",
   "wild|Star Tribune": "ok 10",
   "timberwolves|Star Tribune": "ok 10",
-  "gophers|Star Tribune": "ok 10",
-  "lynx|Star Tribune": "ok 10",
-  "united|Star Tribune": "ok 10",
-  "twins|Star Tribune": "ok 10",
-  "vikings|Star Tribune": "ok 10",
-  "timberwolves|The Athletic": "ok 15"
+  "twins|The Athletic": "ok 15",
+  "twins|Twins Daily": "ok 12"
  },
  "items": [
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Marco Rossi, Zeev Buium help snap Wild's road winning streak in 4-3 shootout loss: Takeaways",
+   "url": "https://www.nytimes.com/athletic/7802018/2026/11/22/wild-road-win-streak-snapped-canucks-rossi-buium/",
+   "ts": "2026-11-22T13:00:34.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "What the Royce Lewis Trade Tells Us About the Twins' New Direction",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/what-the-royce-lewis-trade-tells-us-about-the-twins-new-direction-r21490/",
+   "ts": "2026-11-22T12:36:02.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Calvin Pickard's uncertain future looms as Filip Gustavsson returns to Wild",
+   "url": "https://www.nytimes.com/athletic/7801031/2026/11/22/wild-filip-gustavsson-calvin-pickard-return/",
+   "ts": "2026-11-22T12:13:08.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Dodgers, Twins deal former top prospects: Who gains from the change of scenery?",
    "url": "https://www.nytimes.com/athletic/7801427/2026/11/22/dodgers-twins-trade-royce-lewis-bobby-miller/",
    "ts": "2026-11-22T11:00:35.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Minnesota Wild live news: Michael Russo and Joe Smith bring you all the latest updates",
+   "url": "https://www.nytimes.com/athletic/7687434/2026/11/22/minnesota-wild-news-schedule/",
+   "ts": "2026-11-22T10:25:03.000Z"
   },
   {
    "team": "timberwolves",
@@ -36,298 +505,53 @@
    "ts": "2026-11-22T08:00:21.000Z"
   },
   {
-   "team": "wild",
+   "team": "vikings",
    "src": "Star Tribune",
-   "title": "Minnesota Wild fall to last place Vancouver Canucks in shootout",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T04:32:45.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Minnesota Wild fall to last place Vancouver Canucks in shootout",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T04:32:45.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Minnesota Wild fall to last place Vancouver Canucks in shootout",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T04:32:45.000Z"
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
   },
   {
    "team": "lynx",
    "src": "Star Tribune",
-   "title": "Minnesota Wild fall to last place Vancouver Canucks in shootout",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T04:32:45.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Minnesota Wild fall to last place Vancouver Canucks in shootout",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T04:32:45.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Minnesota Wild fall to last place Vancouver Canucks in shootout",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T04:32:45.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Minnesota Wild fall to last place Vancouver Canucks in shootout",
-   "url": "https://www.startribune.com/quinn-hughes-injury-update-minnesota-wild-vancouver-canucks-score-today-kirill-kaprizov-stats-points/601921253",
-   "ts": "2026-11-22T04:32:45.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T04:17:24.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T04:17:24.000Z"
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
   },
   {
    "team": "gophers",
    "src": "Star Tribune",
-   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T04:17:24.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T04:17:24.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T04:17:24.000Z"
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
   },
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T04:17:24.000Z"
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "vikings",
+   "team": "united",
    "src": "Star Tribune",
-   "title": "Saturday rewind: Prep Bowl matchups set after three days of semifinals",
-   "url": "https://www.startribune.com/live-scores-updates-minnesota-high-school-football-saturday-state-semifinals-us-bank-stadium/601902190",
-   "ts": "2026-11-22T04:17:24.000Z"
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
   },
   {
    "team": "wild",
    "src": "Star Tribune",
-   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-22T00:07:08.000Z"
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
   },
   {
    "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-22T00:07:08.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-22T00:07:08.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-22T00:07:08.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-22T00:07:08.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-22T00:07:08.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Gophers gain bowl eligibility with walk-off win over Northwestern",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-drake-lindsey-stats-how-to-watch-big-ten-games-today/601914329",
-   "ts": "2026-11-22T00:07:08.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Timberwolves turn up the defense, get the win over Grizzlies",
-   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
-   "ts": "2026-11-22T00:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Timberwolves turn up the defense, get the win over Grizzlies",
-   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
-   "ts": "2026-11-22T00:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Timberwolves turn up the defense, get the win over Grizzlies",
-   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
-   "ts": "2026-11-22T00:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Timberwolves turn up the defense, get the win over Grizzlies",
-   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
-   "ts": "2026-11-22T00:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Timberwolves turn up the defense, get the win over Grizzlies",
-   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
-   "ts": "2026-11-22T00:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Timberwolves turn up the defense, get the win over Grizzlies",
-   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
-   "ts": "2026-11-22T00:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Timberwolves turn up the defense, get the win over Grizzlies",
-   "url": "https://www.startribune.com/minnesota-timberwolves-memphis-grizzlies-score-today-lamelo-ball-stats-anthony-edwards-injury-update/601914499",
-   "ts": "2026-11-22T00:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T23:34:16.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T23:34:16.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T23:34:16.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T23:34:16.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T23:34:16.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T23:34:16.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Scoggins: P.J. Fleck finally trusted his Gophers — and good things happened",
-   "url": "https://www.startribune.com/minnesota-gophers-northwestern-football-score-today-pj-fleck-record-big-ten-qb-drake-lindsey-stats/601925598",
-   "ts": "2026-11-21T23:34:16.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Twin Cities has officially gone later than ever without any snow",
-   "url": "https://www.startribune.com/the-twin-cities-has-officially-gone-later-than-ever-without-any-snow/601926173",
-   "ts": "2026-11-21T19:48:53.000Z"
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
   },
   {
    "team": "wild",
@@ -335,55 +559,6 @@
    "title": "Quinn Hughes out for rest of Wild road trip with undisclosed injury",
    "url": "https://www.nytimes.com/athletic/7800922/2026/11/21/quinn-hughes-injury-wild-road-trip/",
    "ts": "2026-11-21T19:41:40.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Former Duluth mayor: I have ALS. I won’t let this diagnosis redefine me.",
-   "url": "https://www.startribune.com/emily-larson-announcement-diagnosis-terminal-illness/601923550",
-   "ts": "2026-11-21T18:30:00.000Z"
   },
   {
    "team": "twins",
@@ -415,157 +590,10 @@
   },
   {
    "team": "wild",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Eye-popping tax hikes loom for Twin Cities area homeowners — again",
-   "url": "https://www.startribune.com/twin-cities-property-tax-bills-levy-increases/601917763",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Do tech outages have you on edge? You’re not alone",
-   "url": "https://www.startribune.com/do-tech-outages-have-you-on-edge-youre-not-alone/601923439",
-   "ts": "2026-11-21T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
    "src": "The Athletic",
    "title": "NHL report cards: Grading every team at the quarter mark of the 2026-27 season",
    "url": "https://www.nytimes.com/athletic/7798842/2026/11/21/nhl-season-team-grades-quarter-mark/",
    "ts": "2026-11-21T11:31:16.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Shein opens Maple Grove popup as Gen Z leads in-store shopping resurgence",
-   "url": "https://www.startribune.com/shein-popup-minnesota-twin-cities/601921107",
-   "ts": "2026-11-21T11:00:00.000Z"
   },
   {
    "team": "twins",
@@ -729,13 +757,6 @@
    "ts": "2026-11-19T21:43:15.000Z"
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "The Sonny Gray Deal is a Huge Risk, and We Shouldn't Care",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-sonny-gray-deal-is-a-huge-risk-and-we-shouldnt-care-r21481/",
-   "ts": "2026-11-19T20:35:00.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Anthony Edwards says injured knee reacted differently once season started, no set return date",
@@ -806,32 +827,11 @@
    "ts": "2026-11-17T21:21:57.000Z"
   },
   {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "The shaping of the Wild’s Jack Capuano: Heartbreak, Mom’s texts and the wait for another shot",
-   "url": "https://www.nytimes.com/athletic/7787625/2026/11/17/wild-jack-capuano-coach/",
-   "ts": "2026-11-17T12:03:24.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Minnesota Wild live news: Michael Russo and Joe Smith bring you all the latest updates",
-   "url": "https://www.nytimes.com/athletic/7687434/2026/11/17/minnesota-wild-news-schedule/",
-   "ts": "2026-11-17T10:25:03.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "NBA Power Rankings: Celtics rise to contenders tier as injuries impact almost every team",
    "url": "https://www.nytimes.com/athletic/7786874/2026/11/16/nba-power-rankings-celtics-lakers-sixers-injuries/",
    "ts": "2026-11-16T17:09:22.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "NHL 2026-27: Schedule, game projections and scores",
-   "url": "https://www.nytimes.com/athletic/interactive/nhl-season-2026-projections-playoffs-forecast/scores-schedule-win-probabilities/",
-   "ts": "2026-11-16T12:58:43.000Z"
   },
   {
    "team": "timberwolves",
