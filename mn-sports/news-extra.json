@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-22T13:28:25.877Z",
+ "updated": "2026-11-22T14:23:01.198Z",
  "status": {
   "vikings|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
   "timberwolves|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "united|Star Tribune": "ok 10",
+  "timberwolves|Star Tribune": "ok 10",
+  "twins|Star Tribune": "ok 10",
+  "wild|Star Tribune": "ok 10",
   "vikings|Star Tribune": "ok 10",
   "lynx|Star Tribune": "ok 10",
   "gophers|Star Tribune": "ok 10",
-  "twins|Star Tribune": "ok 10",
-  "united|Star Tribune": "ok 10",
-  "wild|Star Tribune": "ok 10",
-  "timberwolves|Star Tribune": "ok 10",
+  "wild|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
   "twins|Twins Daily": "ok 12"
  },
@@ -27,6 +27,34 @@
    "title": "Marco Rossi, Zeev Buium help snap Wild's road winning streak in 4-3 shootout loss: Takeaways",
    "url": "https://www.nytimes.com/athletic/7802018/2026/11/22/wild-road-win-streak-snapped-canucks-rossi-buium/",
    "ts": "2026-11-22T13:00:34.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Higher holiday sales could come with fewer gifts under the tree",
+   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
+   "ts": "2026-11-22T12:55:05.000Z"
   },
   {
    "team": "vikings",
@@ -44,34 +72,6 @@
   },
   {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Higher holiday sales could come with fewer gifts under the tree",
-   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
-   "ts": "2026-11-22T12:55:05.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Higher holiday sales could come with fewer gifts under the tree",
-   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
-   "ts": "2026-11-22T12:55:05.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Higher holiday sales could come with fewer gifts under the tree",
-   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
-   "ts": "2026-11-22T12:55:05.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Higher holiday sales could come with fewer gifts under the tree",
-   "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
-   "ts": "2026-11-22T12:55:05.000Z"
-  },
-  {
-   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Higher holiday sales could come with fewer gifts under the tree",
    "url": "https://www.startribune.com/shopper-surveys-holiday-spending-more-money-fewer-gifts-target-walmart/601901166",
@@ -92,6 +92,118 @@
    "ts": "2026-11-22T12:13:08.000Z"
   },
   {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
+   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Who were the first people to live in Minnesota?",
+   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
    "team": "vikings",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
@@ -176,116 +288,60 @@
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "united",
    "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
-   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
-   "ts": "2026-11-22T12:00:00.000Z"
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
    "team": "united",
    "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
-   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
-   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
-   "ts": "2026-11-22T12:00:00.000Z"
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
    "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
    "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "This northeast Minnesota school puts hunting and outdoor rec safety in the classroom",
-   "url": "https://www.startribune.com/student-safety-guns-atvs/601885450",
-   "ts": "2026-11-22T12:00:00.000Z"
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
-   "title": "Who were the first people to live in Minnesota?",
-   "url": "https://www.startribune.com/curious-minnesota-first-people-early-history/601909382",
-   "ts": "2026-11-22T12:00:00.000Z"
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
+   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
    "team": "vikings",
@@ -330,60 +386,32 @@
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
-   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
    "team": "united",
    "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
-   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
-   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
-   "ts": "2026-11-22T11:30:00.000Z"
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
   },
   {
    "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "twins",
    "src": "Star Tribune",
-   "title": "A ‘quirky’ North Woods nature writer of the past still has something to say",
-   "url": "https://www.startribune.com/a-bygone-minnesota-nature-writer-still-has-something-to-say/601919008",
-   "ts": "2026-11-22T11:30:00.000Z"
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
+   "ts": "2026-11-22T11:15:00.000Z"
   },
   {
    "team": "vikings",
@@ -401,34 +429,6 @@
   },
   {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
-   "ts": "2026-11-22T11:15:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
-   "ts": "2026-11-22T11:15:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
-   "ts": "2026-11-22T11:15:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
-   "ts": "2026-11-22T11:15:00.000Z"
-  },
-  {
-   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "How the Vikings prepared for Mexico City’s altitude — without leaving Minnesota",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-mexico-city-game-time-nfl-week-11-kirk-cousins-stats-2026/601922604",
@@ -442,6 +442,34 @@
    "ts": "2026-11-22T11:00:35.000Z"
   },
   {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
+   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
+   "ts": "2026-11-22T11:00:00.000Z"
+  },
+  {
    "team": "vikings",
    "src": "Star Tribune",
    "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
@@ -457,34 +485,6 @@
   },
   {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
-   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
-   "ts": "2026-11-22T11:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
-   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
-   "ts": "2026-11-22T11:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
-   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
-   "ts": "2026-11-22T11:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
-   "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
-   "ts": "2026-11-22T11:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Olson: How ‘Star Wars’ is inspiring Tom Emmer’s DFL challenger for 2028",
    "url": "https://www.startribune.com/2028-election-house-minority-whip-tom-emmer-democratic-opponent/601916637",
@@ -505,6 +505,34 @@
    "ts": "2026-11-22T08:00:21.000Z"
   },
   {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
    "team": "vikings",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
@@ -520,34 +548,6 @@
   },
   {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
-   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
