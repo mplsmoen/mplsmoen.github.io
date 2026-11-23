@@ -1,77 +1,77 @@
 {
- "updated": "2026-11-23T02:50:48.412Z",
+ "updated": "2026-11-23T03:54:27.431Z",
  "status": {
   "timberwolves|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "united|Star Tribune": "ok 10",
-  "wild|Star Tribune": "ok 10",
-  "gophers|Star Tribune": "ok 10",
+  "wild|The Athletic": "ok 15",
   "lynx|Star Tribune": "ok 10",
-  "vikings|Star Tribune": "ok 10",
-  "timberwolves|Star Tribune": "ok 10",
-  "twins|Twins Daily": "ok 12",
+  "wild|Star Tribune": "ok 10",
+  "united|Star Tribune": "ok 10",
   "twins|Star Tribune": "ok 10",
-  "timberwolves|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15"
+  "vikings|Star Tribune": "ok 10",
+  "gophers|Star Tribune": "ok 10",
+  "timberwolves|The Athletic": "ok 15",
+  "timberwolves|Star Tribune": "ok 10",
+  "twins|Twins Daily": "ok 12"
  },
  "items": [
   {
-   "team": "united",
+   "team": "lynx",
    "src": "Star Tribune",
-   "title": "Live: 49ers come out flying in Mexico City. Can Vikings respond?",
+   "title": "Live: 49ers offense cruising in Mexico City. Can Vikings come up with answers?",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T02:45:10.000Z"
+   "ts": "2026-11-23T03:49:40.000Z"
   },
   {
    "team": "wild",
    "src": "Star Tribune",
-   "title": "Live: 49ers come out flying in Mexico City. Can Vikings respond?",
+   "title": "Live: 49ers offense cruising in Mexico City. Can Vikings come up with answers?",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T02:45:10.000Z"
+   "ts": "2026-11-23T03:49:40.000Z"
   },
   {
-   "team": "gophers",
+   "team": "united",
    "src": "Star Tribune",
-   "title": "Live: 49ers come out flying in Mexico City. Can Vikings respond?",
+   "title": "Live: 49ers offense cruising in Mexico City. Can Vikings come up with answers?",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T02:45:10.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Live: 49ers come out flying in Mexico City. Can Vikings respond?",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T02:45:10.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Live: 49ers come out flying in Mexico City. Can Vikings respond?",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T02:45:10.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Live: 49ers come out flying in Mexico City. Can Vikings respond?",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T02:45:10.000Z"
+   "ts": "2026-11-23T03:49:40.000Z"
   },
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Live: 49ers come out flying in Mexico City. Can Vikings respond?",
+   "title": "Live: 49ers offense cruising in Mexico City. Can Vikings come up with answers?",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T02:45:10.000Z"
+   "ts": "2026-11-23T03:49:40.000Z"
   },
   {
-   "team": "united",
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Live: 49ers offense cruising in Mexico City. Can Vikings come up with answers?",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
+   "ts": "2026-11-23T03:49:40.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Live: 49ers offense cruising in Mexico City. Can Vikings come up with answers?",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
+   "ts": "2026-11-23T03:49:40.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Live: 49ers offense cruising in Mexico City. Can Vikings come up with answers?",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
+   "ts": "2026-11-23T03:49:40.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "What comes next in Wild’s search for a No. 1 center after missing out on Dylan Larkin?",
    "url": "https://www.startribune.com/dylan-larkin-trade-montreal-canadiens-detroit-red-wings-minnesota-wild-search-center-quinn-hughes/601871422",
@@ -85,28 +85,7 @@
    "ts": "2026-11-23T02:30:00.000Z"
   },
   {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "What comes next in Wild’s search for a No. 1 center after missing out on Dylan Larkin?",
-   "url": "https://www.startribune.com/dylan-larkin-trade-montreal-canadiens-detroit-red-wings-minnesota-wild-search-center-quinn-hughes/601871422",
-   "ts": "2026-11-23T02:30:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "What comes next in Wild’s search for a No. 1 center after missing out on Dylan Larkin?",
-   "url": "https://www.startribune.com/dylan-larkin-trade-montreal-canadiens-detroit-red-wings-minnesota-wild-search-center-quinn-hughes/601871422",
-   "ts": "2026-11-23T02:30:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "What comes next in Wild’s search for a No. 1 center after missing out on Dylan Larkin?",
-   "url": "https://www.startribune.com/dylan-larkin-trade-montreal-canadiens-detroit-red-wings-minnesota-wild-search-center-quinn-hughes/601871422",
-   "ts": "2026-11-23T02:30:00.000Z"
-  },
-  {
-   "team": "timberwolves",
+   "team": "united",
    "src": "Star Tribune",
    "title": "What comes next in Wild’s search for a No. 1 center after missing out on Dylan Larkin?",
    "url": "https://www.startribune.com/dylan-larkin-trade-montreal-canadiens-detroit-red-wings-minnesota-wild-search-center-quinn-hughes/601871422",
@@ -120,7 +99,28 @@
    "ts": "2026-11-23T02:30:00.000Z"
   },
   {
-   "team": "united",
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "What comes next in Wild’s search for a No. 1 center after missing out on Dylan Larkin?",
+   "url": "https://www.startribune.com/dylan-larkin-trade-montreal-canadiens-detroit-red-wings-minnesota-wild-search-center-quinn-hughes/601871422",
+   "ts": "2026-11-23T02:30:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "What comes next in Wild’s search for a No. 1 center after missing out on Dylan Larkin?",
+   "url": "https://www.startribune.com/dylan-larkin-trade-montreal-canadiens-detroit-red-wings-minnesota-wild-search-center-quinn-hughes/601871422",
+   "ts": "2026-11-23T02:30:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "What comes next in Wild’s search for a No. 1 center after missing out on Dylan Larkin?",
+   "url": "https://www.startribune.com/dylan-larkin-trade-montreal-canadiens-detroit-red-wings-minnesota-wild-search-center-quinn-hughes/601871422",
+   "ts": "2026-11-23T02:30:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
    "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
@@ -134,14 +134,14 @@
    "ts": "2026-11-22T23:35:00.000Z"
   },
   {
-   "team": "gophers",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
    "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
    "ts": "2026-11-22T23:35:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
    "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
@@ -155,14 +155,14 @@
    "ts": "2026-11-22T23:35:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
    "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
    "ts": "2026-11-22T23:35:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
    "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
@@ -176,7 +176,7 @@
    "ts": "2026-11-22T23:16:16.000Z"
   },
   {
-   "team": "united",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Eden Prairie couple convicted in $15 million health care scheme",
    "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
@@ -190,28 +190,7 @@
    "ts": "2026-11-22T19:33:23.000Z"
   },
   {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Eden Prairie couple convicted in $15 million health care scheme",
-   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
-   "ts": "2026-11-22T19:33:23.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Eden Prairie couple convicted in $15 million health care scheme",
-   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
-   "ts": "2026-11-22T19:33:23.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Eden Prairie couple convicted in $15 million health care scheme",
-   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
-   "ts": "2026-11-22T19:33:23.000Z"
-  },
-  {
-   "team": "timberwolves",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Eden Prairie couple convicted in $15 million health care scheme",
    "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
@@ -225,7 +204,28 @@
    "ts": "2026-11-22T19:33:23.000Z"
   },
   {
-   "team": "united",
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Eden Prairie couple convicted in $15 million health care scheme",
+   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
+   "ts": "2026-11-22T19:33:23.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Eden Prairie couple convicted in $15 million health care scheme",
+   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
+   "ts": "2026-11-22T19:33:23.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Eden Prairie couple convicted in $15 million health care scheme",
+   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
+   "ts": "2026-11-22T19:33:23.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
    "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
@@ -239,14 +239,14 @@
    "ts": "2026-11-22T19:30:00.000Z"
   },
   {
-   "team": "gophers",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
    "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
    "ts": "2026-11-22T19:30:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
    "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
@@ -260,14 +260,14 @@
    "ts": "2026-11-22T19:30:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
    "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
    "ts": "2026-11-22T19:30:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
    "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
@@ -288,7 +288,7 @@
    "ts": "2026-11-22T16:07:02.000Z"
   },
   {
-   "team": "united",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "What to know about the upcoming ban on hemp-derived THC",
    "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
@@ -302,14 +302,14 @@
    "ts": "2026-11-22T16:00:12.000Z"
   },
   {
-   "team": "gophers",
+   "team": "united",
    "src": "Star Tribune",
    "title": "What to know about the upcoming ban on hemp-derived THC",
    "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
    "ts": "2026-11-22T16:00:12.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "What to know about the upcoming ban on hemp-derived THC",
    "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
@@ -323,14 +323,14 @@
    "ts": "2026-11-22T16:00:12.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "What to know about the upcoming ban on hemp-derived THC",
    "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
    "ts": "2026-11-22T16:00:12.000Z"
   },
   {
-   "team": "twins",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "What to know about the upcoming ban on hemp-derived THC",
    "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
@@ -365,14 +365,14 @@
    "ts": "2026-11-22T12:13:08.000Z"
   },
   {
-   "team": "united",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
    "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "united",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Slow Thanksgiving week? Color in this turkey",
    "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
@@ -393,77 +393,77 @@
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
-   "team": "gophers",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
    "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
    "ts": "2026-11-22T12:00:00.000Z"
   },
   {
    "team": "united",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
+   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Slow Thanksgiving week? Color in this turkey",
+   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
+   "ts": "2026-11-22T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -477,14 +477,14 @@
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "gophers",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -498,14 +498,14 @@
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
    "ts": "2026-11-22T11:30:00.000Z"
   },
   {
-   "team": "twins",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -533,7 +533,7 @@
    "ts": "2026-11-22T08:00:21.000Z"
   },
   {
-   "team": "united",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -547,14 +547,14 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "gophers",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "lynx",
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -568,14 +568,14 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "twins",
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
