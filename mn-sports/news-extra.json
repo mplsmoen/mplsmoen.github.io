@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-23T22:44:23.327Z",
+ "updated": "2026-11-23T23:43:16.598Z",
  "status": {
-  "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
+  "gophers|The Daily Gopher": "ok 10",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
   "wild|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "united|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
   "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Can the Twins Fix Bobby Miller? The Numbers Say There's Reason to Believe.",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/can-the-twins-fix-bobby-miller-the-numbers-say-theres-reason-to-believe-r21507/",
+   "ts": "2026-11-23T23:03:02.000Z"
+  },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
@@ -301,13 +308,6 @@
    "title": "Dodgers trade Bobby Miller, prospect for Twins’ Royce Lewis",
    "url": "https://www.nytimes.com/athletic/7799003/2026/11/20/dodgers-twins-trade-royce-lewis/",
    "ts": "2026-11-20T22:31:10.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "BREAKING: Minnesota Twins Trade Royce Lewis to the Los Angeles Dodgers",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/breaking-minnesota-twins-trade-royce-lewis-to-the-los-angeles-dodgers-r21493/",
-   "ts": "2026-11-20T22:29:00.000Z"
   },
   {
    "team": "twins",
