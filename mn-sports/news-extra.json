@@ -1,26 +1,236 @@
 {
- "updated": "2026-11-23T11:52:06.661Z",
+ "updated": "2026-11-23T12:59:53.881Z",
  "status": {
-  "united|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "vikings|Star Tribune": "ok 10",
-  "twins|Star Tribune": "ok 10",
-  "lynx|Star Tribune": "ok 10",
-  "twins|The Athletic": "ok 15",
+  "wild|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
-  "gophers|Star Tribune": "ok 10",
-  "wild|Star Tribune": "ok 10",
-  "timberwolves|Star Tribune": "ok 10",
-  "united|Star Tribune": "ok 10",
-  "twins|Twins Daily": "ok 12",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
   "wild|The Athletic": "ok 15",
+  "twins|The Athletic": "ok 15",
+  "vikings|Star Tribune": "ok 10",
+  "wild|Star Tribune": "ok 10",
+  "united|Star Tribune": "ok 10",
+  "twins|Star Tribune": "ok 10",
+  "timberwolves|Star Tribune": "ok 10",
+  "lynx|Star Tribune": "ok 10",
+  "twins|Twins Daily": "ok 12",
+  "gophers|Star Tribune": "ok 10",
   "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "The Twins' Last Young Core Fizzled Out. Will This One Be Different?",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-twins-last-young-core-fizzled-out-will-this-one-be-different-r21500/",
+   "ts": "2026-11-23T12:31:02.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "The Quinn Hughes trade made the Wild a Cup contender. The Canucks’ return is still taking shape",
+   "url": "https://www.nytimes.com/athletic/7801248/2026/11/23/quinn-hughes-trade-canucks-wild-anniversary/",
+   "ts": "2026-11-23T12:10:12.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
+   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
+   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
+   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
+   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
+   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
+   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
+   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
   {
    "team": "wild",
    "src": "The Athletic",
@@ -38,12 +248,131 @@
   {
    "team": "vikings",
    "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
+   "ts": "2026-11-23T08:01:07.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
+   "ts": "2026-11-23T08:01:07.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
    "ts": "2026-11-23T08:01:07.000Z"
   },
   {
    "team": "twins",
+   "src": "Star Tribune",
+   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
+   "ts": "2026-11-23T08:01:07.000Z"
+  },
+  {
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
@@ -58,27 +387,6 @@
   },
   {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "united",
    "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
@@ -90,104 +398,6 @@
    "title": "LaMelo Ball makes Timberwolves staffers feel seen. It starts with remembering their names",
    "url": "https://www.nytimes.com/athletic/7798817/2026/11/23/lamelo-ball-names-timberwolves/",
    "ts": "2026-11-23T07:00:46.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Vikings defense dominated by Brock Purdy, 49ers in Mexico City",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T04:25:28.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Vikings defense dominated by Brock Purdy, 49ers in Mexico City",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T04:25:28.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Vikings defense dominated by Brock Purdy, 49ers in Mexico City",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T04:25:28.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Vikings defense dominated by Brock Purdy, 49ers in Mexico City",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T04:25:28.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Vikings defense dominated by Brock Purdy, 49ers in Mexico City",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T04:25:28.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Vikings defense dominated by Brock Purdy, 49ers in Mexico City",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T04:25:28.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Vikings defense dominated by Brock Purdy, 49ers in Mexico City",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-today-live-updates-kirk-cousins-stats-mexico-city-nfl/601920099",
-   "ts": "2026-11-23T04:25:28.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T23:35:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T23:35:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T23:35:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T23:35:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T23:35:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T23:35:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Delta outage delays close to 2,000 flights nationwide, disrupts MSP travel",
-   "url": "https://www.startribune.com/delta-system-outage-delays-more-than-1000-flights-nationwide-disrupts-travel-at-msp/601926754",
-   "ts": "2026-11-22T23:35:00.000Z"
   },
   {
    "team": "twins",
@@ -204,7 +414,28 @@
    "ts": "2026-11-22T19:33:23.000Z"
   },
   {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Eden Prairie couple convicted in $15 million health care scheme",
+   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
+   "ts": "2026-11-22T19:33:23.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Eden Prairie couple convicted in $15 million health care scheme",
+   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
+   "ts": "2026-11-22T19:33:23.000Z"
+  },
+  {
    "team": "twins",
+   "src": "Star Tribune",
+   "title": "Eden Prairie couple convicted in $15 million health care scheme",
+   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
+   "ts": "2026-11-22T19:33:23.000Z"
+  },
+  {
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Eden Prairie couple convicted in $15 million health care scheme",
    "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
@@ -223,76 +454,6 @@
    "title": "Eden Prairie couple convicted in $15 million health care scheme",
    "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
    "ts": "2026-11-22T19:33:23.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Eden Prairie couple convicted in $15 million health care scheme",
-   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
-   "ts": "2026-11-22T19:33:23.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Eden Prairie couple convicted in $15 million health care scheme",
-   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
-   "ts": "2026-11-22T19:33:23.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Eden Prairie couple convicted in $15 million health care scheme",
-   "url": "https://www.startribune.com/minnesota-fraud-health-care-medicare-scam-eden-prairie-couple-convicted/601926741",
-   "ts": "2026-11-22T19:33:23.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
-   "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
-   "ts": "2026-11-22T19:30:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
-   "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
-   "ts": "2026-11-22T19:30:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
-   "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
-   "ts": "2026-11-22T19:30:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
-   "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
-   "ts": "2026-11-22T19:30:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
-   "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
-   "ts": "2026-11-22T19:30:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
-   "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
-   "ts": "2026-11-22T19:30:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Opinion | If Minneapolis wants affordable housing, it should act like it",
-   "url": "https://www.startribune.com/mpls-rent-hikes-tax-increases-cost-of-living-affordability/601924572",
-   "ts": "2026-11-22T19:30:00.000Z"
   },
   {
    "team": "twins",
@@ -307,55 +468,6 @@
    "title": "Twins Fans: You&#x2019;re Gonna Get Mauricio Dub&#xF3;n and You&#x2019;re Gonna Like It",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-fans-youre-gonna-get-mauricio-dub%C3%B3n-and-youre-gonna-like-it-r21482/",
    "ts": "2026-11-22T16:07:02.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "What to know about the upcoming ban on hemp-derived THC",
-   "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
-   "ts": "2026-11-22T16:00:12.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "What to know about the upcoming ban on hemp-derived THC",
-   "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
-   "ts": "2026-11-22T16:00:12.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "What to know about the upcoming ban on hemp-derived THC",
-   "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
-   "ts": "2026-11-22T16:00:12.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "What to know about the upcoming ban on hemp-derived THC",
-   "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
-   "ts": "2026-11-22T16:00:12.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "What to know about the upcoming ban on hemp-derived THC",
-   "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
-   "ts": "2026-11-22T16:00:12.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "What to know about the upcoming ban on hemp-derived THC",
-   "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
-   "ts": "2026-11-22T16:00:12.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "What to know about the upcoming ban on hemp-derived THC",
-   "url": "https://www.startribune.com/what-to-know-about-the-upcoming-ban-on-hemp-derived-thc/601922589",
-   "ts": "2026-11-22T16:00:12.000Z"
   },
   {
    "team": "timberwolves",
@@ -388,103 +500,19 @@
   {
    "team": "vikings",
    "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
    "team": "wild",
    "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
   },
   {
    "team": "united",
-   "src": "Star Tribune",
-   "title": "Meet the 17 newcomers who flipped seats and reshaped Minnesota’s Legislature",
-   "url": "https://www.startribune.com/new-mn-legislators-flipped-seats-blue-wave/601914280",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Slow Thanksgiving week? Color in this turkey",
-   "url": "https://www.startribune.com/slow-thanksgiving-week-color-in-this-turkey/601917548",
-   "ts": "2026-11-22T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -492,6 +520,13 @@
   },
   {
    "team": "twins",
+   "src": "Star Tribune",
+   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
+   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
+   "ts": "2026-11-22T11:30:00.000Z"
+  },
+  {
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -506,27 +541,6 @@
   },
   {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "united",
    "src": "Star Tribune",
    "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
    "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
@@ -561,7 +575,28 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
    "team": "twins",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
+   "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -576,27 +611,6 @@
   },
   {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
-   "team": "united",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -729,13 +743,6 @@
    "ts": "2026-11-20T15:19:48.000Z"
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Forum Friday: Sonny Gray's Deal, Rule 5 Roster, Jeffers Trade Buzz, Cedar Rapids Catchers, Larnach Trade Buzz",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/forum-friday-sonny-grays-deal-rule-5-roster-jeffers-trade-buzz-cedar-rapids-catchers-larnach-trade-buzz-r21485/",
-   "ts": "2026-11-20T15:13:02.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "The similarities between Karl-Anthony Towns and LaMelo Ball are uncanny",
@@ -811,13 +818,6 @@
    "title": "Twins sign Sonny Gray to 2-year deal, bringing veteran starter back to Minnesota",
    "url": "https://www.nytimes.com/athletic/7740198/2026/11/18/sonny-gray-signs-with-twins/",
    "ts": "2026-11-18T20:45:49.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Behind the Wild’s ‘Step Brothers’ spoof with John Hynes and the Foligno brothers",
-   "url": "https://www.nytimes.com/athletic/7792742/2026/11/18/john-hynes-marcus-nick-foligno-step-brothers-spoof/",
-   "ts": "2026-11-18T19:08:48.000Z"
   },
   {
    "team": "timberwolves",
