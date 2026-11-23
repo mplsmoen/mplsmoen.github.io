@@ -1,74 +1,144 @@
 {
- "updated": "2026-11-23T15:39:04.096Z",
+ "updated": "2026-11-23T16:54:05.053Z",
  "status": {
   "vikings|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "wild|Star Tribune": "ok 10",
+  "lynx|Star Tribune": "ok 10",
+  "vikings|Star Tribune": "ok 10",
+  "united|Star Tribune": "ok 10",
+  "timberwolves|Star Tribune": "ok 10",
+  "twins|Twins Daily": "ok 12",
+  "gophers|Star Tribune": "ok 10",
+  "twins|Star Tribune": "ok 10",
   "wild|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
-  "lynx|Star Tribune": "ok 10",
-  "wild|Star Tribune": "ok 10",
-  "united|Star Tribune": "ok 10",
-  "gophers|Star Tribune": "ok 10",
-  "timberwolves|Star Tribune": "ok 10",
-  "vikings|Star Tribune": "ok 10",
-  "twins|Star Tribune": "ok 10",
-  "twins|Twins Daily": "ok 12",
   "timberwolves|The Athletic": "ok 15"
  },
  "items": [
   {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T15:30:11.000Z"
-  },
-  {
    "team": "wild",
    "src": "Star Tribune",
-   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
+   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his return",
    "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T15:30:11.000Z"
+   "ts": "2026-11-23T16:40:02.000Z"
   },
   {
-   "team": "united",
+   "team": "lynx",
    "src": "Star Tribune",
-   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
+   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his return",
    "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T15:30:11.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T15:30:11.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T15:30:11.000Z"
+   "ts": "2026-11-23T16:40:02.000Z"
   },
   {
    "team": "vikings",
    "src": "Star Tribune",
-   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
+   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his return",
    "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T15:30:11.000Z"
+   "ts": "2026-11-23T16:40:02.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his return",
+   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
+   "ts": "2026-11-23T16:40:02.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his return",
+   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
+   "ts": "2026-11-23T16:40:02.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his return",
+   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
+   "ts": "2026-11-23T16:40:02.000Z"
   },
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
+   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his return",
    "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T15:30:11.000Z"
+   "ts": "2026-11-23T16:40:02.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "NBA Power Rankings: Karl-Anthony Towns, Knicks have much to be thankful for",
+   "url": "https://www.nytimes.com/athletic/7806039/2026/11/23/nba-power-rankings-knicks-sixers-spurs-lakers/",
+   "ts": "2026-11-23T16:20:35.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Alan Roden: An Ideal Trade Chip for a Twins Team That Still Has Needs",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/alan-roden-an-ideal-trade-chip-for-a-twins-team-that-still-has-needs-r21506/",
+   "ts": "2026-11-23T16:07:49.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T15:47:43.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T15:47:43.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T15:47:43.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T15:47:43.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T15:47:43.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T15:47:43.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T15:47:43.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Wild’s Danila Yurov can finally exhale after months of trade rumors — at least for now",
+   "url": "https://www.nytimes.com/athletic/7806228/2026/11/23/wild-danila-yurov-dylan-larkin-trade-rumors/",
+   "ts": "2026-11-23T15:44:43.000Z"
   },
   {
    "team": "twins",
@@ -78,6 +148,13 @@
    "ts": "2026-11-23T15:03:04.000Z"
   },
   {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "New year, new majorities: The Minnesota players to watch",
+   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
+   "ts": "2026-11-23T14:47:00.000Z"
+  },
+  {
    "team": "lynx",
    "src": "Star Tribune",
    "title": "New year, new majorities: The Minnesota players to watch",
@@ -85,7 +162,7 @@
    "ts": "2026-11-23T14:47:00.000Z"
   },
   {
-   "team": "wild",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "New year, new majorities: The Minnesota players to watch",
    "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
@@ -99,13 +176,6 @@
    "ts": "2026-11-23T14:47:00.000Z"
   },
   {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "New year, new majorities: The Minnesota players to watch",
-   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
-   "ts": "2026-11-23T14:47:00.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "New year, new majorities: The Minnesota players to watch",
@@ -113,7 +183,7 @@
    "ts": "2026-11-23T14:47:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "New year, new majorities: The Minnesota players to watch",
    "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
@@ -127,6 +197,13 @@
    "ts": "2026-11-23T14:47:00.000Z"
   },
   {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
    "team": "lynx",
    "src": "Star Tribune",
    "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
@@ -134,7 +211,7 @@
    "ts": "2026-11-23T12:36:26.000Z"
   },
   {
-   "team": "wild",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
    "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
@@ -148,13 +225,6 @@
    "ts": "2026-11-23T12:36:26.000Z"
   },
   {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
-   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
-   "ts": "2026-11-23T12:36:26.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
@@ -162,7 +232,7 @@
    "ts": "2026-11-23T12:36:26.000Z"
   },
   {
-   "team": "vikings",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
    "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
@@ -190,6 +260,20 @@
    "ts": "2026-11-23T12:10:12.000Z"
   },
   {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
    "team": "lynx",
    "src": "Star Tribune",
    "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
@@ -204,14 +288,14 @@
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
-   "team": "wild",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
    "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
-   "team": "wild",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
    "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
@@ -232,20 +316,6 @@
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
@@ -260,14 +330,14 @@
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
    "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
    "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
@@ -302,27 +372,6 @@
    "ts": "2026-11-23T11:02:40.000Z"
   },
   {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
-   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
    "team": "wild",
    "src": "Star Tribune",
    "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
@@ -332,75 +381,19 @@
   {
    "team": "wild",
    "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
    "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
    "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
-   "team": "united",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
    "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
-   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
-   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
    "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
@@ -416,12 +409,47 @@
   {
    "team": "vikings",
    "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
+   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
+   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
+   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
    "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
@@ -437,16 +465,16 @@
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
    "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
    "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
    "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
+   "ts": "2026-11-23T08:01:07.000Z"
   },
   {
    "team": "lynx",
@@ -456,7 +484,7 @@
    "ts": "2026-11-23T08:01:07.000Z"
   },
   {
-   "team": "wild",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
@@ -470,13 +498,6 @@
    "ts": "2026-11-23T08:01:07.000Z"
   },
   {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
@@ -484,7 +505,7 @@
    "ts": "2026-11-23T08:01:07.000Z"
   },
   {
-   "team": "vikings",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
@@ -575,6 +596,13 @@
    "ts": "2026-11-22T08:00:21.000Z"
   },
   {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
    "team": "lynx",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
@@ -582,7 +610,7 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "wild",
+   "team": "vikings",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -596,13 +624,6 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
@@ -610,7 +631,7 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "vikings",
+   "team": "gophers",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -729,13 +750,6 @@
    "ts": "2026-11-20T17:45:19.000Z"
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Twins to Non-Tender Bailey Ober",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-to-non-tender-bailey-ober-r21488/",
-   "ts": "2026-11-20T17:16:00.000Z"
-  },
-  {
    "team": "wild",
    "src": "The Athletic",
    "title": "NHL Power Rankings: In honor of 'Grand Theft Auto VI,' let's remember some guys",
@@ -806,13 +820,6 @@
    "ts": "2026-11-19T17:55:12.000Z"
   },
   {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Brock Faber’s high standards haven’t budged as he settles back into Wild lineup",
-   "url": "https://www.nytimes.com/athletic/7792866/2026/11/19/brock-faber-wild-lineup/",
-   "ts": "2026-11-19T12:00:08.000Z"
-  },
-  {
    "team": "twins",
    "src": "The Athletic",
    "title": "Twins sign Sonny Gray to 2-year deal, bringing veteran starter back to Minnesota",
@@ -881,13 +888,6 @@
    "title": "Every NBA team’s biggest surprise so far in the 2026-27 season",
    "url": "https://www.nytimes.com/athletic/7776021/2026/11/13/nba-early-surprises-yaxel-lendeborg-cooper-flagg/",
    "ts": "2026-11-13T10:07:57.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "The Athletic",
-   "title": "Two days in October: Inside Chris Finch’s meticulous world with the Timberwolves",
-   "url": "https://www.nytimes.com/athletic/7772124/2026/11/12/timberwolves-chris-finch-mind/",
-   "ts": "2026-11-12T10:30:02.000Z"
   },
   {
    "team": "twins",
