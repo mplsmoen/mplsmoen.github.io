@@ -1,98 +1,133 @@
 {
- "updated": "2026-11-23T14:28:24.568Z",
+ "updated": "2026-11-23T15:39:04.096Z",
  "status": {
   "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|Star Tribune": "ok 10",
-  "timberwolves|The Athletic": "ok 15",
-  "twins|Twins Daily": "ok 12",
-  "lynx|Star Tribune": "ok 10",
-  "vikings|Star Tribune": "ok 10",
-  "united|Star Tribune": "ok 10",
-  "wild|Star Tribune": "ok 10",
-  "gophers|Star Tribune": "ok 10",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
-  "timberwolves|Star Tribune": "ok 10"
+  "lynx|Star Tribune": "ok 10",
+  "wild|Star Tribune": "ok 10",
+  "united|Star Tribune": "ok 10",
+  "gophers|Star Tribune": "ok 10",
+  "timberwolves|Star Tribune": "ok 10",
+  "vikings|Star Tribune": "ok 10",
+  "twins|Star Tribune": "ok 10",
+  "twins|Twins Daily": "ok 12",
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
   {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Trump says the US government has ‘no reason to believe' Huang's return to Nvidia poses a national security risk",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T14:20:06.000Z"
-  },
-  {
    "team": "lynx",
    "src": "Star Tribune",
-   "title": "Trump says the US government has ‘no reason to believe' Huang's return to Nvidia poses a national security risk",
+   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
    "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T14:20:06.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Trump says the US government has ‘no reason to believe' Huang's return to Nvidia poses a national security risk",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T14:20:06.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Trump says the US government has ‘no reason to believe' Huang's return to Nvidia poses a national security risk",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T14:20:06.000Z"
+   "ts": "2026-11-23T15:30:11.000Z"
   },
   {
    "team": "wild",
    "src": "Star Tribune",
-   "title": "Trump says the US government has ‘no reason to believe' Huang's return to Nvidia poses a national security risk",
+   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
    "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T14:20:06.000Z"
+   "ts": "2026-11-23T15:30:11.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
+   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
+   "ts": "2026-11-23T15:30:11.000Z"
   },
   {
    "team": "gophers",
    "src": "Star Tribune",
-   "title": "Trump says the US government has ‘no reason to believe' Huang's return to Nvidia poses a national security risk",
+   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
    "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T14:20:06.000Z"
+   "ts": "2026-11-23T15:30:11.000Z"
   },
   {
    "team": "timberwolves",
    "src": "Star Tribune",
-   "title": "Trump says the US government has ‘no reason to believe' Huang's return to Nvidia poses a national security risk",
+   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
    "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T14:20:06.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
-   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
-   "ts": "2026-11-23T12:36:26.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
-   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
-   "ts": "2026-11-23T12:36:26.000Z"
+   "ts": "2026-11-23T15:30:11.000Z"
   },
   {
    "team": "vikings",
    "src": "Star Tribune",
-   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
-   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
-   "ts": "2026-11-23T12:36:26.000Z"
+   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
+   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
+   "ts": "2026-11-23T15:30:11.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Trump says he spoke to Huang on Sunday about reinstatement, says US assured Nvidia no national security concerns",
+   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
+   "ts": "2026-11-23T15:30:11.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Consummate Modern Workhorse Sonny Gray on Pitching Differently in His Late 30s",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/consummate-modern-workhorse-sonny-gray-on-pitching-differently-in-his-late-30s-r21504/",
+   "ts": "2026-11-23T15:03:04.000Z"
+  },
+  {
+   "team": "lynx",
+   "src": "Star Tribune",
+   "title": "New year, new majorities: The Minnesota players to watch",
+   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
+   "ts": "2026-11-23T14:47:00.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "New year, new majorities: The Minnesota players to watch",
+   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
+   "ts": "2026-11-23T14:47:00.000Z"
   },
   {
    "team": "united",
+   "src": "Star Tribune",
+   "title": "New year, new majorities: The Minnesota players to watch",
+   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
+   "ts": "2026-11-23T14:47:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "New year, new majorities: The Minnesota players to watch",
+   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
+   "ts": "2026-11-23T14:47:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "New year, new majorities: The Minnesota players to watch",
+   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
+   "ts": "2026-11-23T14:47:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "New year, new majorities: The Minnesota players to watch",
+   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
+   "ts": "2026-11-23T14:47:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "New year, new majorities: The Minnesota players to watch",
+   "url": "https://www.startribune.com/hot-dish-mn-political-players-to-watch/601923389",
+   "ts": "2026-11-23T14:47:00.000Z"
+  },
+  {
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
    "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
@@ -106,6 +141,13 @@
    "ts": "2026-11-23T12:36:26.000Z"
   },
   {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
    "team": "gophers",
    "src": "Star Tribune",
    "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
@@ -114,6 +156,20 @@
   },
   {
    "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
+   "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
+   "ts": "2026-11-23T12:36:26.000Z"
+  },
+  {
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Own a piece of this $15M Lake Minnetonka house built by an ex-Viking",
    "url": "https://www.startribune.com/sharing-economy-by-owning-a-slice-of-this-15m-lake-minnetonka-property/601922140",
@@ -134,27 +190,6 @@
    "ts": "2026-11-23T12:10:12.000Z"
   },
   {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
-   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
    "team": "lynx",
    "src": "Star Tribune",
    "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
@@ -166,55 +201,6 @@
    "src": "Star Tribune",
    "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
    "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
-   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
-   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
-   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
@@ -232,10 +218,17 @@
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
-   "team": "wild",
+   "team": "united",
    "src": "Star Tribune",
-   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
-   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "united",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
@@ -253,13 +246,6 @@
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
-   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "Star Tribune",
    "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
@@ -274,10 +260,31 @@
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
-   "team": "timberwolves",
+   "team": "vikings",
    "src": "Star Tribune",
-   "title": "Twin Cities Uber drivers consider cutting hours as attack leaves community shaken",
-   "url": "https://www.startribune.com/twin-cities-uber-driver-attack-fears/601923334",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
+   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
+   "ts": "2026-11-23T12:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Eleven pounds and two faces full of lutefisk chunks later, a champ was crowned",
+   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
    "ts": "2026-11-23T12:00:00.000Z"
   },
   {
@@ -295,24 +302,17 @@
    "ts": "2026-11-23T11:02:40.000Z"
   },
   {
-   "team": "twins",
+   "team": "lynx",
    "src": "Star Tribune",
    "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
    "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
-   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
    "team": "lynx",
    "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
@@ -323,14 +323,21 @@
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "wild",
    "src": "Star Tribune",
    "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
    "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
-   "team": "vikings",
+   "team": "wild",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "wild",
    "src": "Star Tribune",
    "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
    "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
@@ -346,19 +353,12 @@
   {
    "team": "united",
    "src": "Star Tribune",
-   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
-   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "wild",
+   "team": "united",
    "src": "Star Tribune",
    "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
    "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
@@ -369,6 +369,13 @@
    "src": "Star Tribune",
    "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
    "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
    "ts": "2026-11-23T11:00:00.000Z"
   },
   {
@@ -388,6 +395,34 @@
   {
    "team": "timberwolves",
    "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
+   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
    "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
    "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
    "ts": "2026-11-23T11:00:00.000Z"
@@ -395,9 +430,23 @@
   {
    "team": "twins",
    "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
+   "title": "Nearly a quarter of Minneapolis city employees are taking paid leave",
+   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
+   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
+   "ts": "2026-11-23T11:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Star Tribune",
+   "title": "Brown: Minnesota needs a fix for scarce, expensive child care",
+   "url": "https://www.startribune.com/high-day-care-costs-mn-long-waitlists-availability/601924000",
+   "ts": "2026-11-23T11:00:00.000Z"
   },
   {
    "team": "lynx",
@@ -407,7 +456,7 @@
    "ts": "2026-11-23T08:01:07.000Z"
   },
   {
-   "team": "vikings",
+   "team": "wild",
    "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
@@ -415,13 +464,6 @@
   },
   {
    "team": "united",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "wild",
    "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
@@ -436,6 +478,20 @@
   },
   {
    "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
+   "ts": "2026-11-23T08:01:07.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
+   "ts": "2026-11-23T08:01:07.000Z"
+  },
+  {
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
    "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
@@ -499,55 +555,6 @@
   },
   {
    "team": "twins",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Allianz Field’s long-promised Midway revival takes shape in St. Paul",
-   "url": "https://www.startribune.com/allianz-field-united-village-development-st-paul-midway-minnesota-united-loons-owner-bill-mcguire/601910761",
-   "ts": "2026-11-22T11:30:00.000Z"
-  },
-  {
-   "team": "twins",
    "src": "The Athletic",
    "title": "Dodgers, Twins deal former top prospects: Who gains from the change of scenery?",
    "url": "https://www.nytimes.com/athletic/7801427/2026/11/22/dodgers-twins-trade-royce-lewis-bobby-miller/",
@@ -568,13 +575,6 @@
    "ts": "2026-11-22T08:00:21.000Z"
   },
   {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
    "team": "lynx",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
@@ -582,7 +582,7 @@
    "ts": "2026-11-21T23:19:33.000Z"
   },
   {
-   "team": "vikings",
+   "team": "wild",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -590,13 +590,6 @@
   },
   {
    "team": "united",
-   "src": "Star Tribune",
-   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
-   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
-   "ts": "2026-11-21T23:19:33.000Z"
-  },
-  {
-   "team": "wild",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -611,6 +604,20 @@
   },
   {
    "team": "timberwolves",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
+   "team": "vikings",
+   "src": "Star Tribune",
+   "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
+   "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
+   "ts": "2026-11-21T23:19:33.000Z"
+  },
+  {
+   "team": "twins",
    "src": "Star Tribune",
    "title": "Ilhan Omar aide advocated for fraud leader as wife collected payments from fraudsters",
    "url": "https://www.startribune.com/ilhan-omar-aide-advocated-for-fraud-leader-as-wife-collected-payments-from-fraudsters/601925710",
@@ -727,13 +734,6 @@
    "title": "Twins to Non-Tender Bailey Ober",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-to-non-tender-bailey-ober-r21488/",
    "ts": "2026-11-20T17:16:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Does the Sonny Gray Signing Make a Joe Ryan Trade More or Less Likely?",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/does-the-sonny-gray-signing-make-a-joe-ryan-trade-more-or-less-likely-r21484/",
-   "ts": "2026-11-20T15:43:01.000Z"
   },
   {
    "team": "wild",
