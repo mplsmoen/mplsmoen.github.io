@@ -6,18 +6,17 @@ import {readFileSync, writeFileSync} from "node:fs";
 const OUT = process.env.OUT || "news-extra.json";
 const NYT = "https://www.nytimes.com/athletic/rss/";
 const PP = "https://www.twincities.com/sports/";
-const ST = "https://www.startribune.com/rss/?sf=1&s=/sports/";
 
 const FEEDS = [
   {team: "twins", src: "The Athletic", url: NYT + "mlb/twins/"},
   {team: "timberwolves", src: "The Athletic", url: NYT + "nba/timberwolves/"},
   {team: "wild", src: "The Athletic", url: NYT + "nhl/wild/"},
   {team: "twins", src: "Twins Daily", url: "https://twinsdaily.com/news-rumors/minnesota-twins/?d=1&rss=1"},
-  // Pioneer Press and Star Tribune addresses below are best guesses: check the Actions log and fix any that fail.
+  {team: "gophers", src: "The Daily Gopher", url: "https://www.thedailygopher.com/rss/index.xml"}, // if this fails, try /rss/current
+  // Pioneer Press addresses below are best guesses: check the Actions log and fix any that fail.
   ...[["vikings", "nfl/minnesota-vikings"], ["timberwolves", "nba/minnesota-timberwolves"], ["twins", "mlb/minnesota-twins"],
       ["wild", "nhl/minnesota-wild"], ["lynx", "wnba/minnesota-lynx"], ["united", "soccer/minnesota-united-fc"],
       ["gophers", "college/gophers"]].map(([team, p]) => ({team, src: "Pioneer Press", url: PP + p + "/feed/"})),
-  ...["vikings", "timberwolves", "twins", "wild", "lynx", "united", "gophers"].map(team => ({team, src: "Star Tribune", url: ST + team + "/"})),
 ];
 
 const dec = s => s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"')
