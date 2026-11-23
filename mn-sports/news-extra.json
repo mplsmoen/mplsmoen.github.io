@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-23T21:44:44.502Z",
+ "updated": "2026-11-23T22:44:23.327Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
+  "wild|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
+  "united|Pioneer Press": "error: HTTP 403",
   "twins|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15",
   "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Staff predictions for Gopher basketball",
+   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41656/staff-predictions-for-gopher-basketball",
+   "ts": "2026-11-23T22:00:00.000Z"
+  },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
@@ -301,13 +308,6 @@
    "title": "BREAKING: Minnesota Twins Trade Royce Lewis to the Los Angeles Dodgers",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/breaking-minnesota-twins-trade-royce-lewis-to-the-los-angeles-dodgers-r21493/",
    "ts": "2026-11-20T22:29:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "Minnesota pulls away from Oklahoma State to win 85-70 in Charleston",
-   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41736/minnesota-pulls-away-from-oklahoma-state-to-win-85-70-in-charleston",
-   "ts": "2026-11-20T20:43:55.000Z"
   },
   {
    "team": "twins",
