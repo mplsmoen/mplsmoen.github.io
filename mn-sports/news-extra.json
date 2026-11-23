@@ -1,221 +1,26 @@
 {
- "updated": "2026-11-23T20:48:38.543Z",
+ "updated": "2026-11-23T21:44:44.502Z",
  "status": {
+  "gophers|The Daily Gopher": "ok 10",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Star Tribune": "ok 10",
-  "lynx|Star Tribune": "ok 10",
-  "wild|Star Tribune": "ok 10",
-  "united|Star Tribune": "ok 10",
+  "gophers|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "gophers|Star Tribune": "ok 10",
-  "twins|Star Tribune": "ok 10",
-  "vikings|Star Tribune": "ok 10",
-  "wild|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15",
   "timberwolves|The Athletic": "ok 15"
  },
  "items": [
   {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
-   "url": "https://www.startribune.com/president-donald-trump-says-he-has-ordered-the-army-not-to-detonate-bomb-making-chemicals-in-iowa-without-court-approval/601927537",
-   "ts": "2026-11-23T20:10:09.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
-   "url": "https://www.startribune.com/president-donald-trump-says-he-has-ordered-the-army-not-to-detonate-bomb-making-chemicals-in-iowa-without-court-approval/601927537",
-   "ts": "2026-11-23T20:10:09.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
-   "url": "https://www.startribune.com/president-donald-trump-says-he-has-ordered-the-army-not-to-detonate-bomb-making-chemicals-in-iowa-without-court-approval/601927537",
-   "ts": "2026-11-23T20:10:09.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
-   "url": "https://www.startribune.com/president-donald-trump-says-he-has-ordered-the-army-not-to-detonate-bomb-making-chemicals-in-iowa-without-court-approval/601927537",
-   "ts": "2026-11-23T20:10:09.000Z"
-  },
-  {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
-   "url": "https://www.startribune.com/president-donald-trump-says-he-has-ordered-the-army-not-to-detonate-bomb-making-chemicals-in-iowa-without-court-approval/601927537",
-   "ts": "2026-11-23T20:10:09.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
-   "url": "https://www.startribune.com/president-donald-trump-says-he-has-ordered-the-army-not-to-detonate-bomb-making-chemicals-in-iowa-without-court-approval/601927537",
-   "ts": "2026-11-23T20:10:09.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
-   "url": "https://www.startribune.com/president-donald-trump-says-he-has-ordered-the-army-not-to-detonate-bomb-making-chemicals-in-iowa-without-court-approval/601927537",
-   "ts": "2026-11-23T20:10:09.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T20:10:05.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T20:10:05.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T20:10:05.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T20:10:05.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T20:10:05.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T20:10:05.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-   "url": "https://www.startribune.com/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says-its-in-the-best-interest-of-the-company/601927344",
-   "ts": "2026-11-23T20:10:05.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "From sushi and nightlife to omakase coffee: Billy Sushi’s next move",
-   "url": "https://www.startribune.com/billy-sushi-tserenbat-coffee-matcha-tea-omakase-cafe-north-loop-minneapolis/601927334",
-   "ts": "2026-11-23T18:56:46.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "From sushi and nightlife to omakase coffee: Billy Sushi’s next move",
-   "url": "https://www.startribune.com/billy-sushi-tserenbat-coffee-matcha-tea-omakase-cafe-north-loop-minneapolis/601927334",
-   "ts": "2026-11-23T18:56:46.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "From sushi and nightlife to omakase coffee: Billy Sushi’s next move",
-   "url": "https://www.startribune.com/billy-sushi-tserenbat-coffee-matcha-tea-omakase-cafe-north-loop-minneapolis/601927334",
-   "ts": "2026-11-23T18:56:46.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "From sushi and nightlife to omakase coffee: Billy Sushi’s next move",
-   "url": "https://www.startribune.com/billy-sushi-tserenbat-coffee-matcha-tea-omakase-cafe-north-loop-minneapolis/601927334",
-   "ts": "2026-11-23T18:56:46.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "From sushi and nightlife to omakase coffee: Billy Sushi’s next move",
-   "url": "https://www.startribune.com/billy-sushi-tserenbat-coffee-matcha-tea-omakase-cafe-north-loop-minneapolis/601927334",
-   "ts": "2026-11-23T18:56:46.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "From sushi and nightlife to omakase coffee: Billy Sushi’s next move",
-   "url": "https://www.startribune.com/billy-sushi-tserenbat-coffee-matcha-tea-omakase-cafe-north-loop-minneapolis/601927334",
-   "ts": "2026-11-23T18:56:46.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "From sushi and nightlife to omakase coffee: Billy Sushi’s next move",
-   "url": "https://www.startribune.com/billy-sushi-tserenbat-coffee-matcha-tea-omakase-cafe-north-loop-minneapolis/601927334",
-   "ts": "2026-11-23T18:56:46.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Opinion | Who should Klobuchar pick to fill her Senate seat?",
-   "url": "https://www.startribune.com/minnesota-governor-elect-vacant-us-senate-seat-appointment-successor/601927437",
-   "ts": "2026-11-23T18:31:31.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Opinion | Who should Klobuchar pick to fill her Senate seat?",
-   "url": "https://www.startribune.com/minnesota-governor-elect-vacant-us-senate-seat-appointment-successor/601927437",
-   "ts": "2026-11-23T18:31:31.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Opinion | Who should Klobuchar pick to fill her Senate seat?",
-   "url": "https://www.startribune.com/minnesota-governor-elect-vacant-us-senate-seat-appointment-successor/601927437",
-   "ts": "2026-11-23T18:31:31.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Opinion | Who should Klobuchar pick to fill her Senate seat?",
-   "url": "https://www.startribune.com/minnesota-governor-elect-vacant-us-senate-seat-appointment-successor/601927437",
-   "ts": "2026-11-23T18:31:31.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Opinion | Who should Klobuchar pick to fill her Senate seat?",
-   "url": "https://www.startribune.com/minnesota-governor-elect-vacant-us-senate-seat-appointment-successor/601927437",
-   "ts": "2026-11-23T18:31:31.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Opinion | Who should Klobuchar pick to fill her Senate seat?",
-   "url": "https://www.startribune.com/minnesota-governor-elect-vacant-us-senate-seat-appointment-successor/601927437",
-   "ts": "2026-11-23T18:31:31.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Opinion | Who should Klobuchar pick to fill her Senate seat?",
-   "url": "https://www.startribune.com/minnesota-governor-elect-vacant-us-senate-seat-appointment-successor/601927437",
-   "ts": "2026-11-23T18:31:31.000Z"
+   "src": "The Daily Gopher",
+   "title": "The Monday Perspective is thankful",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41856/the-monday-perspective-is-thankful",
+   "ts": "2026-11-23T20:42:39.000Z"
   },
   {
    "team": "twins",
@@ -225,53 +30,11 @@
    "ts": "2026-11-23T18:06:01.000Z"
   },
   {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Boys hockey: Here’s who’s returning for the high school season — and who’s not.",
-   "url": "https://www.startribune.com/minnesota-boys-hockey-players-choose-high-school-season-junior-hockey/601868455",
-   "ts": "2026-11-23T17:46:04.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Boys hockey: Here’s who’s returning for the high school season — and who’s not.",
-   "url": "https://www.startribune.com/minnesota-boys-hockey-players-choose-high-school-season-junior-hockey/601868455",
-   "ts": "2026-11-23T17:46:04.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Boys hockey: Here’s who’s returning for the high school season — and who’s not.",
-   "url": "https://www.startribune.com/minnesota-boys-hockey-players-choose-high-school-season-junior-hockey/601868455",
-   "ts": "2026-11-23T17:46:04.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Boys hockey: Here’s who’s returning for the high school season — and who’s not.",
-   "url": "https://www.startribune.com/minnesota-boys-hockey-players-choose-high-school-season-junior-hockey/601868455",
-   "ts": "2026-11-23T17:46:04.000Z"
-  },
-  {
    "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Boys hockey: Here’s who’s returning for the high school season — and who’s not.",
-   "url": "https://www.startribune.com/minnesota-boys-hockey-players-choose-high-school-season-junior-hockey/601868455",
-   "ts": "2026-11-23T17:46:04.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Boys hockey: Here’s who’s returning for the high school season — and who’s not.",
-   "url": "https://www.startribune.com/minnesota-boys-hockey-players-choose-high-school-season-junior-hockey/601868455",
-   "ts": "2026-11-23T17:46:04.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Boys hockey: Here’s who’s returning for the high school season — and who’s not.",
-   "url": "https://www.startribune.com/minnesota-boys-hockey-players-choose-high-school-season-junior-hockey/601868455",
-   "ts": "2026-11-23T17:46:04.000Z"
+   "src": "The Daily Gopher",
+   "title": "Minnesota Football: Bowl projections after Week 12",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41858/minnesota-football-bowl-projections-after-week-12",
+   "ts": "2026-11-23T17:33:52.000Z"
   },
   {
    "team": "timberwolves",
@@ -286,55 +49,6 @@
    "title": "Alan Roden: An Ideal Trade Chip for a Twins Team That Still Has Needs",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/alan-roden-an-ideal-trade-chip-for-a-twins-team-that-still-has-needs-r21506/",
    "ts": "2026-11-23T16:07:49.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T15:47:43.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T15:47:43.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T15:47:43.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T15:47:43.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T15:47:43.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T15:47:43.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Some residents of a Twin Cities suburb would like to be left in the dark",
-   "url": "https://www.startribune.com/roseville-minnesota-new-streetlights-opt-out/601918826",
-   "ts": "2026-11-23T15:47:43.000Z"
   },
   {
    "team": "wild",
@@ -365,104 +79,6 @@
    "ts": "2026-11-23T12:10:12.000Z"
   },
   {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Inside a tiny Minnesota town’s annual lutefisk eating competition",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Inside a tiny Minnesota town’s annual lutefisk eating competition",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Inside a tiny Minnesota town’s annual lutefisk eating competition",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Inside a tiny Minnesota town’s annual lutefisk eating competition",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Inside a tiny Minnesota town’s annual lutefisk eating competition",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Inside a tiny Minnesota town’s annual lutefisk eating competition",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "U closes cultural dorm communities amid federal scrutiny of race-based programs",
-   "url": "https://www.startribune.com/university-of-minnesota-closes-living-learning-communities/601915908",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Inside a tiny Minnesota town’s annual lutefisk eating competition",
-   "url": "https://www.startribune.com/eleven-pounds-and-two-faces-full-of-lutefisk-chunks-later-a-champ-was-crowned/601911511",
-   "ts": "2026-11-23T12:00:00.000Z"
-  },
-  {
    "team": "wild",
    "src": "The Athletic",
    "title": "NHL mailbag: Maple Leafs’ draft-pick dilemma, Connor Bedard’s injury and Quinn Hughes’ future",
@@ -478,108 +94,17 @@
   },
   {
    "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees taking paid leave this year",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees taking paid leave this year",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees taking paid leave this year",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees taking paid leave this year",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees taking paid leave this year",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees taking paid leave this year",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Nearly a quarter of Minneapolis city employees taking paid leave this year",
-   "url": "https://www.startribune.com/minneapolis-city-workers-paid-leave/601906777",
-   "ts": "2026-11-23T11:00:00.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "lynx",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "united",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "vikings",
-   "src": "Star Tribune",
-   "title": "Vikings had a chance to make a statement in Mexico City. Instead, they flopped.",
-   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-brock-purdy-mexico-city-nfl-snf/601920100",
-   "ts": "2026-11-23T08:01:07.000Z"
-  },
-  {
-   "team": "timberwolves",
    "src": "The Athletic",
    "title": "LaMelo Ball makes Timberwolves staffers feel seen. It starts with remembering their names",
    "url": "https://www.nytimes.com/athletic/7798817/2026/11/23/lamelo-ball-names-timberwolves/",
    "ts": "2026-11-23T07:00:46.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Gophers beat the Utes 77-62 in Charleston",
+   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41801/gophers-beat-the-utes-77-62-in-charleston",
+   "ts": "2026-11-23T00:56:59.000Z"
   },
   {
    "team": "twins",
@@ -587,6 +112,20 @@
    "title": "What Went Wrong With Royce Lewis and the Twins?",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/what-went-wrong-with-royce-lewis-and-the-twins-r21496/",
    "ts": "2026-11-22T23:16:16.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "OPEN THREAD: Gophers and Utah Utes in the Shriners Children’s Charleston Classic",
+   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41842/open-thread-gophers-and-utah-utes-in-the-shriners-childrens-charleston-classic",
+   "ts": "2026-11-22T22:45:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "3 Keys to beating Utah and how to watch the Charleston Classic",
+   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41744/3-keys-to-beating-utah-and-how-to-watch-the-charleston-classic",
+   "ts": "2026-11-22T20:28:38.000Z"
   },
   {
    "team": "twins",
@@ -608,6 +147,13 @@
    "title": "Jaden McDaniels has become Mr. Reliable for Chris Finch and the Timberwolves",
    "url": "https://www.nytimes.com/athletic/7802002/2026/11/22/jaden-mcdaniels-timberwolves-reliable/",
    "ts": "2026-11-22T15:52:29.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Minnesota Football vs. Northwestern: The Elite, The Meh & The Ugly",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41808/minnesota-football-vs-northwestern-the-elite-the-meh-the-ugly",
+   "ts": "2026-11-22T15:15:00.000Z"
   },
   {
    "team": "wild",
@@ -652,11 +198,32 @@
    "ts": "2026-11-22T08:00:21.000Z"
   },
   {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Gophers Ready for Inaugural Big Ten Tournament",
+   "url": "https://www.thedailygopher.com/womens-volleyball/41821/minnesota-gophers-inaugural-big-ten-volleyball-tournament",
+   "ts": "2026-11-21T22:04:11.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Gophers beat Northwestern 20-17 on walkoff field goal",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41816/gophers-beat-northwestern-20-17-on-walkoff-field-goal",
+   "ts": "2026-11-21T20:47:03.000Z"
+  },
+  {
    "team": "wild",
    "src": "The Athletic",
    "title": "Quinn Hughes out for rest of Wild road trip with undisclosed injury",
    "url": "https://www.nytimes.com/athletic/7800922/2026/11/21/quinn-hughes-injury-wild-road-trip/",
    "ts": "2026-11-21T19:41:40.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "OPEN THREAD: Gophers and Northwestern on Senior Day",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41809/open-thread-gophers-and-northwestern-on-senior-day",
+   "ts": "2026-11-21T16:40:59.000Z"
   },
   {
    "team": "twins",
@@ -734,6 +301,13 @@
    "title": "BREAKING: Minnesota Twins Trade Royce Lewis to the Los Angeles Dodgers",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/breaking-minnesota-twins-trade-royce-lewis-to-the-los-angeles-dodgers-r21493/",
    "ts": "2026-11-20T22:29:00.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Minnesota pulls away from Oklahoma State to win 85-70 in Charleston",
+   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41736/minnesota-pulls-away-from-oklahoma-state-to-win-85-70-in-charleston",
+   "ts": "2026-11-20T20:43:55.000Z"
   },
   {
    "team": "twins",
