@@ -1,20 +1,41 @@
 {
- "updated": "2026-11-24T11:50:30.285Z",
+ "updated": "2026-11-24T13:00:05.122Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
-  "twins|Twins Daily": "ok 12",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "twins|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15"
+  "united|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
+  "twins|Twins Daily": "ok 12"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "The Twins and the Death of Pitch to Contact",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-twins-and-the-death-of-pitch-to-contact-r21501/",
+   "ts": "2026-11-24T12:35:01.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Julius Randle returns to Minnesota to find a new Timberwolves team on fire",
+   "url": "https://www.nytimes.com/athletic/7808382/2026/11/24/julius-randle-minnesota-timberwolves-return-nets/",
+   "ts": "2026-11-24T12:00:46.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Minnesota Wild mailbag: What’s Plan B after Dylan Larkin, and what if Quinn Hughes leaves?",
+   "url": "https://www.nytimes.com/athletic/7806468/2026/11/24/minnesota-wild-news-updates/",
+   "ts": "2026-11-24T11:57:22.000Z"
+  },
   {
    "team": "wild",
    "src": "The Athletic",
@@ -325,13 +346,6 @@
   },
   {
    "team": "twins",
-   "src": "Twins Daily",
-   "title": "Non-Tender Deadline: Lewis, Ober, Larnach and Wallner Move On from Twins",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/non-tender-deadline-lewis-ober-larnach-and-wallner-move-on-from-twins-r21494/",
-   "ts": "2026-11-20T23:13:00.000Z"
-  },
-  {
-   "team": "twins",
    "src": "The Athletic",
    "title": "Dodgers trade Bobby Miller, prospect for Twins’ Royce Lewis",
    "url": "https://www.nytimes.com/athletic/7799003/2026/11/20/dodgers-twins-trade-royce-lewis/",
@@ -371,13 +385,6 @@
    "title": "Filip Gustavsson's road back to Wild after hip surgery — and why he didn't have it sooner",
    "url": "https://www.nytimes.com/athletic/7796613/2026/11/20/filip-gustavsson-wild-hip-surgery-injury-return/",
    "ts": "2026-11-20T12:13:45.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Wild lose Quinn Hughes, but finally beat Flames in their Saddledome finale",
-   "url": "https://www.nytimes.com/athletic/7796933/2026/11/20/wild-flames-hughes-injury-saddledome-kaprizov/",
-   "ts": "2026-11-20T05:15:49.000Z"
   },
   {
    "team": "timberwolves",
@@ -462,13 +469,6 @@
    "title": "Even with 'top-end talent' in hand, Twins could target starting rotation in free agency",
    "url": "https://www.nytimes.com/athletic/7780631/2026/11/14/twins-starting-pitchers-bullpen-offseason-free-agency/",
    "ts": "2026-11-14T12:00:38.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "The Athletic",
-   "title": "Bones Hyland’s summer grind paying off big for Timberwolves",
-   "url": "https://www.nytimes.com/athletic/7778297/2026/11/13/bones-hylands-minnesota-timberwolves-dallas-mavericks/",
-   "ts": "2026-11-13T11:00:39.000Z"
   },
   {
    "team": "twins",
