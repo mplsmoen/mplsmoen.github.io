@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-24T02:10:17.652Z",
+ "updated": "2026-11-24T03:22:31.115Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "vikings|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "twins|The Athletic": "ok 15",
-  "timberwolves|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15",
+  "united|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "The Twins, bolstered by Sonny Gray's return, aren't done yet. Here are 3 names to watch",
+   "url": "https://www.nytimes.com/athletic/7807735/2026/11/23/twins-sonny-gray-free-agent-names/",
+   "ts": "2026-11-24T02:11:20.000Z"
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -476,13 +483,6 @@
    "title": "With offseason underway, Twins ready to ‘exhaust our energy’ to improve roster",
    "url": "https://www.nytimes.com/athletic/7757223/2026/11/05/minnesota-twins-offseason-plans/",
    "ts": "2026-11-05T23:41:35.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "The Athletic",
-   "title": "Biggest offseason needs for all 30 MLB teams for the 2026-27 offseason",
-   "url": "https://www.nytimes.com/athletic/7742903/2026/11/03/mlb-offseason-biggest-team-needs-2026-2027/",
-   "ts": "2026-11-03T10:30:11.000Z"
   }
  ]
 }
