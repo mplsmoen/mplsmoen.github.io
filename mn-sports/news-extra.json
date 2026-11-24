@@ -1,20 +1,34 @@
 {
- "updated": "2026-11-24T10:55:17.054Z",
+ "updated": "2026-11-24T11:50:30.285Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
   "timberwolves|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
   "twins|Twins Daily": "ok 12",
-  "timberwolves|The Athletic": "ok 15"
+  "twins|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "NHL trade board 4.0: Where the market stands after the Dylan Larkin blockbuster",
+   "url": "https://www.nytimes.com/athletic/7806369/2026/11/24/nhl-trade-board-dylan-larkin-trade/",
+   "ts": "2026-11-24T11:04:12.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Filip Gustavsson solid in long-awaited return: Takeaways from Wild's win over Sharks",
+   "url": "https://www.nytimes.com/athletic/7808329/2026/11/24/filip-gustavsson-wild-sharks-takeaways/",
+   "ts": "2026-11-24T11:00:41.000Z"
+  },
   {
    "team": "timberwolves",
    "src": "The Athletic",
@@ -373,13 +387,6 @@
    "ts": "2026-11-20T05:01:51.000Z"
   },
   {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Wild's Quinn Hughes leaves game after hit from Adam Klapka: 'We hope he’s good'",
-   "url": "https://www.nytimes.com/athletic/7796855/2026/11/19/quinn-hughes-wild-injury-adam-klapka/",
-   "ts": "2026-11-20T04:25:26.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Grizzlies or Wolves likely to move to Eastern Conference after NBA expansion: Sources",
@@ -399,13 +406,6 @@
    "title": "Anthony Edwards says injured knee reacted differently once season started, no set return date",
    "url": "https://www.nytimes.com/athletic/7795304/2026/11/19/anthony-edwards-injury-update-knee-minnesota-timberwolves/",
    "ts": "2026-11-19T19:13:54.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Ask Russo and Smith: Submit your questions for The Athletic’s Minnesota Wild mailbag",
-   "url": "https://www.nytimes.com/athletic/7795366/2026/11/19/minnesota-wild-mailbag-november-2026/",
-   "ts": "2026-11-19T17:55:12.000Z"
   },
   {
    "team": "twins",
