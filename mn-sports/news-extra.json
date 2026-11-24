@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-24T19:56:03.034Z",
+ "updated": "2026-11-24T20:48:03.955Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "twins|Twins Daily": "ok 12",
   "wild|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
+  "twins|Twins Daily": "ok 12",
   "twins|The Athletic": "ok 15",
-  "timberwolves|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
   {
@@ -60,16 +60,9 @@
   {
    "team": "wild",
    "src": "The Athletic",
-   "title": "Minnesota Wild mailbag: What’s Plan B after Dylan Larkin, and what if Quinn Hughes leaves?",
+   "title": "Minnesota Wild mailbag, part 1: What's Plan B after Dylan Larkin, and what if Quinn Hughes leaves?",
    "url": "https://www.nytimes.com/athletic/7806468/2026/11/24/minnesota-wild-news-updates/",
    "ts": "2026-11-24T11:57:22.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "NHL trade board 4.0: Where the market stands after the Dylan Larkin blockbuster",
-   "url": "https://www.nytimes.com/athletic/7806369/2026/11/24/nhl-trade-board-dylan-larkin-trade/",
-   "ts": "2026-11-24T11:04:12.000Z"
   },
   {
    "team": "wild",
@@ -392,6 +385,13 @@
    "title": "Filip Gustavsson's road back to Wild after hip surgery — and why he didn't have it sooner",
    "url": "https://www.nytimes.com/athletic/7796613/2026/11/20/filip-gustavsson-wild-hip-surgery-injury-return/",
    "ts": "2026-11-20T12:13:45.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Wild lose Quinn Hughes, but finally beat Flames in their Saddledome finale",
+   "url": "https://www.nytimes.com/athletic/7796933/2026/11/20/wild-flames-hughes-injury-saddledome-kaprizov/",
+   "ts": "2026-11-20T05:15:49.000Z"
   },
   {
    "team": "timberwolves",
