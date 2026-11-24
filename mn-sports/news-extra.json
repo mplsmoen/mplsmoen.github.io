@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-24T18:50:06.008Z",
+ "updated": "2026-11-24T19:56:03.034Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
-  "twins|Twins Daily": "ok 12",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
+  "twins|Twins Daily": "ok 12",
+  "wild|Pioneer Press": "error: HTTP 403",
   "twins|The Athletic": "ok 15",
-  "timberwolves|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15"
  },
  "items": [
   {
@@ -35,6 +35,13 @@
    "title": "Donte DiVincenzo eyes January return from torn Achilles after being cleared to practice: Sources",
    "url": "https://www.nytimes.com/athletic/7808965/2026/11/24/donte-divincenzo-injury-timberwolves-achilles-practice/",
    "ts": "2026-11-24T17:01:27.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Minnesota Football: RoWINg to Wisconsin – Opponent Preview",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41836/minnesota-football-rowing-to-wisconsin-opponent-preview",
+   "ts": "2026-11-24T14:45:00.000Z"
   },
   {
    "team": "twins",
@@ -301,13 +308,6 @@
    "title": "Quinn Hughes out for rest of Wild road trip with undisclosed injury",
    "url": "https://www.nytimes.com/athletic/7800922/2026/11/21/quinn-hughes-injury-wild-road-trip/",
    "ts": "2026-11-21T19:41:40.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "OPEN THREAD: Gophers and Northwestern on Senior Day",
-   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41809/open-thread-gophers-and-northwestern-on-senior-day",
-   "ts": "2026-11-21T16:40:59.000Z"
   },
   {
    "team": "wild",
