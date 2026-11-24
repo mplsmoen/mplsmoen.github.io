@@ -1,20 +1,34 @@
 {
- "updated": "2026-11-24T16:57:09.998Z",
+ "updated": "2026-11-24T17:50:40.403Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "twins|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
+  "twins|The Athletic": "ok 15",
   "twins|Twins Daily": "ok 12",
+  "wild|The Athletic": "ok 15",
   "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Why Twins Should Check in on Brewers Trade Candidate Joey Ortiz",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/why-twins-should-check-in-on-brewers-trade-candidate-joey-ortiz-r21503/",
+   "ts": "2026-11-24T17:15:00.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Donte DiVincenzo eyes January return from torn Achilles after being cleared to practice: Sources",
+   "url": "https://www.nytimes.com/athletic/7808965/2026/11/24/donte-divincenzo-injury-timberwolves-achilles-practice/",
+   "ts": "2026-11-24T17:01:27.000Z"
+  },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
@@ -296,13 +310,6 @@
    "ts": "2026-11-21T15:03:01.000Z"
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Sonny Gray's Return: What&#x2019;s Old Is New&#x2026; Or At Least Not the Same",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/sonny-grays-return-whats-old-is-new%E2%80%A6-or-at-least-not-the-same-r21487/",
-   "ts": "2026-11-21T12:38:02.000Z"
-  },
-  {
    "team": "wild",
    "src": "The Athletic",
    "title": "Jesper Wallstedt has become Wild's MVP, thriving with heavy workload: 'Looks like Carey Price'",
@@ -455,13 +462,6 @@
    "title": "Chris Finch isn't just Micah Nori's old boss. These NBA coaches have 'become family'",
    "url": "https://www.nytimes.com/athletic/7785049/2026/11/16/micah-nori-chris-finch-friendship-blazers-timberwolves-nba-coaches/",
    "ts": "2026-11-16T10:17:12.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "The Athletic",
-   "title": "LaMelo Ball says loss to Bulls can reset Timberwolves: 'We got our heads busted in'",
-   "url": "https://www.nytimes.com/athletic/7782731/2026/11/15/lamelo-ball-timerberwolves-bulls-score-analysis/",
-   "ts": "2026-11-15T11:01:51.000Z"
   },
   {
    "team": "twins",
