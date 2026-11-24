@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-24T09:58:56.692Z",
+ "updated": "2026-11-24T10:55:17.054Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|Twins Daily": "ok 12",
-  "timberwolves|The Athletic": "ok 15",
+  "united|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "twins|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15"
+  "twins|Twins Daily": "ok 12",
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "The NBA's pleasant surprises: 2 Grizzlies, future Hall of Famers and defensive pests",
+   "url": "https://www.nytimes.com/athletic/7806186/2026/11/24/nba-surprises-stephen-curry-paul-george-jrue-holiday/",
+   "ts": "2026-11-24T10:21:59.000Z"
+  },
   {
    "team": "twins",
    "src": "The Athletic",
@@ -462,13 +469,6 @@
    "title": "Bones Hyland’s summer grind paying off big for Timberwolves",
    "url": "https://www.nytimes.com/athletic/7778297/2026/11/13/bones-hylands-minnesota-timberwolves-dallas-mavericks/",
    "ts": "2026-11-13T11:00:39.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "The Athletic",
-   "title": "Every NBA team’s biggest surprise so far in the 2026-27 season",
-   "url": "https://www.nytimes.com/athletic/7776021/2026/11/13/nba-early-surprises-yaxel-lendeborg-cooper-flagg/",
-   "ts": "2026-11-13T10:07:57.000Z"
   },
   {
    "team": "twins",
