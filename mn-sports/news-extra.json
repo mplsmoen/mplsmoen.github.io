@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-24T13:00:05.122Z",
+ "updated": "2026-11-24T14:22:38.610Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "vikings|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
-  "united|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
   "timberwolves|The Athletic": "ok 15",
-  "twins|Twins Daily": "ok 12"
+  "twins|Twins Daily": "ok 12",
+  "twins|The Athletic": "ok 15"
  },
  "items": [
   {
@@ -49,6 +49,13 @@
    "title": "Filip Gustavsson solid in long-awaited return: Takeaways from Wild's win over Sharks",
    "url": "https://www.nytimes.com/athletic/7808329/2026/11/24/filip-gustavsson-wild-sharks-takeaways/",
    "ts": "2026-11-24T11:00:41.000Z"
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Minnesota Wild live news: Michael Russo and Joe Smith bring you all the latest updates",
+   "url": "https://www.nytimes.com/athletic/7687434/2026/11/24/minnesota-wild-news-schedule/",
+   "ts": "2026-11-24T10:25:03.000Z"
   },
   {
    "team": "timberwolves",
@@ -245,13 +252,6 @@
    "title": "Dodgers, Twins deal former top prospects: Who gains from the change of scenery?",
    "url": "https://www.nytimes.com/athletic/7801427/2026/11/22/dodgers-twins-trade-royce-lewis-bobby-miller/",
    "ts": "2026-11-22T11:00:35.000Z"
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Minnesota Wild live news: Michael Russo and Joe Smith bring you all the latest updates",
-   "url": "https://www.nytimes.com/athletic/7687434/2026/11/22/minnesota-wild-news-schedule/",
-   "ts": "2026-11-22T10:25:03.000Z"
   },
   {
    "team": "timberwolves",
