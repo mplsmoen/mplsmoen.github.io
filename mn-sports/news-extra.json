@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-24T21:49:50.755Z",
+ "updated": "2026-11-24T22:50:15.573Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
   "twins|Twins Daily": "ok 12",
-  "timberwolves|The Athletic": "ok 15"
+  "wild|The Athletic": "ok 15",
+  "twins|The Athletic": "ok 15"
  },
  "items": [
   {
@@ -60,7 +60,7 @@
   {
    "team": "wild",
    "src": "The Athletic",
-   "title": "Minnesota Wild mailbag, part 1: What's Plan B after Dylan Larkin, and what if Quinn Hughes leaves?",
+   "title": "Minnesota Wild mailbag, Part 1: What's Plan B after Dylan Larkin, and what if Quinn Hughes leaves?",
    "url": "https://www.nytimes.com/athletic/7806468/2026/11/24/minnesota-wild-news-updates/",
    "ts": "2026-11-24T11:57:22.000Z"
   },
