@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-25T18:43:39.606Z",
+ "updated": "2026-11-25T19:49:43.794Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
+  "wild|The Athletic": "ok 15",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|Twins Daily": "ok 12",
-  "gophers|Pioneer Press": "error: HTTP 403",
   "timberwolves|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15"
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|Twins Daily": "ok 12"
  },
  "items": [
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "3 Keys to beating Wisconsin and how to watch",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41741/3-keys-to-beating-wisconsin-and-how-to-watch",
+   "ts": "2026-11-25T18:53:25.000Z"
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -287,13 +294,6 @@
    "title": "Jaden McDaniels has become Mr. Reliable for Chris Finch and the Timberwolves",
    "url": "https://www.nytimes.com/athletic/7802002/2026/11/22/jaden-mcdaniels-timberwolves-reliable/",
    "ts": "2026-11-22T15:52:29.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "Minnesota Football vs. Northwestern: The Elite, The Meh & The Ugly",
-   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41808/minnesota-football-vs-northwestern-the-elite-the-meh-the-ugly",
-   "ts": "2026-11-22T15:15:00.000Z"
   },
   {
    "team": "wild",
