@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-25T19:49:43.794Z",
+ "updated": "2026-11-25T20:47:29.756Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "wild|The Athletic": "ok 15",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
-  "twins|The Athletic": "ok 15",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15",
   "united|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|Twins Daily": "ok 12"
+  "twins|Twins Daily": "ok 12",
+  "wild|The Athletic": "ok 15",
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
   {
@@ -20,469 +20,536 @@
    "src": "The Daily Gopher",
    "title": "3 Keys to beating Wisconsin and how to watch",
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41741/3-keys-to-beating-wisconsin-and-how-to-watch",
-   "ts": "2026-11-25T18:53:25.000Z"
+   "ts": "2026-11-25T18:53:25.000Z",
+   "desc": "A Black Friday evening matchup in primetime for the 136th matchup between the Gophers and Badgers. A monumental game for both programs trying to finish the season strong. How to WatchTV: NBCTime: 6:30Stream: Peacock PJ Fleck and the Gophers have won four of the last five matchups with Wisconsin. Can Fleck maintain his dominance over […]"
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "Could a Native Minnesotan Bolster the Twins Bullpen?",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/could-a-native-minnesotan-bolster-the-twins-bullpen-r21509/",
-   "ts": "2026-11-25T17:15:00.000Z"
+   "ts": "2026-11-25T17:15:00.000Z",
+   "desc": "Among all potential additions to the 2027 bullpen, left-hander A.J. Puk stands out as a buy-low candidate for the Twins. There are big questions about his health, which could lead him to sign after the lockout, rather than this week&#x2014;but whenever he finds his next home, Minnesota should be in the..."
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "What a Difference 12 Months Makes for the Twins",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/what-a-difference-12-months-makes-for-the-twins-r21508/",
-   "ts": "2026-11-25T15:29:02.000Z"
+   "ts": "2026-11-25T15:29:02.000Z",
+   "desc": "A lot can change in 12 months, especially in baseball. For the Minnesota Twins, the difference between last November and this November is significant. At this point last year, the organization was dealing with uncertainty at nearly every level. Ownership questions lingered, the front office didn..."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Heat-76ers, Thunder-Timberwolves highlight penultimate night of NBA Cup group play",
    "url": "https://www.nytimes.com/athletic/7811649/2026/11/25/nba-cup-standings-heat-76ers-thunder-wolves/",
-   "ts": "2026-11-25T14:35:45.000Z"
+   "ts": "2026-11-25T14:35:45.000Z",
+   "desc": "The defending champion Knicks also still have one life raft for a wild-card spot that they can cling to."
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "2026 Minnesota Golden Gophers in the NFL: Week 11",
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41867/2026-minnesota-golden-gophers-in-the-nfl-week-11",
-   "ts": "2026-11-25T14:00:00.000Z"
+   "ts": "2026-11-25T14:00:00.000Z",
+   "desc": "Week 11 saw the return of some offensive production from the former Gophers as both Rashod Bateman and Brevyn Span-Ford scored touchdowns this week. Add in a three sack game from Boye Mafe and this was one of the better weeks for Gophers in the NFL this season. Atlanta Falcons Week 12 @ Minnesota Vikings […]"
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "Big Ten Football Power Poll: Week Twelve",
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41868/big-ten-football-power-poll-week-twelve",
-   "ts": "2026-11-25T13:00:00.000Z"
+   "ts": "2026-11-25T13:00:00.000Z",
+   "desc": "Welp. The cream went bad. The Big Ten has successfully eaten itself alive. Are there any actual good teams? Are there any actual bad teams? (Unfortunately the answer to that is yes, and Minnesota lost to at least one and maybe two of them…) There seem to be about 15 teams that on any given […]"
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "Why a Connor Prielipp-for-Casey Schmitt Challenge Trade Could Work for Twins, Giants",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/why-a-connor-prielipp-for-casey-schmitt-challenge-trade-could-work-for-twins-giants-r21511/",
-   "ts": "2026-11-25T12:37:00.000Z"
+   "ts": "2026-11-25T12:37:00.000Z",
+   "desc": "In an article published&#xA0;Monday night,&#xA0;The Athletic&#x2019;s Dan Hayes noted that the Twins front office&#x2019;s primary focus is rounding out its position-player group by adding a first or second baseman via free agency, specifically mentioning free agents Ty France, Brandon Lowe, and Mauricio Dub&#xF3;n. All thr..."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Royce Lewis wrestles with emotions after trade to Dodgers: 'A bittersweet goodbye'",
    "url": "https://www.nytimes.com/athletic/7810577/2026/11/25/royce-lewis-emotions-trade-twins-dodgers/",
-   "ts": "2026-11-25T12:00:24.000Z"
+   "ts": "2026-11-25T12:00:24.000Z",
+   "desc": "The Southern California native is excited to head home, while recognizing his connection to the Twins, who picked him No. 1 in 2017."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Minnesota Wild mailbag, Part 2: Jesper Wallstedt’s next contract, and should Yakov Trenin sit?",
    "url": "https://www.nytimes.com/athletic/7809380/2026/11/25/minnesota-wild-news-updates-jesper-wallstedt/",
-   "ts": "2026-11-25T12:00:01.000Z"
+   "ts": "2026-11-25T12:00:01.000Z",
+   "desc": "Also: What could Joel Eriksson Ek's next contract look like? How happy are the Wild with Adam Benak's start at Western Michigan?"
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "The Orioles made a choice with Freddy Peralta. Was it the right call?",
    "url": "https://www.nytimes.com/athletic/7810545/2026/11/24/orioles-freddy-peralta-trevor-rogers-mlb-free-agency/",
-   "ts": "2026-11-25T02:39:56.000Z"
+   "ts": "2026-11-25T02:39:56.000Z",
+   "desc": "Plus: What's next for Baltimore, comparing Kevin Gausman and Sonny Gray and more news and notes."
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "Bobby Miller Could Become an Elite Reliever, But He Needs to Change His Arsenal",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/bobby-miller-could-become-an-elite-reliever-but-he-needs-to-change-his-arsenal-r21505/",
-   "ts": "2026-11-24T23:03:02.000Z"
+   "ts": "2026-11-24T23:03:02.000Z",
+   "desc": "Acquired from the Los Angeles Dodgers alongside catching prospect Francisco Espinoza for infielder Royce Lewis, right-handed pitcher Bobby Miller joins the Minnesota Twins with the hope of ending the three-season tailspin the former top prospect has endured since his rookie campaign in 2023. Mil..."
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "Twins Look to Recreate 2023 Success With Familiar Blueprint",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-look-to-recreate-2023-success-with-familiar-blueprint-r21495/",
-   "ts": "2026-11-24T18:04:01.000Z"
+   "ts": "2026-11-24T18:04:01.000Z",
+   "desc": "The Minnesota Twins are hoping history repeats itself. As the organization reshapes its roster for the 2027 season, there are some familiar elements from a team that delivered one of the franchise's most memorable seasons in recent history. In 2023, the Twins built their roster around a talented..."
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "Why Twins Should Check in on Brewers Trade Candidate Joey Ortiz",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/why-twins-should-check-in-on-brewers-trade-candidate-joey-ortiz-r21503/",
-   "ts": "2026-11-24T17:15:00.000Z"
+   "ts": "2026-11-24T17:15:00.000Z",
+   "desc": "The Minnesota Twins have already addressed two significant roster holes this offseason, bringing back Sonny Gray to solidify the rotation and Ryan Jeffers to maintain continuity at catcher. However, with Royce Lewis off to Los Angeles to join the Dodgers, there is now a hole open on the roster f..."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Donte DiVincenzo eyes January return from torn Achilles after being cleared to practice: Sources",
    "url": "https://www.nytimes.com/athletic/7808965/2026/11/24/donte-divincenzo-injury-timberwolves-achilles-practice/",
-   "ts": "2026-11-24T17:01:27.000Z"
+   "ts": "2026-11-24T17:01:27.000Z",
+   "desc": "A January return for DiVincenzo would mark one of the fastest recoveries from a torn Achilles in NBA history."
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "Minnesota Football: RoWINg to Wisconsin – Opponent Preview",
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41836/minnesota-football-rowing-to-wisconsin-opponent-preview",
-   "ts": "2026-11-24T14:45:00.000Z"
+   "ts": "2026-11-24T14:45:00.000Z",
+   "desc": "The Minnesota Golden Gophers (6-5) will cross the border on Black Friday to close out the regular season against the Wisconsin Badgers (7-4) in their annual rivalry battle for Paul Bunyan’s Axe. Can they score on offense? Under second-year offensive coordinator Jeff Grimes, Wisconsin has pivoted away from the failed “Dairy Raid” offense to be […]"
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "The Twins and the Death of Pitch to Contact",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-twins-and-the-death-of-pitch-to-contact-r21501/",
-   "ts": "2026-11-24T12:35:01.000Z"
+   "ts": "2026-11-24T12:35:01.000Z",
+   "desc": "For years, Minnesota Twins pitchers were expected to follow a relatively simple formula. Throw strikes, limit walks, keep the ball on the ground, and let the defense take care of the rest. Strikeouts were nice, but they weren't necessarily the primary objective. That philosophy helped defin..."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Julius Randle returns to Minnesota to find a new Timberwolves team on fire",
    "url": "https://www.nytimes.com/athletic/7808382/2026/11/24/julius-randle-minnesota-timberwolves-return-nets/",
-   "ts": "2026-11-24T12:00:46.000Z"
+   "ts": "2026-11-24T12:00:46.000Z",
+   "desc": "When the game was over, Randle embraced many former teammates. There were no thoughts of how it ended, only smiles for the good times."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Minnesota Wild mailbag, Part 1: What's Plan B after Dylan Larkin, and what if Quinn Hughes leaves?",
    "url": "https://www.nytimes.com/athletic/7806468/2026/11/24/minnesota-wild-news-updates/",
-   "ts": "2026-11-24T11:57:22.000Z"
+   "ts": "2026-11-24T11:57:22.000Z",
+   "desc": "Would the Wild ever trade Brock Faber? Is Auston Matthews their next trade target? Those questions and more in Part 1 of our Wild mailbag."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Filip Gustavsson solid in long-awaited return: Takeaways from Wild's win over Sharks",
    "url": "https://www.nytimes.com/athletic/7808329/2026/11/24/filip-gustavsson-wild-sharks-takeaways/",
-   "ts": "2026-11-24T11:00:41.000Z"
+   "ts": "2026-11-24T11:00:41.000Z",
+   "desc": "We also have an update on Quinn Hughes, take a look at Jared Spurgeon's longevity and consider a benching."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Minnesota Wild live news: Michael Russo and Joe Smith bring you all the latest updates",
    "url": "https://www.nytimes.com/athletic/7687434/2026/11/24/minnesota-wild-news-schedule/",
-   "ts": "2026-11-24T10:25:03.000Z"
+   "ts": "2026-11-24T10:25:03.000Z",
+   "desc": "Michael Russo and Joe Smith bring you the ultimate fan spot for news, discussion and access to the Wild."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "The NBA's pleasant surprises: 2 Grizzlies, future Hall of Famers and defensive pests",
    "url": "https://www.nytimes.com/athletic/7806186/2026/11/24/nba-surprises-stephen-curry-paul-george-jrue-holiday/",
-   "ts": "2026-11-24T10:21:59.000Z"
+   "ts": "2026-11-24T10:21:59.000Z",
+   "desc": "Here are 10 players, vets and youngsters alike, who have been better than anyone could have expected in the first month of the season."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "The Twins, bolstered by Sonny Gray's return, aren't done yet. Here are 3 names to watch",
    "url": "https://www.nytimes.com/athletic/7807735/2026/11/23/twins-sonny-gray-free-agent-names/",
-   "ts": "2026-11-24T02:11:20.000Z"
+   "ts": "2026-11-24T02:11:20.000Z",
+   "desc": "Minnesota is looking to add a right-side infielder and a bullpen arm."
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "Can the Twins Fix Bobby Miller? The Numbers Say There's Reason to Believe.",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/can-the-twins-fix-bobby-miller-the-numbers-say-theres-reason-to-believe-r21507/",
-   "ts": "2026-11-23T23:03:02.000Z"
+   "ts": "2026-11-23T23:03:02.000Z",
+   "desc": "Minnesota has a knack for giving pitchers a second chance. The Twins like to take on arms with something to prove, and Bobby Miller could be their newest project. He was once a top Dodgers prospect who made hitters uneasy, but his career has had some nasty twists over the last few years. Injurie..."
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "Staff predictions for Gopher basketball",
    "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41656/staff-predictions-for-gopher-basketball",
-   "ts": "2026-11-23T22:00:00.000Z"
+   "ts": "2026-11-23T22:00:00.000Z",
+   "desc": "Gopher basketball is off to a 6-0 start and they are looking like a team that just might have a chance at making the NCAA Tournament. Now that we have had a chance to get a look at this team, it is time for a roundtable of elite basketball minds (and Blake) to predict what […]"
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "The Monday Perspective is thankful",
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41856/the-monday-perspective-is-thankful",
-   "ts": "2026-11-23T20:42:39.000Z"
+   "ts": "2026-11-23T20:42:39.000Z",
+   "desc": "It is good to express gratitude and recognize things to be thankful for. Here is my non-exhaustive list of things I am thankful for when it comes to Gopher athletics. Truthfully, I could stop after the first two and be perfectly content. Holding all three rivalry trophies! For many Gopher fans, this is the first […]"
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "How the A.J. Ewing Contract Can Be the Model for a Luke Keaschall Extension",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/how-the-aj-ewing-contract-can-be-the-model-for-a-luke-keaschall-extension-r21499/",
-   "ts": "2026-11-23T18:06:01.000Z"
+   "ts": "2026-11-23T18:06:01.000Z",
+   "desc": "The Minnesota Twins have spent the past several seasons developing one of baseball's best farm systems, and the organization could be approaching an important point in that process. Rather than waiting for players to reach arbitration or free agency, the front office has an opportunity to explor..."
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "Minnesota Football: Bowl projections after Week 12",
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41858/minnesota-football-bowl-projections-after-week-12",
-   "ts": "2026-11-23T17:33:52.000Z"
+   "ts": "2026-11-23T17:33:52.000Z",
+   "desc": "The Minnesota Golden Gophers are now bowl-eligible after notching their sixth win of the season on Saturday. Unfortunately, due to their record and the fact that 14 Big Teams are now bowl-eligible, they aren’t likely to be headed to a desirable destination. Current projections are all over the place, with no real consensus on where […]"
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "NBA Power Rankings: Karl-Anthony Towns, Knicks have much to be thankful for",
    "url": "https://www.nytimes.com/athletic/7806039/2026/11/23/nba-power-rankings-knicks-sixers-spurs-lakers/",
-   "ts": "2026-11-23T16:20:35.000Z"
+   "ts": "2026-11-23T16:20:35.000Z",
+   "desc": "With the holiday near, let’s pause and acknowledge what each team has provided a month into the season."
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "Alan Roden: An Ideal Trade Chip for a Twins Team That Still Has Needs",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/alan-roden-an-ideal-trade-chip-for-a-twins-team-that-still-has-needs-r21506/",
-   "ts": "2026-11-23T16:07:49.000Z"
+   "ts": "2026-11-23T16:07:49.000Z",
+   "desc": "As the Twins look to return to the postseason for the first time since 2023, they'll rely on a strong group of four outfielders: Byron Buxton, Luke Keaschall, Walker Jenkins, and Emmanuel Rodriguez. This athletic, young (besides Buxton) group has the chance to be one of the best outfields in the..."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Wild’s Danila Yurov can finally exhale after months of trade rumors — at least for now",
    "url": "https://www.nytimes.com/athletic/7806228/2026/11/23/wild-danila-yurov-dylan-larkin-trade-rumors/",
-   "ts": "2026-11-23T15:44:43.000Z"
+   "ts": "2026-11-23T15:44:43.000Z",
+   "desc": "He has nine goals in 25 games despite not playing on Minnesota’s No. 1 power-play unit — a 30-goal pace after scoring 12 as a rookie."
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "Consummate Modern Workhorse Sonny Gray on Pitching Differently in His Late 30s",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/consummate-modern-workhorse-sonny-gray-on-pitching-differently-in-his-late-30s-r21504/",
-   "ts": "2026-11-23T15:03:04.000Z"
+   "ts": "2026-11-23T15:03:04.000Z",
+   "desc": "Since 2000, only 11 pitchers have made at least 22 starts in 13 or more seasons. Barring something unforeseen, this year, Sonny Gray will become the 12th. It sounds like a low bar to clear for elite durability and longevity, but that's the nature of the modern game. Gray has started at least 22..."
   },
   {
    "team": "twins",
    "src": "Twins Daily",
    "title": "The Twins' Last Young Core Fizzled Out. Will This One Be Different?",
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-twins-last-young-core-fizzled-out-will-this-one-be-different-r21500/",
-   "ts": "2026-11-23T12:31:02.000Z"
+   "ts": "2026-11-23T12:31:02.000Z",
+   "desc": "The last time the Twins won the AL Central, in 2023, their lineup was fueled by contributions from three young hitters who appeared to be emerging as long-term building blocks. Royce Lewis, Matt Wallner and Edouard Julien ranked first, second and fourth on the team in wOBA, respectively. All wer..."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "The Quinn Hughes trade made the Wild a Cup contender. The Canucks’ return is still taking shape",
    "url": "https://www.nytimes.com/athletic/7801248/2026/11/23/quinn-hughes-trade-canucks-wild-anniversary/",
-   "ts": "2026-11-23T12:10:12.000Z"
+   "ts": "2026-11-23T12:10:12.000Z",
+   "desc": "The trade sent four first-round players or picks to Vancouver, but even if it's for less than two years of Hughes, it has built a contender."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "NHL mailbag: Maple Leafs’ draft-pick dilemma, Connor Bedard’s injury and Quinn Hughes’ future",
    "url": "https://www.nytimes.com/athletic/7803138/2026/11/23/maple-leafs-draft-pick-trade-cassidy-sabres/",
-   "ts": "2026-11-23T11:30:47.000Z"
+   "ts": "2026-11-23T11:30:47.000Z",
+   "desc": "Also: Could the Red Wings still trade Edvinsson after the Dec. 1 deadline? When will the Wild re-sign Hughes?"
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "NHL goalie tandem Power Rankings 1.0: Wide gulf between haves and have-nots",
    "url": "https://www.nytimes.com/athletic/7801460/2026/11/23/nhl-goalie-tandem-rankings-2026-27/",
-   "ts": "2026-11-23T11:02:40.000Z"
+   "ts": "2026-11-23T11:02:40.000Z",
+   "desc": "League-wide, the average save percentage has dropped for an 11th consecutive season to .890. Which goalies are overcoming that?"
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "LaMelo Ball makes Timberwolves staffers feel seen. It starts with remembering their names",
    "url": "https://www.nytimes.com/athletic/7798817/2026/11/23/lamelo-ball-names-timberwolves/",
-   "ts": "2026-11-23T07:00:46.000Z"
+   "ts": "2026-11-23T07:00:46.000Z",
+   "desc": "A social media video of Ball remembering the names of those around him went viral recently. But he doesn't understand the fuss."
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "Gophers beat the Utes 77-62 in Charleston",
    "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41801/gophers-beat-the-utes-77-62-in-charleston",
-   "ts": "2026-11-23T00:56:59.000Z"
+   "ts": "2026-11-23T00:56:59.000Z",
+   "desc": "Minnesota trailed 25-28 at the half but controlled the final 20 minutes to cruise to a 77-62 win over Utah in Charleston. The Gophers were led by a barrage of three-pointers and a career-high 31 points from Jaylen Crocker-Johnson. The big man was also 8/8 from three and grabbed 8 rebounds. But Bobby Durkin was […]"
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "OPEN THREAD: Gophers and Utah Utes in the Shriners Children’s Charleston Classic",
    "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41842/open-thread-gophers-and-utah-utes-in-the-shriners-childrens-charleston-classic",
-   "ts": "2026-11-22T22:45:00.000Z"
+   "ts": "2026-11-22T22:45:00.000Z",
+   "desc": "Utah if a football school."
   },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "3 Keys to beating Utah and how to watch the Charleston Classic",
    "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41744/3-keys-to-beating-utah-and-how-to-watch-the-charleston-classic",
-   "ts": "2026-11-22T20:28:38.000Z"
+   "ts": "2026-11-22T20:28:38.000Z",
+   "desc": "Charleston 5:00 ESPN2 Utah Minnesota Golden GophersRecord: 6-0KenPom Rank: 22 Utah UtesRecord: 3-2KenPom Rank: 127 The Utes lost their initial Shriners Children’s Charleston Classic game against Dayton 63-46. KEYS TO A GOPHER WIN Keep up the defense – Minnesota ranks 17th nationally in defensive efficiency; they are keeping opponents’ field goal percentage low and overall […]"
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Jaden McDaniels has become Mr. Reliable for Chris Finch and the Timberwolves",
    "url": "https://www.nytimes.com/athletic/7802002/2026/11/22/jaden-mcdaniels-timberwolves-reliable/",
-   "ts": "2026-11-22T15:52:29.000Z"
+   "ts": "2026-11-22T15:52:29.000Z",
+   "desc": "McDaniels put up 25 points, five rebounds and four assists in a 104-95 victory over the Memphis Grizzlies on Saturday night."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Marco Rossi, Zeev Buium help snap Wild's road winning streak in 4-3 shootout loss: Takeaways",
    "url": "https://www.nytimes.com/athletic/7802018/2026/11/22/wild-road-win-streak-snapped-canucks-rossi-buium/",
-   "ts": "2026-11-22T13:00:34.000Z"
+   "ts": "2026-11-22T13:00:34.000Z",
+   "desc": "Players Minnesota gave up to acquire Quinn Hughes make vital contributions to Canucks' victory."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Calvin Pickard's uncertain future looms as Filip Gustavsson returns to Wild",
    "url": "https://www.nytimes.com/athletic/7801031/2026/11/22/wild-filip-gustavsson-calvin-pickard-return/",
-   "ts": "2026-11-22T12:13:08.000Z"
+   "ts": "2026-11-22T12:13:08.000Z",
+   "desc": "Pickard will likely end up on waivers (or be traded), potentially going down to AHL Iowa if he clears."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Dodgers, Twins deal former top prospects: Who gains from the change of scenery?",
    "url": "https://www.nytimes.com/athletic/7801427/2026/11/22/dodgers-twins-trade-royce-lewis-bobby-miller/",
-   "ts": "2026-11-22T11:00:35.000Z"
+   "ts": "2026-11-22T11:00:35.000Z",
+   "desc": "Royce Lewis and Bobby Miller are too good and too young to ignore, despite the lack of consistent production from either."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Inside the viral moment between Kyrie Irving and a Palestinian teenager",
    "url": "https://www.nytimes.com/athletic/7797295/2026/11/22/kyrie-irving-palestinian-teenager-jersey/",
-   "ts": "2026-11-22T08:00:21.000Z"
+   "ts": "2026-11-22T08:00:21.000Z",
+   "desc": "Irving signed a jersey and took a photo with the brothers that has gone viral over several Palestinian and Muslim basketball accounts."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Quinn Hughes out for rest of Wild road trip with undisclosed injury",
    "url": "https://www.nytimes.com/athletic/7800922/2026/11/21/quinn-hughes-injury-wild-road-trip/",
-   "ts": "2026-11-21T19:41:40.000Z"
+   "ts": "2026-11-21T19:41:40.000Z",
+   "desc": "Hughes was hurt late in Thursday’s 4-1 win in Calgary after being hit into the boards by Flames forward Adam Klapka."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Jesper Wallstedt has become Wild's MVP, thriving with heavy workload: 'Looks like Carey Price'",
    "url": "https://www.nytimes.com/athletic/7798834/2026/11/21/jesper-wallstedt-workload-wild-mvp/",
-   "ts": "2026-11-21T12:00:55.000Z"
+   "ts": "2026-11-21T12:00:55.000Z",
+   "desc": "Wallstedt has been in the net for 16 of Minnesota’s 17 wins and leads the league in goals save above expected."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Confident in youth movement, Twins move on from valued members of their former core",
    "url": "https://www.nytimes.com/athletic/7799534/2026/11/21/twins-royce-lewis-trade-confident-future-young-core/",
-   "ts": "2026-11-21T12:00:22.000Z"
+   "ts": "2026-11-21T12:00:22.000Z",
+   "desc": "The Twins will try to return to the playoffs without Royce Lewis and others who were part of the 2023 team that snapped a miserable streak."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "NHL report cards: Grading every team at the quarter mark of the 2026-27 season",
    "url": "https://www.nytimes.com/athletic/7798842/2026/11/21/nhl-season-team-grades-quarter-mark/",
-   "ts": "2026-11-21T11:31:16.000Z"
+   "ts": "2026-11-21T11:31:16.000Z",
+   "desc": "From F to A+ to everything in between, The Athletic's NHL staff hands out grades to every team based on its season so far."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Bailey Ober, Nolan Gorman and other intriguing non-tendered players",
    "url": "https://www.nytimes.com/athletic/7799492/2026/11/20/mlb-non-tendered-players-bailey-ober-nolan-gorman/",
-   "ts": "2026-11-21T03:10:04.000Z"
+   "ts": "2026-11-21T03:10:04.000Z",
+   "desc": "These four players were non-tendered, and could be intriguing free-agent targets."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Dodgers get Royce Lewis in swap with Twins that's all about upside: MLB trade grades",
    "url": "https://www.nytimes.com/athletic/7799388/2026/11/20/dodgers-twins-royce-lewis-mlb-trade-grade/",
-   "ts": "2026-11-21T02:27:37.000Z"
+   "ts": "2026-11-21T02:27:37.000Z",
+   "desc": "Twins take a flier on Bobby Miller, whose velocity leaves the door open for a career revival in Minnesota."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "The Twins value stuff over command. Bobby Miller is the latest example of that",
    "url": "https://www.nytimes.com/athletic/7799292/2026/11/20/bobby-miller-twins-dodgers-trade-analysis/",
-   "ts": "2026-11-21T02:10:51.000Z"
+   "ts": "2026-11-21T02:10:51.000Z",
+   "desc": "Miller needs to improve his command to succeed as an MLB starter. It's a project the Twins have embarked on before."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Dodgers trade Bobby Miller, prospect for Twins’ Royce Lewis",
    "url": "https://www.nytimes.com/athletic/7799003/2026/11/20/dodgers-twins-trade-royce-lewis/",
-   "ts": "2026-11-20T22:31:10.000Z"
+   "ts": "2026-11-20T22:31:10.000Z",
+   "desc": "Lewis was two seasons away from becoming a free agent and projected by MLB Trade Rumors to earn $5.1 million next season."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Twins are not expected to offer contract to Trevor Larnach: Source",
    "url": "https://www.nytimes.com/athletic/7798491/2026/11/20/twins-nontender-trevor-larnach/",
-   "ts": "2026-11-20T18:50:31.000Z"
+   "ts": "2026-11-20T18:50:31.000Z",
+   "desc": "Larnach, a former first-round pick, slashed .269/.352/.436 in 122 games this past season."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "With Sonny Gray on board, Twins decline to bring back mainstay Bailey Ober: Source",
    "url": "https://www.nytimes.com/athletic/7798390/2026/11/20/twins-non-tender-bailey-ober/",
-   "ts": "2026-11-20T17:45:19.000Z"
+   "ts": "2026-11-20T17:45:19.000Z",
+   "desc": "Ober was the odd man out after the Twins’ spending spree."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "NHL Power Rankings: In honor of 'Grand Theft Auto VI,' let's remember some guys",
    "url": "https://www.nytimes.com/athletic/7797676/2026/11/20/nhl-power-rankings-grand-theft-auto/",
-   "ts": "2026-11-20T15:19:48.000Z"
+   "ts": "2026-11-20T15:19:48.000Z",
+   "desc": "We took a time machine back to the 2013-14 season and reminisced on a bygone era, picking our favorite guy from each team."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "The similarities between Karl-Anthony Towns and LaMelo Ball are uncanny",
    "url": "https://www.nytimes.com/athletic/7796983/2026/11/20/karl-anthony-towns-lamelo-ball-timberwolves-knicks/",
-   "ts": "2026-11-20T13:45:43.000Z"
+   "ts": "2026-11-20T13:45:43.000Z",
+   "desc": "KAT and Melo are two easy-to-dismiss stars at first glance. Look closer, and the outlines of a winning player come into stark relief."
   },
   {
    "team": "wild",
    "src": "The Athletic",
    "title": "Filip Gustavsson's road back to Wild after hip surgery — and why he didn't have it sooner",
    "url": "https://www.nytimes.com/athletic/7796613/2026/11/20/filip-gustavsson-wild-hip-surgery-injury-return/",
-   "ts": "2026-11-20T12:13:45.000Z"
+   "ts": "2026-11-20T12:13:45.000Z",
+   "desc": "Gustavsson is expected to rejoin the Wild soon, he isn’t sure if it’ll only take one rehab start to be ready to return to NHL action."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Karl-Anthony Towns extends double-double streak in 'bittersweet' return to Minnesota",
    "url": "https://www.nytimes.com/athletic/7796867/2026/11/20/karl-anthony-towns-minnesota-timberwolves-knicks-nba-return/",
-   "ts": "2026-11-20T05:01:51.000Z"
+   "ts": "2026-11-20T05:01:51.000Z",
+   "desc": "“It’s bittersweet to come back with a championship,\" Knicks center Karl-Anthony Towns said of Thursday's matchup in Minnesota."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Grizzlies or Wolves likely to move to Eastern Conference after NBA expansion: Sources",
    "url": "https://www.nytimes.com/athletic/7795746/2026/11/19/nba-expansion-realignment-grizzlies-wolves/",
-   "ts": "2026-11-20T00:07:23.000Z"
+   "ts": "2026-11-20T00:07:23.000Z",
+   "desc": "Both teams are interested in making the move, sources told The Athletic, because of reduced travel and an easier path to the finals."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Why Sonny Gray believes Twins can win now: 'Near future is very bright in Minnesota'",
    "url": "https://www.nytimes.com/athletic/7795849/2026/11/19/sonny-gray-twins-win-now-future-very-bright/",
-   "ts": "2026-11-19T21:43:15.000Z"
+   "ts": "2026-11-19T21:43:15.000Z",
+   "desc": "“There’s no way I would have come back to Minnesota if I didn’t think we could win,” Gray said."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Anthony Edwards says injured knee reacted differently once season started, no set return date",
    "url": "https://www.nytimes.com/athletic/7795304/2026/11/19/anthony-edwards-injury-update-knee-minnesota-timberwolves/",
-   "ts": "2026-11-19T19:13:54.000Z"
+   "ts": "2026-11-19T19:13:54.000Z",
+   "desc": "After a hot start to the season, the star Timberwolves guard was forced to have arthroscopic surgery on his right knee on Oct. 29."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Twins sign Sonny Gray to 2-year deal, bringing veteran starter back to Minnesota",
    "url": "https://www.nytimes.com/athletic/7740198/2026/11/18/sonny-gray-signs-with-twins/",
-   "ts": "2026-11-18T20:45:49.000Z"
+   "ts": "2026-11-18T20:45:49.000Z",
+   "desc": "Gray spent two seasons with Minnesota in a previous stint, finishing second in AL Cy Young voting in 2023."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Wolves sweep Blazers, keep finding ways to win. 'We’ve got a really good roster'",
    "url": "https://www.nytimes.com/athletic/7791665/2026/11/18/wolves-lyles-dosunmu-hyland-ball-blazers/",
-   "ts": "2026-11-18T12:30:10.000Z"
+   "ts": "2026-11-18T12:30:10.000Z",
+   "desc": "Minnesota moved to 11-4 to tie the 2023-24 team for the best start in franchise history after beating the Trail Blazers back-to-back."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Alex Rodriguez says ‘I thank God every day’ that his bid to buy the Mets failed",
    "url": "https://www.nytimes.com/athletic/7790546/2026/11/17/alex-rodriguez-mets-bid/",
-   "ts": "2026-11-17T22:35:51.000Z"
+   "ts": "2026-11-17T22:35:51.000Z",
+   "desc": "Rodriguez is happy he ended up with an ownership stake in the Minnesota Timberwolves instead."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Ryan Jeffers re-signs with Twins after ownership's promises to improve",
    "url": "https://www.nytimes.com/athletic/7790204/2026/11/17/ryan-jeffers-accepts-twins-qualifying-offer/",
-   "ts": "2026-11-17T21:21:57.000Z"
+   "ts": "2026-11-17T21:21:57.000Z",
+   "desc": "Jeffers returns to the Twins on a one-year deal instead of pursuing a longer-term contract in free agency as was expected."
   },
   {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "NBA Power Rankings: Celtics rise to contenders tier as injuries impact almost every team",
    "url": "https://www.nytimes.com/athletic/7786874/2026/11/16/nba-power-rankings-celtics-lakers-sixers-injuries/",
-   "ts": "2026-11-16T17:09:22.000Z"
+   "ts": "2026-11-16T17:09:22.000Z",
+   "desc": "Coincidentally, Boston has been arguably the healthiest team in the league, a major reason for the C's early success."
   },
   {
    "team": "twins",
    "src": "The Athletic",
    "title": "Even with 'top-end talent' in hand, Twins could target starting rotation in free agency",
    "url": "https://www.nytimes.com/athletic/7780631/2026/11/14/twins-starting-pitchers-bullpen-offseason-free-agency/",
-   "ts": "2026-11-14T12:00:38.000Z"
+   "ts": "2026-11-14T12:00:38.000Z",
+   "desc": "With practically every team targeting relief pitching this offseason, should the Twins opt for a starting arm despite their deep rotation?"
   }
  ]
 }
