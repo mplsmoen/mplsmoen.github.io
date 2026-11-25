@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-25T16:57:54.000Z",
+ "updated": "2026-11-25T17:48:08.918Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
   "timberwolves|The Athletic": "ok 15",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "twins|The Athletic": "ok 15"
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Could a Native Minnesotan Bolster the Twins Bullpen?",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/could-a-native-minnesotan-bolster-the-twins-bullpen-r21509/",
+   "ts": "2026-11-25T17:15:00.000Z"
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -259,13 +266,6 @@
    "title": "Gophers beat the Utes 77-62 in Charleston",
    "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41801/gophers-beat-the-utes-77-62-in-charleston",
    "ts": "2026-11-23T00:56:59.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "What Went Wrong With Royce Lewis and the Twins?",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/what-went-wrong-with-royce-lewis-and-the-twins-r21496/",
-   "ts": "2026-11-22T23:16:16.000Z"
   },
   {
    "team": "gophers",
