@@ -1,20 +1,36 @@
 {
- "updated": "2026-11-25T22:47:37.351Z",
+ "updated": "2026-11-25T23:42:49.901Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|The Athletic": "ok 15",
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
   "wild|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Three More Departures Expose a Decade-Long Twins Problem",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/three-more-departures-expose-a-decade-long-twins-problem-r21514/",
+   "ts": "2026-11-25T23:10:02.000Z",
+   "desc": "The Minnesota Twins have spent the last several seasons searching for ways to build a sustainable winner. The organization has invested heavily in its draft picks, developed an impressive minor league system, and repeatedly promoted young players with high expectations. However, one glaring prob..."
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "3 Keys to beating Wisconsin and how to watch",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41741/3-keys-to-beating-wisconsin-and-how-to-watch",
+   "ts": "2026-11-25T18:53:25.000Z",
+   "desc": "A Black Friday evening matchup in primetime for the 136th matchup between the Gophers and Badgers. A monumental game for both programs trying to finish the season strong. How to WatchTV: NBCTime: 6:30Stream: Peacock PJ Fleck and the Gophers have won four of the last five matchups with Wisconsin. Can Fleck maintain his dominance over […]"
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -256,14 +272,6 @@
    "desc": "Since 2000, only 11 pitchers have made at least 22 starts in 13 or more seasons. Barring something unforeseen, this year, Sonny Gray will become the 12th. It sounds like a low bar to clear for elite durability and longevity, but that's the nature of the modern game. Gray has started at least 22..."
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "The Twins' Last Young Core Fizzled Out. Will This One Be Different?",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-twins-last-young-core-fizzled-out-will-this-one-be-different-r21500/",
-   "ts": "2026-11-23T12:31:02.000Z",
-   "desc": "The last time the Twins won the AL Central, in 2023, their lineup was fueled by contributions from three young hitters who appeared to be emerging as long-term building blocks. Royce Lewis, Matt Wallner and Edouard Julien ranked first, second and fourth on the team in wOBA, respectively. All wer..."
-  },
-  {
    "team": "wild",
    "src": "The Athletic",
    "title": "The Quinn Hughes trade made the Wild a Cup contender. The Canucks’ return is still taking shape",
@@ -326,14 +334,6 @@
    "url": "https://www.nytimes.com/athletic/7802002/2026/11/22/jaden-mcdaniels-timberwolves-reliable/",
    "ts": "2026-11-22T15:52:29.000Z",
    "desc": "McDaniels put up 25 points, five rebounds and four assists in a 104-95 victory over the Memphis Grizzlies on Saturday night."
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "Minnesota Football vs. Northwestern: The Elite, The Meh & The Ugly",
-   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41808/minnesota-football-vs-northwestern-the-elite-the-meh-the-ugly",
-   "ts": "2026-11-22T15:15:00.000Z",
-   "desc": "The Minnesota Golden Gophers (6-5) played their final home game of the season and sent the seniors out on a winning note with a 20-17 victory over the Northwestern Wildcats (6-5). The Elite Luke Drzewiecki. Through the first seven games of the season, Drzewiecki was automatic. He was a perfect 15-of-15 on field goal attempts, […]"
   },
   {
    "team": "wild",
