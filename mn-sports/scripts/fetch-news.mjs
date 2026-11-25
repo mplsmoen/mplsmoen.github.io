@@ -29,7 +29,8 @@ export function parseFeed(xml) {
     let url = tag(b, "link");
     if (!url) { const m = b.match(/<link[^>]*href="([^"]+)"/i); url = m ? m[1] : ""; }
     const d = new Date(tag(b, "pubDate") || tag(b, "published") || tag(b, "updated") || tag(b, "dc:date"));
-    return {title: tag(b, "title"), url, ts: isNaN(d) ? null : d.toISOString()};
+    const desc = (tag(b, "description") || tag(b, "summary")).replace(/\s+/g, " ").trim();
+    return {title: tag(b, "title"), url, ts: isNaN(d) ? null : d.toISOString(), desc: desc.length > 400 ? desc.slice(0, 400) : desc};
   }).filter(i => i.title && i.url && i.ts);
 }
 
