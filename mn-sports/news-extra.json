@@ -1,20 +1,34 @@
 {
- "updated": "2026-11-25T12:32:13.325Z",
+ "updated": "2026-11-25T14:14:52.146Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
-  "twins|Twins Daily": "ok 12",
   "wild|The Athletic": "ok 15",
-  "twins|The Athletic": "ok 15"
+  "twins|The Athletic": "ok 15",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "twins|Twins Daily": "ok 12"
  },
  "items": [
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Big Ten Football Power Poll: Week Twelve",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41868/big-ten-football-power-poll-week-twelve",
+   "ts": "2026-11-25T13:00:00.000Z"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Why a Connor Prielipp-for-Casey Schmitt Challenge Trade Could Work for Twins, Giants",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/why-a-connor-prielipp-for-casey-schmitt-challenge-trade-could-work-for-twins-giants-r21511/",
+   "ts": "2026-11-25T12:37:00.000Z"
+  },
   {
    "team": "twins",
    "src": "The Athletic",
@@ -254,13 +268,6 @@
    "ts": "2026-11-22T18:30:02.000Z"
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Twins Fans: You&#x2019;re Gonna Get Mauricio Dub&#xF3;n and You&#x2019;re Gonna Like It",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-fans-youre-gonna-get-mauricio-dub%C3%B3n-and-youre-gonna-like-it-r21482/",
-   "ts": "2026-11-22T16:07:02.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Jaden McDaniels has become Mr. Reliable for Chris Finch and the Timberwolves",
@@ -308,13 +315,6 @@
    "title": "Gophers Ready for Inaugural Big Ten Tournament",
    "url": "https://www.thedailygopher.com/womens-volleyball/41821/minnesota-gophers-inaugural-big-ten-volleyball-tournament",
    "ts": "2026-11-21T22:04:11.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "Gophers beat Northwestern 20-17 on walkoff field goal",
-   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41816/gophers-beat-northwestern-20-17-on-walkoff-field-goal",
-   "ts": "2026-11-21T20:47:03.000Z"
   },
   {
    "team": "wild",
