@@ -45,8 +45,8 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .lcol{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
 .lcol .when{align-self:stretch}
 .lcol>div{align-self:stretch}
-.lkbox{display:block;box-sizing:border-box;font:600 11px/1.25 Barlow,sans-serif;padding:6px;border-radius:12px;text-align:center;text-decoration:none;color:var(--ink);border:1px solid color-mix(in srgb,var(--c) 65%,var(--ink))}
-.lkbox:hover{background:color-mix(in srgb,var(--c) 25%,transparent)}
+.lkbox{display:block;font:600 12px/1.3 Barlow,sans-serif;padding:2px 0;text-align:center;text-decoration:none;color:color-mix(in srgb,var(--c) 55%,var(--ink))}
+.lkbox:hover{text-decoration:underline}
 .lcol .pill.tv{display:block;align-self:stretch;box-sizing:border-box;font-size:11px;line-height:1.25;white-space:normal;padding:6px;border-radius:12px;text-align:center}
 .when{display:flex;flex-direction:row;align-items:baseline;justify-content:center;gap:3px;min-height:34px;padding:0 2px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 16px/1 "Barlow Condensed",sans-serif;align-items:center;white-space:nowrap}
 .when i{font:600 16px "Barlow Condensed",sans-serif;font-style:normal;letter-spacing:0;margin:0;opacity:1}
@@ -494,8 +494,8 @@ function card(g,mode){
   const when=g.tbd&&!live&&!done?`<div class="when">TBD</div>`:live?`<div class="when live">LIVE</div>`:done?`<div class="when">FINAL</div>`:`<div class="when">${tm}<i>${ap}</i></div>`;
   const r=done?(g.win===true?"w":g.win===false?"l":""):"";
   const score=(live||done)?(g.my==null&&g.their==null?"":`<div class="res ${r}">${r?`<small>${r==="w"?"WIN":"LOSS"}</small>`:""}${esc(g.my??"")}–${esc(g.their??"")}</div>`):(g.tv?`<div><span class="pill tv">${esc(g.tv)}</span></div>`:"");
-  const lk=done?[g.box,"Box score"]:live?[g.prev,"Live"]:[g.prev,"Preview"];
-  const link=lk&&lk[0]?`<a class="lkbox" href="${esc(lk[0])}" target="_blank" rel="noopener">${lk[1]} \u2197</a>`:"";
+  const lks=done?[[g.prev,"Recap"],[g.box,"Box score"]]:live?[[g.prev,"Live"]]:[[g.prev,"Preview"]];
+  const link=lks.filter(x=>x[0]).map(x=>`<a class="lkbox" href="${esc(x[0])}" target="_blank" rel="noopener">${x[1]}</a>`).join("");
   const extra=(live||done)&&g.detail&&g.detail!=="Final"?`<span class="pill">${esc(g.detail)}</span>`:"";
   const pk=pickUI(g);
   return `<div class="game" style="--c:${g.t.c};--c2:${g.t.c2}"><div class="lcol">${when}${score}${link}</div>
