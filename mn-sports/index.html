@@ -183,7 +183,7 @@ const TEAMS=[
 ].map(t=>({...t,c:t.c||"#7A0019",c2:t.c2||"#FFCC33"}));
 
 const URL_=t=>`https://site.api.espn.com/apis/site/v2/sports/${t.s}/${t.l}/teams/${t.id}/schedule`;
-let games=[],recent=[],failed=[],diag=[],days=7,diagMN="",allGames=[],newsDiag="",filter="all";
+let games=[],recent=[],failed=[],diag=[],days=3,diagMN="",allGames=[],newsDiag="",filter="all";
 const out=document.getElementById("out"),chips=document.getElementById("chips");
 
 function parse(t,ev){
@@ -490,9 +490,12 @@ function card(g,mode){
 }
 function render(){
   const ok=g=>filter==="all"||filter===g.t.g||filter===g.t.n;
-  const all=games.filter(ok),rec=recent.filter(ok);
+  const cap=new Date();cap.setHours(0,0,0,0);cap.setDate(cap.getDate()+15);
+  const all=games.filter(g=>ok(g)&&g.date<cap),rec=recent.filter(ok);
   const cut=new Date();cut.setHours(0,0,0,0);cut.setDate(cut.getDate()+days+1);
   const list=all.filter(g=>g.date<cut),left=all.length-list.length;
+  const cntTo=d=>{const c=new Date();c.setHours(0,0,0,0);c.setDate(c.getDate()+d+1);return all.filter(g=>g.date<c).length};
+  const nextDays=[7,14].find(d=>d>days&&cntTo(d)>list.length)||14,added=cntTo(nextDays)-list.length;
   let html="",last="";
   if(rec.length){
     html+=`<h2>Last night's scores</h2>`+rec.map(g=>card(g,"final")).join("");
@@ -504,10 +507,10 @@ function render(){
     html+=card(g,g.state==="post"?"final":"up");
   });
   if(!list.length&&!rec.length)html=`<div class="msg">${left?`No games in the next ${days} days.`:"No upcoming games found for this filter."}</div>`;
-  if(left>0)html+=`<button class="more" id="more">Show another week \u00b7 ${left} more game${left>1?"s":""}</button>`;
+  if(left>0)html+=`<button class="more" id="more">Show ${nextDays===7?"next week":"through 2 weeks"} \u00b7 ${added} more game${added>1?"s":""}</button>`;
   if(failed.length)html+=`<div class="msg">Couldn't load: ${esc(failed.join(", "))}. The team ID in the TEAMS list may need fixing, or that team may be out of season.</div>`;
   out.innerHTML=html;
-  const m=document.getElementById("more");if(m)m.onclick=()=>{days+=7;render()};
+  const m=document.getElementById("more");if(m)m.onclick=()=>{days=nextDays;render()};
   loadRecords(rec.concat(list));
   prefetchStandings(rec.concat(list));
   updateBadge();
