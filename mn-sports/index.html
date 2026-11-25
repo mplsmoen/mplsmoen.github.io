@@ -44,8 +44,9 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .game:hover{border-color:color-mix(in srgb,var(--c),var(--ink) 30%)}
 .lcol{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
 .lcol .when{align-self:stretch}
-.lcol .pill.tv{align-self:stretch;box-sizing:border-box;font-size:11px;line-height:1.25;white-space:normal;padding:6px;border-radius:12px;text-align:center}
-.when{display:flex;flex-direction:row;align-items:baseline;justify-content:center;gap:3px;min-height:40px;padding:0 6px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 16px/1 "Barlow Condensed",sans-serif;align-items:center;white-space:nowrap}
+.lcol>div{align-self:stretch}
+.lcol .pill.tv{display:block;align-self:stretch;box-sizing:border-box;font-size:11px;line-height:1.25;white-space:normal;padding:6px;border-radius:12px;text-align:center}
+.when{display:flex;flex-direction:row;align-items:baseline;justify-content:center;gap:3px;min-height:34px;padding:0 2px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 16px/1 "Barlow Condensed",sans-serif;align-items:center;white-space:nowrap}
 .when i{font:600 16px "Barlow Condensed",sans-serif;font-style:normal;letter-spacing:0;margin:0;opacity:1}
 .when.live{background:var(--live);color:#fff;font-size:16px}
 .nw{white-space:nowrap}
@@ -83,6 +84,18 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .picksbtn:hover{border-color:var(--mute)}
 .picks{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:9px}
 .pklab{font:600 11px Barlow,sans-serif;letter-spacing:.07em;text-transform:uppercase;color:var(--mute);margin-right:2px}
+.pkdd{position:relative;flex:1;max-width:200px}
+.pkdd.open{z-index:6}
+.pkbtn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:10px;padding:6px 10px;font:600 13px Barlow,sans-serif;cursor:pointer;text-align:left}
+.pkbtn.empty{color:var(--mute)}
+.pkbtn:hover,.pkdd.open .pkbtn{border-color:var(--mute)}
+.pkbtn span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pkmenu{position:absolute;left:0;right:0;top:calc(100% + 4px);background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.pkopt{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;border:0;border-top:1px solid var(--line);background:transparent;color:var(--ink);padding:8px 10px;font:500 13px Barlow,sans-serif;cursor:pointer;text-align:left}
+.pkopt:first-child{border-top:0}
+.pkopt:hover{background:color-mix(in srgb,var(--c) 16%,transparent)}
+.pkopt.on{background:color-mix(in srgb,var(--c) 28%,var(--panel))}
+.pkopt.clr{color:var(--mute)}
 .pk{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:5px 13px;font:600 13px Barlow,sans-serif;cursor:pointer;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .pk:hover{border-color:var(--mute)}
 .pk.on{background:color-mix(in srgb,var(--c) 30%,var(--panel));border-color:var(--tc)}
@@ -342,14 +355,16 @@ function mergeP(a,b){
   return out;
 }
 const shortName=n=>n.startsWith("Gophers")?"Gophers":n.replace("Minnesota ","");
+let OPENPK=null;
 const pickKey=g=>g.t.n+"|"+g.eid;
 const dayShort=new Intl.DateTimeFormat(undefined,{month:"short",day:"numeric"});
 function pickUI(g){
   if(g.t.static||!g.eid)return {pill:"",row:""};
   const k=pickKey(g),p=livePick(k);
   if(g.state==="pre"&&g.date.getTime()>Date.now()){
-    const b=(side,txt)=>`<button class="pk${p&&p.p===side?" on":""}" data-k="${esc(k)}" data-p="${side}">${esc(txt)}</button>`;
-    return {pill:"",row:`<div class="picks"><span class="pklab">Your pick</span>${b("m",shortName(g.t.n))}${g.t.s==="soccer"?b("d","Draw"):""}${b("o",g.opp)}</div>`};
+    const opt=(side,txt)=>`<button class="pkopt${p&&p.p===side?" on":""}" data-k="${esc(k)}" data-p="${side}">${esc(txt)}${p&&p.p===side?"<span>\u2713</span>":""}</button>`;
+    const lab=p?(p.p==="m"?shortName(g.t.n):p.p==="o"?g.opp:"Draw"):"Choose winner",open=OPENPK===k;
+    return {pill:"",row:`<div class="picks"><span class="pklab">Your pick</span><div class="pkdd${open?" open":""}"><button class="pkbtn${p?"":" empty"}" data-tog="${esc(k)}" aria-expanded="${open}"><span>${esc(lab)}</span><span>${open?"\u25B4":"\u25BE"}</span></button>${open?`<div class="pkmenu">${opt("m",shortName(g.t.n))}${g.t.s==="soccer"?opt("d","Draw"):""}${opt("o",g.opp)}${p?`<button class="pkopt clr" data-k="${esc(k)}" data-p="${p.p}">Clear pick</button>`:""}</div>`:""}</div></div>`};
   }
   if(!p)return {pill:"",row:""};
   const lab=p.p==="m"?shortName(g.t.n):p.p==="o"?g.opp:"Draw";
@@ -527,7 +542,10 @@ let theme="dark";try{theme=localStorage.getItem("mn-theme")||"dark"}catch(e){}
 applyTheme(theme);
 themeBtn.onclick=()=>{theme=theme==="light"?"dark":"light";applyTheme(theme);try{localStorage.setItem("mn-theme",theme)}catch(e){}};
 out.addEventListener("click",e=>{
-  const b=e.target.closest(".pk");if(!b)return;
+  const tg=e.target.closest("[data-tog]");
+  if(tg){OPENPK=OPENPK===tg.dataset.tog?null:tg.dataset.tog;render();return}
+  const b=e.target.closest(".pkopt");if(!b)return;
+  OPENPK=null;
   const k=b.dataset.k,side=b.dataset.p,g=allGames.find(x=>x.eid&&pickKey(x)===k);
   if(!g||g.date.getTime()<=Date.now())return;
   const cur=livePick(k);
@@ -594,7 +612,8 @@ psheet.addEventListener("click",e=>{
   else if(id==="pimp")importPicks();
   else if(id==="prst"&&confirm("Erase all picks and results? This can't be undone.")){Object.keys(PICKS).forEach(k=>{PICKS[k]={x:1,u:Date.now()}});savePicks();render();paintPicks()}
 });
-document.addEventListener("keydown",e=>{if(e.key==="Escape"){psheet.hidden=true;document.getElementById("filters").open=false}});
+document.addEventListener("click",e=>{if(OPENPK&&!e.target.closest(".pkdd")){OPENPK=null;render()}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){OPENPK=null;psheet.hidden=true;document.getElementById("filters").open=false}});
 document.addEventListener("click",e=>{const f=document.getElementById("filters");if(f.open&&!f.contains(e.target))f.open=false});
 document.getElementById("newslist").addEventListener("click",e=>{
   const mv=e.target.closest("[data-mv]"),mo=e.target.closest("[data-more]");
