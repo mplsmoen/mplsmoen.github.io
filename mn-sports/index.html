@@ -133,6 +133,8 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .nsec{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:16px;padding:12px 16px 8px;margin-bottom:14px}
 .nshead{display:flex;align-items:center;gap:10px;margin-bottom:4px}
 .nshead h3{margin:0;font:700 24px "Barlow Condensed",sans-serif;flex:1}
+.nshead h3 a.tl{color:inherit;text-decoration:none}
+.nshead h3 a.tl:hover{text-decoration:underline}
 .nlogo{flex:none;width:36px;height:36px;border-radius:9px;background:#fff;padding:4px;object-fit:contain}
 .mv{display:flex;gap:6px}
 .mv button{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
@@ -477,7 +479,7 @@ function renderNews(){
   el.innerHTML=all.filter(show).map(x=>{
     const t=TEAMS.find(y=>y.n===x.teams[0]),items=NEWS.filter(n=>n.sid===x.id),lim=MORE.has(x.id)?8:3,i=all.indexOf(x);
     const rows=items.slice(0,lim).map((n,i)=>`<a class="nrow${i?" sm":""}" href="${esc(n.href)}" target="_blank" rel="noopener"><span class="nt">${esc(n.h)}</span><span class="nm"><b>${esc(n.src)}</b> \u00b7 ${relTime(n.ts)}</span></a>`).join("");
-    return `<section class="nsec" style="--c:${t.c};--c2:${t.c2}"><div class="nshead"><img class="nlogo" src="${logoFor(t)}" alt="" onerror="this.style.visibility='hidden'"><h3>${esc(x.n)}</h3>${ro?`<span class="mv"><button data-mv="${x.id}" data-d="-1" aria-label="Move up"${i===0?" disabled":""}>\u25B2</button><button data-mv="${x.id}" data-d="1" aria-label="Move down"${i===all.length-1?" disabled":""}>\u25BC</button></span>`:""}</div>${rows||`<div class="stmsg">${NEWS.length?"No headlines for this team right now.":"Loading headlines\u2026"}</div>`}${items.length>3?`<button class="nmore" data-more="${x.id}">${MORE.has(x.id)?"Show fewer":"Show more"}</button>`:""}</section>`;
+    return `<section class="nsec" style="--c:${t.c};--c2:${t.c2}"><div class="nshead"><img class="nlogo" src="${logoFor(t)}" alt="" onerror="this.style.visibility='hidden'"><h3>${x.id==="gophers"?esc(x.n):`<a class="tl" href="team.html?team=${x.id}">${esc(x.n)}</a>`}</h3>${ro?`<span class="mv"><button data-mv="${x.id}" data-d="-1" aria-label="Move up"${i===0?" disabled":""}>\u25B2</button><button data-mv="${x.id}" data-d="1" aria-label="Move down"${i===all.length-1?" disabled":""}>\u25BC</button></span>`:""}</div>${rows||`<div class="stmsg">${NEWS.length?"No headlines for this team right now.":"Loading headlines\u2026"}</div>`}${items.length>3?`<button class="nmore" data-more="${x.id}">${MORE.has(x.id)?"Show fewer":"Show more"}</button>`:""}</section>`;
   }).join("")||`<div class="msg">No teams for this filter.</div>`;
   const b=document.getElementById("reorderBtn");if(b)b.textContent=ro?"Done":"Reorder teams";
 }
