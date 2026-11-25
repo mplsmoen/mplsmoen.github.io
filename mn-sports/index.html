@@ -44,10 +44,10 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .game:hover{border-color:color-mix(in srgb,var(--c),var(--ink) 30%)}
 .lcol{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
 .lcol .when{align-self:stretch}
-.lcol .pill.tv{font-size:11px;line-height:1.25;white-space:normal;padding:3px 9px}
-.when{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:64px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 22px/1 "Barlow Condensed",sans-serif}
-.when i{font:600 11px Barlow,sans-serif;font-style:normal;letter-spacing:.08em;margin-top:3px;opacity:.85}
-.when.live{background:var(--live);color:#fff;font-size:18px}
+.lcol .pill.tv{align-self:stretch;box-sizing:border-box;font-size:11px;line-height:1.25;white-space:normal;padding:6px;border-radius:12px;text-align:center}
+.when{display:flex;flex-direction:row;align-items:baseline;justify-content:center;gap:3px;min-height:40px;padding:0 6px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 15px/1 "Barlow Condensed",sans-serif;align-items:center;white-space:nowrap}
+.when i{font:600 15px "Barlow Condensed",sans-serif;font-style:normal;letter-spacing:0;margin:0;opacity:1}
+.when.live{background:var(--live);color:#fff;font-size:15px}
 .nw{white-space:nowrap}
 .vs .rc{margin-left:7px;font-size:13px}
 .dot{flex:none;width:13px;height:13px;border-radius:50%;background:var(--tc);border:2px solid var(--c2)}
