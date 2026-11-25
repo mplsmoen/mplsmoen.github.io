@@ -45,9 +45,9 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .lcol{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
 .lcol .when{align-self:stretch}
 .lcol .pill.tv{align-self:stretch;box-sizing:border-box;font-size:11px;line-height:1.25;white-space:normal;padding:6px;border-radius:12px;text-align:center}
-.when{display:flex;flex-direction:row;align-items:baseline;justify-content:center;gap:3px;min-height:40px;padding:0 6px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 15px/1 "Barlow Condensed",sans-serif;align-items:center;white-space:nowrap}
-.when i{font:600 15px "Barlow Condensed",sans-serif;font-style:normal;letter-spacing:0;margin:0;opacity:1}
-.when.live{background:var(--live);color:#fff;font-size:15px}
+.when{display:flex;flex-direction:row;align-items:baseline;justify-content:center;gap:3px;min-height:40px;padding:0 6px;border-radius:12px;background:color-mix(in srgb,var(--c) 16%,var(--panel));color:color-mix(in srgb,var(--c) 55%,var(--ink));font:700 16px/1 "Barlow Condensed",sans-serif;align-items:center;white-space:nowrap}
+.when i{font:600 16px "Barlow Condensed",sans-serif;font-style:normal;letter-spacing:0;margin:0;opacity:1}
+.when.live{background:var(--live);color:#fff;font-size:16px}
 .nw{white-space:nowrap}
 .vs .rc{margin-left:7px;font-size:13px}
 .dot{flex:none;width:13px;height:13px;border-radius:50%;background:var(--tc);border:2px solid var(--c2)}
@@ -110,11 +110,11 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .tools .picksbtn{margin:0;padding:8px 14px;line-height:1.1}
 @media (max-width:980px){.tools{position:static;max-width:none;padding:12px 16px 0}.layout header{padding-top:12px}.tools .picksbtn{font-size:13px;padding:8px 12px}}
 .side{margin-top:104px;min-width:0}
-.nhead{display:flex;align-items:center;gap:12px;padding:0 20px}
+.nfoot{padding:0 20px 30px}
 .nhead h2{margin:14px 0 8px}
 .pill-btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 13px;font:600 13px Barlow,sans-serif;cursor:pointer}
 .pill-btn:hover{border-color:var(--mute)}
-#newslist{padding:0 20px 30px}
+#newslist{padding:14px 20px 16px}
 .nsec{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:16px;padding:12px 16px 8px;margin-bottom:14px}
 .nshead{display:flex;align-items:center;gap:10px;margin-bottom:4px}
 .nshead h3{margin:0;font:700 24px "Barlow Condensed",sans-serif;flex:1}
@@ -155,7 +155,7 @@ footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-
 <header>
   <h1>Minnesota <span>Sports</span></h1>
 </header>
-<section class="newsblk"><div class="nhead"><h2>MN Sports Headlines</h2><button class="pill-btn" id="reorderBtn">Reorder teams</button></div><div id="newslist"><div class="msg">Loading headlines…</div></div></section>
+<section class="newsblk"><div id="newslist"><div class="msg">Loading headlines…</div></div><div class="nfoot"><button class="pill-btn" id="reorderBtn">Reorder teams</button></div></section>
 <div class="sheet" id="picksheet" hidden><div class="sheetp" id="picksp"></div></div>
 <footer><div id="diag"></div>Schedules and scores come from ESPN's public data. Headlines come from ESPN, Pioneer Press, Twins Daily, The Daily Gopher and The Athletic. Not affiliated with ESPN, any league, team, or the University of Minnesota.</footer>
 </div>
