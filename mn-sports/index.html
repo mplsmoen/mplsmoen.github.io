@@ -21,9 +21,10 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 Barlow,system-
 .theme{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:18px;line-height:1;cursor:pointer;z-index:3}
 .theme:hover{border-color:var(--mute)}
 .theme:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-header{padding:28px 20px 12px;max-width:760px;margin:0 auto}
-h1{font:700 44px/1 "Barlow Condensed",Impact,sans-serif;margin:0 0 6px;letter-spacing:.01em}
-h1 span{color:var(--maroon)}
+header{padding:20px 20px 4px;max-width:760px;margin:0 auto}
+h1{font:700 44px/1 "Barlow Condensed",Impact,sans-serif;margin:0;letter-spacing:.01em}
+.logo{display:block;height:104px;width:auto;max-width:100%}
+:root[data-theme="light"] .logo{filter:brightness(.78) saturate(1.5)}
 header p{margin:0;color:var(--mute)}
 .filters{position:relative}
 .filters summary{cursor:pointer;list-style:none;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:8px 14px;font:600 14px/1.1 Barlow,sans-serif;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -154,7 +155,7 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .msg{padding:30px 0;color:var(--mute)}
 #diag{margin-bottom:8px}
 footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-size:13px}
-@media (max-width:480px){.game{grid-template-columns:76px 1fr;gap:12px}h1{font-size:36px}}
+@media (max-width:480px){.game{grid-template-columns:76px 1fr;gap:12px}.logo{height:84px}}
 </style>
 </head>
 <body>
@@ -171,7 +172,7 @@ footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--mute);font-
 </div>
 <div class="col">
 <header>
-  <h1>Minnesota <span>Sports</span></h1>
+  <h1><img class="logo" src="mnsports.png" alt="Minnesota Sports" width="606" height="281"></h1>
 </header>
 <section class="newsblk"><div id="newslist"><div class="msg">Loading headlines…</div></div><div class="nfoot"><button class="pill-btn" id="reorderBtn">Reorder teams</button></div></section>
 <div class="sheet" id="picksheet" hidden><div class="sheetp" id="picksp"></div></div>
