@@ -145,6 +145,7 @@ h2{font:600 20px "Barlow Condensed",sans-serif;margin:26px 0 8px;color:var(--mut
 .nrow.sm{padding:5px 0}
 .nrow.sm .nt{font-size:13.5px;line-height:1.25}
 .nrow.sm .nm{font-size:11px;margin-top:1px}
+.nd{display:block;font-size:13.5px;line-height:1.4;color:var(--mute);margin-top:4px}
 .nm{display:block;font-size:12px;color:var(--mute);margin-top:3px}
 .nm b{font-weight:600;color:color-mix(in srgb,var(--c) 55%,var(--ink))}
 .nmore{display:block;width:100%;border:0;border-top:1px solid var(--line);background:transparent;color:var(--mute);padding:10px 0 6px;font:600 13px Barlow,sans-serif;cursor:pointer}
@@ -449,7 +450,8 @@ function orderedSections(){
 }
 async function loadNews(){
   const all=[],seen=new Set();let got=0,fail=0,extra=null;
-  const add=(sid,src,h,href,ts)=>{const k=href.split("?")[0].replace(/\/$/,"");if(seen.has(k))return;seen.add(k);all.push({sid,src,h,href,ts})};
+  const clip=t=>{t=String(t||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();return t.length>240?t.slice(0,237).replace(/\s+\S*$/,"")+"\u2026":t};
+  const add=(sid,src,h,href,ts,d)=>{const k=href.split("?")[0].replace(/\/$/,"");if(seen.has(k))return;seen.add(k);all.push({sid,src,h,href,ts,d:clip(d)})};
   await Promise.all([
     ...TEAMS.map(async t=>{
       try{
@@ -459,12 +461,12 @@ async function loadNews(){
           if(!href||!a.headline||isNaN(ts))return;
           const tc=(a.categories||[]).filter(c=>c.type==="team");
           if(tc.length&&!tc.some(c=>String(c.teamId!=null?c.teamId:c.team&&c.team.id)===String(t.id)))return;
-          got++;add(secOf(t.n).id,"ESPN",a.headline,href,ts);
+          got++;add(secOf(t.n).id,"ESPN",a.headline,href,ts,a.description);
         });
       }catch(e){fail++}
     }),
     getJSON("news-extra.json?_="+Math.floor(Date.now()/6e5)).then(j=>{
-      extra=j;(j.items||[]).forEach(x=>{const ts=Date.parse(x.ts);if(x.title&&x.url&&x.src!=="Star Tribune"&&!isNaN(ts)&&SECTIONS.some(z=>z.id===x.team))add(x.team,x.src||"News",x.title,x.url,ts)});
+      extra=j;(j.items||[]).forEach(x=>{const ts=Date.parse(x.ts);if(x.title&&x.url&&x.src!=="Star Tribune"&&!isNaN(ts)&&SECTIONS.some(z=>z.id===x.team))add(x.team,x.src||"News",x.title,x.url,ts,x.desc)});
     }).catch(()=>{})
   ]);
   NEWS=all.sort((a,b)=>b.ts-a.ts);
@@ -478,7 +480,7 @@ function renderNews(){
   const all=orderedSections(),ro=reorder&&filter==="all";
   el.innerHTML=all.filter(show).map(x=>{
     const t=TEAMS.find(y=>y.n===x.teams[0]),items=NEWS.filter(n=>n.sid===x.id),lim=MORE.has(x.id)?8:3,i=all.indexOf(x);
-    const rows=items.slice(0,lim).map((n,i)=>`<a class="nrow${i?" sm":""}" href="${esc(n.href)}" target="_blank" rel="noopener"><span class="nt">${esc(n.h)}</span><span class="nm"><b>${esc(n.src)}</b> \u00b7 ${relTime(n.ts)}</span></a>`).join("");
+    const rows=items.slice(0,lim).map((n,i)=>`<a class="nrow${i?" sm":""}" href="${esc(n.href)}" target="_blank" rel="noopener"><span class="nt">${esc(n.h)}</span>${!i&&n.d&&n.d.toLowerCase()!==n.h.toLowerCase()?`<span class="nd">${esc(n.d)}</span>`:""}<span class="nm"><b>${esc(n.src)}</b> \u00b7 ${relTime(n.ts)}</span></a>`).join("");
     return `<section class="nsec" style="--c:${t.c};--c2:${t.c2}"><div class="nshead"><img class="nlogo" src="${logoFor(t)}" alt="" onerror="this.style.visibility='hidden'"><h3>${x.id==="gophers"?esc(x.n):`<a class="tl" href="team.html?team=${x.id}">${esc(x.n)}</a>`}</h3>${ro?`<span class="mv"><button data-mv="${x.id}" data-d="-1" aria-label="Move up"${i===0?" disabled":""}>\u25B2</button><button data-mv="${x.id}" data-d="1" aria-label="Move down"${i===all.length-1?" disabled":""}>\u25BC</button></span>`:""}</div>${rows||`<div class="stmsg">${NEWS.length?"No headlines for this team right now.":"Loading headlines\u2026"}</div>`}${items.length>3?`<button class="nmore" data-more="${x.id}">${MORE.has(x.id)?"Show fewer":"Show more"}</button>`:""}</section>`;
   }).join("")||`<div class="msg">No teams for this filter.</div>`;
   const b=document.getElementById("reorderBtn");if(b)b.textContent=ro?"Done":"Reorder teams";
