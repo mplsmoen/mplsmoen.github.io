@@ -1,20 +1,27 @@
 {
- "updated": "2026-11-25T02:18:31.760Z",
+ "updated": "2026-11-25T03:30:19.503Z",
  "status": {
-  "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
+  "gophers|The Daily Gopher": "ok 10",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
   "wild|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
   "wild|The Athletic": "ok 15",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "The Orioles made a choice with Freddy Peralta. Was it the right call?",
+   "url": "https://www.nytimes.com/athletic/7810545/2026/11/24/orioles-freddy-peralta-trevor-rogers-mlb-free-agency/",
+   "ts": "2026-11-25T02:39:56.000Z"
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -476,13 +483,6 @@
    "title": "Twins have 'genuine interest' in reuniting with free-agent catcher Ryan Jeffers",
    "url": "https://www.nytimes.com/athletic/7772334/2026/11/11/twins-free-agent-catcher-ryan-jeffers-reunite/",
    "ts": "2026-11-11T13:00:31.000Z"
-  },
-  {
-   "team": "twins",
-   "src": "The Athletic",
-   "title": "With offseason underway, Twins ready to ‘exhaust our energy’ to improve roster",
-   "url": "https://www.nytimes.com/athletic/7757223/2026/11/05/minnesota-twins-offseason-plans/",
-   "ts": "2026-11-05T23:41:35.000Z"
   }
  ]
 }
