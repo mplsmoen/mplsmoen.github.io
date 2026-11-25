@@ -1,20 +1,41 @@
 {
- "updated": "2026-11-25T14:14:52.146Z",
+ "updated": "2026-11-25T15:30:43.629Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "vikings|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
-  "twins|The Athletic": "ok 15",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
-  "wild|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "twins|Twins Daily": "ok 12"
+  "wild|The Athletic": "ok 15",
+  "twins|Twins Daily": "ok 12",
+  "timberwolves|The Athletic": "ok 15",
+  "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "What a Difference 12 Months Makes for the Twins",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/what-a-difference-12-months-makes-for-the-twins-r21508/",
+   "ts": "2026-11-25T15:29:02.000Z"
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Heat-76ers, Thunder-Timberwolves highlight penultimate night of NBA Cup group play",
+   "url": "https://www.nytimes.com/athletic/7811649/2026/11/25/nba-cup-standings-heat-76ers-thunder-wolves/",
+   "ts": "2026-11-25T14:35:45.000Z"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "2026 Minnesota Golden Gophers in the NFL: Week 11",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41867/2026-minnesota-golden-gophers-in-the-nfl-week-11",
+   "ts": "2026-11-25T14:00:00.000Z"
+  },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
@@ -261,13 +282,6 @@
    "ts": "2026-11-22T20:28:38.000Z"
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "3 Twins Who Could Make Noise in the 2027 MLB Awards Races",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/3-twins-who-could-make-noise-in-the-2027-mlb-awards-races-r21474/",
-   "ts": "2026-11-22T18:30:02.000Z"
-  },
-  {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Jaden McDaniels has become Mr. Reliable for Chris Finch and the Timberwolves",
@@ -308,13 +322,6 @@
    "title": "Inside the viral moment between Kyrie Irving and a Palestinian teenager",
    "url": "https://www.nytimes.com/athletic/7797295/2026/11/22/kyrie-irving-palestinian-teenager-jersey/",
    "ts": "2026-11-22T08:00:21.000Z"
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "Gophers Ready for Inaugural Big Ten Tournament",
-   "url": "https://www.thedailygopher.com/womens-volleyball/41821/minnesota-gophers-inaugural-big-ten-volleyball-tournament",
-   "ts": "2026-11-21T22:04:11.000Z"
   },
   {
    "team": "wild",
@@ -469,13 +476,6 @@
    "title": "NBA Power Rankings: Celtics rise to contenders tier as injuries impact almost every team",
    "url": "https://www.nytimes.com/athletic/7786874/2026/11/16/nba-power-rankings-celtics-lakers-sixers-injuries/",
    "ts": "2026-11-16T17:09:22.000Z"
-  },
-  {
-   "team": "timberwolves",
-   "src": "The Athletic",
-   "title": "Chris Finch isn't just Micah Nori's old boss. These NBA coaches have 'become family'",
-   "url": "https://www.nytimes.com/athletic/7785049/2026/11/16/micah-nori-chris-finch-friendship-blazers-timberwolves-nba-coaches/",
-   "ts": "2026-11-16T10:17:12.000Z"
   },
   {
    "team": "twins",
