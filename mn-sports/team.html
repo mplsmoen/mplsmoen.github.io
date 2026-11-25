@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Minnesota Sports: Team</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#000;--panel:#0d0d0d;--ink:#f2f2f2;--mute:#9a9a9a;--line:#242424;--gold:#ffcc33;--live:#ff4d5e;--lift:30%;color-scheme:dark}
+:root[data-theme="light"]{--bg:#f6f4f1;--panel:#fff;--ink:#1d1418;--mute:#6d6065;--line:#e4dedb;--live:#c8102e;--lift:0%;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 Barlow,system-ui,sans-serif;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:16px 20px 40px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.back{font:600 14px Barlow,sans-serif;color:var(--mute);text-decoration:none}
+.back:hover{color:var(--ink)}
+.theme{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:18px;cursor:pointer}
+.hero{display:flex;align-items:center;gap:16px;margin:18px 0 20px;padding:16px;background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--c);border-radius:16px}
+.hero img{width:72px;height:72px;border-radius:14px;background:#fff;padding:8px;object-fit:contain}
+.hero h1{font:700 40px/1 "Barlow Condensed",sans-serif;margin:0}
+.hero p{margin:4px 0 0;color:var(--mute)}
+.grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:start}
+.stack{display:flex;flex-direction:column;gap:16px;min-width:0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.card h2{font:700 22px "Barlow Condensed",sans-serif;margin:0 0 6px;letter-spacing:.02em}
+.card h3{font:600 12px Barlow,sans-serif;letter-spacing:.07em;text-transform:uppercase;color:var(--mute);margin:12px 0 4px}
+.msg{color:var(--mute);padding:6px 0;font-size:14px}
+.nrow{display:block;padding:9px 0;border-top:1px solid var(--line);text-decoration:none}
+.nrow:first-of-type{border-top:0}
+.nrow:hover .nt{text-decoration:underline}
+.nt{display:block;font:600 16px/1.3 Barlow,sans-serif}
+.nm{display:block;font-size:12px;color:var(--mute);margin-top:3px}
+.nm b{font-weight:600;color:color-mix(in srgb,var(--c) 55%,var(--ink))}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{font:600 11px Barlow,sans-serif;letter-spacing:.07em;text-transform:uppercase;color:var(--mute);text-align:left;padding:4px 6px;border-bottom:1px solid var(--line)}
+td{padding:7px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td:first-child{color:var(--mute);width:26px}
+tr.me td{background:color-mix(in srgb,var(--c) 22%,transparent);font-weight:600}
+.scroll{overflow-x:auto}
+.g{display:grid;grid-template-columns:54px 1fr auto;gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--line);font-size:14px}
+.g:first-of-type{border-top:0}
+.gd{color:var(--mute);font-size:12px}
+.gr{font:700 15px "Barlow Condensed",sans-serif;text-align:right;white-space:nowrap}
+.gr.w{color:#3ddc84}.gr.l{color:var(--mute)}
+:root[data-theme="light"] .gr.w{color:#1a8a4a}
+.gl{font-size:12px;color:color-mix(in srgb,var(--c) 55%,var(--ink));text-decoration:none;margin-left:8px;font-weight:600}
+.gl:hover{text-decoration:underline}
+.lead{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0;border-top:1px solid var(--line)}
+.lead:first-of-type{border-top:0}
+.lead .who{font-weight:600}
+.lead .val{font:700 16px "Barlow Condensed",sans-serif;text-align:right}
+.lead .cat{grid-column:1/-1;font-size:12px;color:var(--mute)}
+footer{color:var(--mute);font-size:13px;margin-top:22px}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}.hero h1{font-size:32px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><a class="back" href="./">← All Minnesota sports</a><button class="theme" id="theme" aria-label="Switch theme"></button></div>
+  <div class="hero" id="hero"><div><h1>Loading…</h1></div></div>
+  <div class="grid">
+    <div class="stack">
+      <div class="card"><h2>News</h2><div id="news"><div class="msg">Loading headlines…</div></div></div>
+    </div>
+    <div class="stack">
+      <div class="card"><h2>Division standings</h2><div id="stand"><div class="msg">Loading…</div></div></div>
+      <div class="card"><h2>Games</h2><div id="games"><div class="msg">Loading…</div></div></div>
+      <div class="card"><h2>Team leaders</h2><div id="leaders"><div class="msg">Loading…</div></div></div>
+    </div>
+  </div>
+  <footer id="diag"></footer>
+</div>
+<script>
+const TEAMS={
+ vikings:{n:"Minnesota Vikings",s:"football",l:"nfl",id:16,c:"#4F2683"},
+ timberwolves:{n:"Minnesota Timberwolves",s:"basketball",l:"nba",id:16,c:"#236192"},
+ twins:{n:"Minnesota Twins",s:"baseball",l:"mlb",id:9,c:"#002B5C"},
+ wild:{n:"Minnesota Wild",s:"hockey",l:"nhl",id:30,c:"#154734"},
+ united:{n:"Minnesota United",s:"soccer",l:"usa.1",id:17362,c:"#8CD2F4"},
+ lynx:{n:"Minnesota Lynx",s:"basketball",l:"wnba",id:8,c:"#78BE20"}
+};
+const KEY=(new URLSearchParams(location.search).get("team")||"").toLowerCase();
+const T=TEAMS[KEY],$=id=>document.getElementById(id),diag=[];
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const API="https://site.api.espn.com/apis/site/v2/sports/";
+async function getJSON(u){const r=await fetch(u);if(!r.ok)throw new Error(r.status);return r.json()}
+const dayFmt=new Intl.DateTimeFormat(undefined,{month:"short",day:"numeric"}),timeFmt=new Intl.DateTimeFormat(undefined,{hour:"numeric",minute:"2-digit"});
+function relTime(ts){const m=Math.round((Date.now()-ts)/6e4);if(m<1)return"just now";if(m<60)return m+"m ago";const h=Math.round(m/60);if(h<24)return h+"h ago";const d=Math.round(h/24);return d<7?d+"d ago":dayFmt.format(new Date(ts))}
+function logoFor(t){const b="https://a.espncdn.com/i/teamlogos/";return t.s==="soccer"?b+"soccer/500/"+t.id+".png":b+t.l+"/500/min.png"}
+const themeBtn=$("theme");
+function applyTheme(t){document.documentElement.setAttribute("data-theme",t);themeBtn.textContent=t==="light"?"☾":"☀︎";const m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute("content",t==="light"?"#f6f4f1":"#000000")}
+let theme="dark";try{theme=localStorage.getItem("mn-theme")||"dark"}catch(e){}
+applyTheme(theme);
+themeBtn.onclick=()=>{theme=theme==="light"?"dark":"light";applyTheme(theme);try{localStorage.setItem("mn-theme",theme)}catch(e){}};
+
+// ---- News: same sources and filter as the main page (ESPN + news-extra.json), newest 10 ----
+async function loadNews(){
+  const all=[],seen=new Set();
+  const add=(src,h,href,ts)=>{const k=href.split("?")[0].replace(/\/$/,"");if(seen.has(k))return;seen.add(k);all.push({src,h,href,ts})};
+  let e1="ok",e2="ok";
+  await Promise.all([
+    getJSON(`${API}${T.s}/${T.l}/news?team=${T.id}&limit=20`).then(j=>(j.articles||[]).forEach(a=>{
+      const href=a.links&&a.links.web&&a.links.web.href,ts=Date.parse(a.published);
+      if(!href||!a.headline||isNaN(ts))return;
+      const tc=(a.categories||[]).filter(c=>c.type==="team");
+      if(tc.length&&!tc.some(c=>String(c.teamId!=null?c.teamId:c.team&&c.team.id)===String(T.id)))return;
+      add("ESPN",a.headline,href,ts);
+    })).catch(()=>{e1="failed"}),
+    getJSON("news-extra.json?_="+Math.floor(Date.now()/6e5)).then(j=>(j.items||[]).forEach(x=>{
+      const ts=Date.parse(x.ts);if(x.team===KEY&&x.title&&x.url&&x.src!=="Star Tribune"&&!isNaN(ts))add(x.src||"News",x.title,x.url,ts);
+    })).catch(()=>{e2="not available"})
+  ]);
+  all.sort((a,b)=>b.ts-a.ts);
+  const top=all.slice(0,10);
+  $("news").innerHTML=top.length?top.map(n=>`<a class="nrow" href="${esc(n.href)}" target="_blank" rel="noopener"><span class="nt">${esc(n.h)}</span><span class="nm"><b>${esc(n.src)}</b> · ${relTime(n.ts)}</span></a>`).join(""):`<div class="msg">No headlines found right now.</div>`;
+  diag.push(`News: ESPN ${e1}, other feeds ${e2}, ${top.length} shown`);
+}
+
+// ---- Division standings ----
+const sv=(e,...names)=>{for(const nm of names){const x=(e.stats||[]).find(y=>y.name===nm||y.abbreviation===nm||y.type===nm);if(x&&x.displayValue!=null&&x.displayValue!=="")return x}return null};
+function walk(n,out){if(n&&n.standings&&n.standings.entries)out.push({name:n.name||n.abbreviation||"Standings",entries:n.standings.entries});((n&&n.children)||[]).forEach(c=>walk(c,out));return out}
+function norm(e){
+  const w=sv(e,"wins"),l=sv(e,"losses"),tt=sv(e,"ties"),ot=sv(e,"otLosses"),o=sv(e,"overall","record","total");
+  const rec=o?o.displayValue:(w&&l?[w.displayValue,l.displayValue,tt&&tt.displayValue,ot&&ot.displayValue].filter(x=>x!=null).join("-"):"");
+  const pts=sv(e,"points"),pct=sv(e,"winPercent"),gb=sv(e,"gamesBehind"),seed=sv(e,"playoffSeed","rank"),tm=e.team||{};
+  return {id:String(tm.id),name:tm.displayName||tm.name||"",rec,ex:(pts||pct||gb||{}).displayValue||"",label:pts?"PTS":pct?"PCT":gb?"GB":"",
+    seed:seed?parseFloat(seed.value!=null?seed.value:seed.displayValue):NaN,sv:pts?+pts.value:pct?+pct.value:w?+w.value:0};
+}
+function pickGroup(j){
+  const gs=walk(j,[]).filter(g=>g.entries.some(e=>String((e.team||{}).id)===String(T.id)));
+  gs.sort((a,b)=>a.entries.length-b.entries.length);
+  return gs[0]||null;
+}
+async function loadStandings(){
+  let g=null,how="";
+  for(const q of ["?level=3",""]){
+    try{g=pickGroup(await getJSON(`https://site.api.espn.com/apis/v2/sports/${T.s}/${T.l}/standings${q}`));if(g){how=q?"division level":"default";break}}catch(e){}
+  }
+  if(!g){$("stand").innerHTML=`<div class="msg">Standings aren't available right now.</div>`;diag.push("Standings: none found");return}
+  const es=g.entries.map(norm);
+  if(es.every(e=>!isNaN(e.seed)))es.sort((a,b)=>a.seed-b.seed);else es.sort((a,b)=>b.sv-a.sv);
+  const label=(es.find(e=>e.label)||{}).label||"";
+  $("stand").innerHTML=`<h3 style="margin-top:0">${esc(g.name)}</h3><div class="scroll"><table><thead><tr><th></th><th>Team</th><th>Record</th><th>${label}</th></tr></thead><tbody>${es.map((e,i)=>`<tr class="${e.id===String(T.id)?"me":""}"><td>${i+1}</td><td>${esc(e.name)}</td><td>${esc(e.rec)}</td><td>${esc(e.ex)}</td></tr>`).join("")}</tbody></table></div>`;
+  diag.push(`Standings: ${g.name} (${how}, ${es.length} teams)`);
+}
+
+// ---- Games: last 5 results, next 3 ----
+function parseGame(ev){
+  const comp=ev.competitions&&ev.competitions[0];if(!comp)return null;
+  const me=comp.competitors.find(c=>String(c.team.id)===String(T.id)),opp=comp.competitors.find(c=>c!==me);if(!me||!opp)return null;
+  const sc=c=>c&&c.score!=null?(typeof c.score==="object"?c.score.displayValue:c.score):null;
+  const st=(comp.status||ev.status||{}).type||{};
+  const L=ev.links||[],pick=r=>(L.find(l=>(l.rel||[]).includes(r))||{}).href,base="https://www.espn.com/"+(T.s==="soccer"?"soccer":T.l);
+  return {id:String(ev.id),date:new Date(ev.date),home:me.homeAway==="home",opp:opp.team.displayName||opp.team.name||"TBD",state:st.state,my:sc(me),their:sc(opp),win:me.winner,
+    link:pick("summary")||`${base}/${T.s==="soccer"?"match":"game"}/_/gameId/${ev.id}`,box:pick("boxscore")||`${base}/boxscore/_/gameId/${ev.id}`,
+    tv:[...new Set((comp.broadcasts||[]).flatMap(b=>b.names||(b.media&&b.media.shortName?[b.media.shortName]:[])))].join(", ")};
+}
+let SEASON=null;
+async function loadGames(){
+  const seen=new Map(),add=j=>(j.events||[]).forEach(ev=>{const g=parseGame(ev);if(g&&!seen.has(g.id))seen.set(g.id,g)});
+  const src=[];
+  const run=async(label,fn)=>{try{await fn();src.push(label+" ok")}catch(e){src.push(label+" failed")}};
+  await run("schedule",async()=>{const j=await getJSON(`${API}${T.s}/${T.l}/teams/${T.id}/schedule`);if(j.season&&j.season.year)SEASON=j.season.year;add(j)});
+  if(T.s==="soccer")await run("fixtures",async()=>add(await getJSON(`${API}${T.s}/${T.l}/teams/${T.id}/schedule?fixture=true`)));
+  let games=[...seen.values()];
+  if(!games.some(g=>g.state==="pre")){
+    const ymd=d=>d.toISOString().slice(0,10).replace(/-/g,"");
+    await run("scoreboard",async()=>{
+      const j=await getJSON(`${API}${T.s}/${T.l}/scoreboard?dates=${ymd(new Date())}-${ymd(new Date(Date.now()+60*864e5))}&limit=400`);
+      add({events:(j.events||[]).filter(ev=>ev.competitions&&ev.competitions[0].competitors.some(c=>String(c.team.id)===String(T.id)))});
+    });
+    games=[...seen.values()];
+  }
+  const done=games.filter(g=>g.state==="post").sort((a,b)=>b.date-a.date).slice(0,5);
+  const next=games.filter(g=>g.state==="in"||(g.state==="pre"&&g.date>Date.now()-4*36e5)).sort((a,b)=>a.date-b.date).slice(0,3);
+  const row=(g,fin)=>{
+    const r=fin?(g.win===true?"w":g.win===false?"l":""):"";
+    const res=fin?`${r?(r==="w"?"W ":"L "):""}${esc(g.my??"")}–${esc(g.their??"")}`:(g.state==="in"?"LIVE":timeFmt.format(g.date));
+    return `<div class="g"><span class="gd">${dayFmt.format(g.date)}</span><span>${g.home?"vs":"at"} ${esc(g.opp)}${g.tv&&!fin?` <span class="gd">· ${esc(g.tv)}</span>`:""}<a class="gl" href="${esc(fin?g.link:g.link)}" target="_blank" rel="noopener">${fin?"Recap":g.state==="in"?"Live":"Preview"}</a>${fin?`<a class="gl" href="${esc(g.box)}" target="_blank" rel="noopener">Box score</a>`:""}</span><span class="gr ${r}">${res}</span></div>`};
+  $("games").innerHTML=`<h3 style="margin-top:0">Last ${done.length||5}</h3>${done.length?done.map(g=>row(g,1)).join(""):`<div class="msg">No recent games.</div>`}<h3>Next ${next.length||3}</h3>${next.length?next.map(g=>row(g,0)).join(""):`<div class="msg">No upcoming games scheduled right now.</div>`}`;
+  diag.push(`Games: ${src.join(", ")}, ${done.length} past, ${next.length} upcoming`);
+}
+
+// ---- Team leaders (ESPN core API; names come from a second lookup per athlete) ----
+async function loadLeaders(){
+  const el=$("leaders"),yrs=[SEASON||new Date().getFullYear(),(SEASON||new Date().getFullYear())-1];
+  let cats=null,used="";
+  for(const y of yrs)for(const ty of [2,1,3]){
+    if(cats)break;
+    try{
+      const j=await getJSON(`https://sports.core.api.espn.com/v2/sports/${T.s}/leagues/${T.l}/seasons/${y}/types/${ty}/teams/${T.id}/leaders`);
+      const c=(j.categories||[]).filter(x=>(x.leaders||[]).length);if(c.length){cats=c;used=`${y} type ${ty}`}
+    }catch(e){}
+  }
+  if(!cats){el.innerHTML=`<div class="msg">Leaders aren't available right now.</div>`;diag.push("Leaders: none found");return}
+  const rows=await Promise.all(cats.slice(0,8).map(async c=>{
+    const l=c.leaders[0];let name="";
+    try{const a=await getJSON((l.athlete&&l.athlete.$ref||"").replace(/^http:/,"https:"));name=a.displayName||a.fullName||a.shortName||""}catch(e){}
+    return {cat:c.displayName||c.name||"",who:name,val:l.displayValue!=null?l.displayValue:l.value};
+  }));
+  const ok=rows.filter(r=>r.who);
+  el.innerHTML=ok.length?ok.map(r=>`<div class="lead"><span class="who">${esc(r.who)}</span><span class="val">${esc(r.val)}</span><span class="cat">${esc(r.cat)}</span></div>`).join(""):`<div class="msg">Leaders aren't available right now.</div>`;
+  diag.push(`Leaders: ${ok.length} of ${rows.length} resolved (${used})`);
+}
+
+async function loadHero(){
+  let sub="";
+  try{const j=await getJSON(`${API}${T.s}/${T.l}/teams/${T.id}`);const t=j.team||{};
+    const it=(t.record&&t.record.items)||[],x=it.find(y=>y.type==="total")||it[0];
+    sub=[x&&x.summary,t.standingSummary].filter(Boolean).join(" · ");
+  }catch(e){}
+  $("hero").innerHTML=`<img src="${logoFor(T)}" alt="" onerror="this.style.visibility='hidden'"><div><h1>${esc(T.n)}</h1>${sub?`<p>${esc(sub)}</p>`:""}</div>`;
+}
+
+async function init(){
+  if(!T){$("hero").innerHTML=`<div><h1>Team not found</h1><p>Pick a team from the <a href="./">main page</a>.</p></div>`;return}
+  document.title=T.n+" | Minnesota Sports";
+  document.documentElement.style.setProperty("--c",T.c);
+  document.querySelectorAll(".hero,.card,.nm b").forEach(e=>e.style.setProperty("--c",T.c));
+  await Promise.all([loadHero(),loadNews(),loadStandings(),loadGames()]);
+  await loadLeaders();
+  $("diag").textContent="Data check · "+diag.join(" · ");
+}
+init();
+</script>
+</body>
+</html>
