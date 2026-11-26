@@ -1,20 +1,36 @@
 {
- "updated": "2026-11-26T15:54:24.446Z",
+ "updated": "2026-11-26T16:59:09.261Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
+  "twins|Twins Daily": "ok 12",
+  "lynx|Pioneer Press": "error: HTTP 403",
   "timberwolves|The Athletic": "ok 15",
   "wild|The Athletic": "ok 15",
-  "twins|Twins Daily": "ok 12",
   "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Minnesota Golden Gophers Thanksgiving Weekend Viewing Guide",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41881/minnesota-golden-gophers-thanksgiving-weekend-viewing-guide",
+   "ts": "2026-11-26T16:44:13.000Z",
+   "desc": "While Thanksgiving weekend is often a chance for many of us to relax and take some time to be with our families and eat some glorious food, it often is not in the college athletics world. The Minnesota Golden Gophers have a robust weekend of action beginning Thursday night and extending through the NCAA Volleyball […]"
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Did Luke Keaschall Have One of MLB&#x2019;s Most Underrated Seasons in 2026?",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/did-luke-keaschall-have-one-of-mlbs-most-underrated-seasons-in-2026-r21498/",
+   "ts": "2026-11-26T16:09:01.000Z",
+   "desc": "Luke Keaschall entered the 2026 season with plenty of expectations after an impressive rookie campaign. The young infielder hit .302/.382/.445 with a .827 OPS in 49 games during his debut season. He also demonstrated an ability to impact games with his speed, stealing 14 bases while looking like..."
+  },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
@@ -288,14 +304,6 @@
    "desc": "It is good to express gratitude and recognize things to be thankful for. Here is my non-exhaustive list of things I am thankful for when it comes to Gopher athletics. Truthfully, I could stop after the first two and be perfectly content. Holding all three rivalry trophies! For many Gopher fans, this is the first […]"
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "How the A.J. Ewing Contract Can Be the Model for a Luke Keaschall Extension",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/how-the-aj-ewing-contract-can-be-the-model-for-a-luke-keaschall-extension-r21499/",
-   "ts": "2026-11-23T18:06:01.000Z",
-   "desc": "The Minnesota Twins have spent the past several seasons developing one of baseball's best farm systems, and the organization could be approaching an important point in that process. Rather than waiting for players to reach arbitration or free agency, the front office has an opportunity to explor..."
-  },
-  {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "Minnesota Football: Bowl projections after Week 12",
@@ -358,14 +366,6 @@
    "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41801/gophers-beat-the-utes-77-62-in-charleston",
    "ts": "2026-11-23T00:56:59.000Z",
    "desc": "Minnesota trailed 25-28 at the half but controlled the final 20 minutes to cruise to a 77-62 win over Utah in Charleston. The Gophers were led by a barrage of three-pointers and a career-high 31 points from Jaylen Crocker-Johnson. The big man was also 8/8 from three and grabbed 8 rebounds. But Bobby Durkin was […]"
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "OPEN THREAD: Gophers and Utah Utes in the Shriners Children’s Charleston Classic",
-   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41842/open-thread-gophers-and-utah-utes-in-the-shriners-childrens-charleston-classic",
-   "ts": "2026-11-22T22:45:00.000Z",
-   "desc": "Utah if a football school."
   },
   {
    "team": "timberwolves",
