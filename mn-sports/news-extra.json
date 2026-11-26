@@ -1,20 +1,36 @@
 {
- "updated": "2026-11-26T11:58:13.490Z",
+ "updated": "2026-11-26T13:14:14.640Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
   "timberwolves|The Athletic": "ok 15",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
   "twins|Twins Daily": "ok 12",
-  "twins|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15"
+  "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Twins Payroll Reset: Where Minnesota Stands After Another Busy Day",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-payroll-reset-where-minnesota-stands-after-another-busy-day-r21517/",
+   "ts": "2026-11-26T12:30:02.000Z",
+   "desc": "The Minnesota Twins have been one of the most active teams in baseball this offseason. Between free-agent signings, trades, and non-tender decisions, the organization has reshaped and strengthened its roster heading into the 2027 season. The latest move came with the addition of right-handed rel..."
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "Jaden McDaniels shrugs off All-Star buzz after silencing Thunder: 'It’s just another day'",
+   "url": "https://www.nytimes.com/athletic/7813840/2026/11/26/jaden-mcdaniels-timberwolves-nba-all-star-thunder/",
+   "ts": "2026-11-26T12:00:54.000Z",
+   "desc": "The Wolves had not been able to put away OKC. The answer was McDaniels, who finished with 32 points, 10 rebounds and five assists."
+  },
   {
    "team": "wild",
    "src": "The Athletic",
@@ -288,14 +304,6 @@
    "desc": "With the holiday near, let’s pause and acknowledge what each team has provided a month into the season."
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Alan Roden: An Ideal Trade Chip for a Twins Team That Still Has Needs",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/alan-roden-an-ideal-trade-chip-for-a-twins-team-that-still-has-needs-r21506/",
-   "ts": "2026-11-23T16:07:49.000Z",
-   "desc": "As the Twins look to return to the postseason for the first time since 2023, they'll rely on a strong group of four outfielders: Byron Buxton, Luke Keaschall, Walker Jenkins, and Emmanuel Rodriguez. This athletic, young (besides Buxton) group has the chance to be one of the best outfields in the..."
-  },
-  {
    "team": "wild",
    "src": "The Athletic",
    "title": "Wild’s Danila Yurov can finally exhale after months of trade rumors — at least for now",
@@ -534,14 +542,6 @@
    "url": "https://www.nytimes.com/athletic/7791665/2026/11/18/wolves-lyles-dosunmu-hyland-ball-blazers/",
    "ts": "2026-11-18T12:30:10.000Z",
    "desc": "Minnesota moved to 11-4 to tie the 2023-24 team for the best start in franchise history after beating the Trail Blazers back-to-back."
-  },
-  {
-   "team": "timberwolves",
-   "src": "The Athletic",
-   "title": "Alex Rodriguez says ‘I thank God every day’ that his bid to buy the Mets failed",
-   "url": "https://www.nytimes.com/athletic/7790546/2026/11/17/alex-rodriguez-mets-bid/",
-   "ts": "2026-11-17T22:35:51.000Z",
-   "desc": "Rodriguez is happy he ended up with an ownership stake in the Minnesota Timberwolves instead."
   },
   {
    "team": "twins",
