@@ -1,20 +1,36 @@
 {
- "updated": "2026-11-26T04:39:07.335Z",
+ "updated": "2026-11-26T05:55:12.440Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "vikings|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
+  "twins|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "timberwolves|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15"
+  "twins|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15",
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Wild's 15-game point streak ends in rare sloppy effort against Mammoth: Takeaways",
+   "url": "https://www.nytimes.com/athletic/7813213/2026/11/26/wild-mammoth-point-streak-takeaways/",
+   "ts": "2026-11-26T05:13:47.000Z",
+   "desc": "The Wild suffered their first regulation loss since Oct. 22, falling 4-3 to Utah on Wednesday."
+  },
+  {
+   "team": "timberwolves",
+   "src": "The Athletic",
+   "title": "LaMelo Ball injures left ankle in win over Thunder, in good spirits afterward",
+   "url": "https://www.nytimes.com/athletic/7813533/2026/11/25/lamelo-ball-left-ankle-timberwolves-thunder-nba/",
+   "ts": "2026-11-26T04:56:39.000Z",
+   "desc": "\"He means a lot to us,\" Rudy Gobert said. \"Obviously, we're just hoping it was nothing too serious. Hopefully, he will be back soon.\""
+  },
   {
    "team": "twins",
    "src": "The Athletic",
@@ -472,14 +488,6 @@
    "desc": "KAT and Melo are two easy-to-dismiss stars at first glance. Look closer, and the outlines of a winning player come into stark relief."
   },
   {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Filip Gustavsson's road back to Wild after hip surgery — and why he didn't have it sooner",
-   "url": "https://www.nytimes.com/athletic/7796613/2026/11/20/filip-gustavsson-wild-hip-surgery-injury-return/",
-   "ts": "2026-11-20T12:13:45.000Z",
-   "desc": "Gustavsson is expected to rejoin the Wild soon, he isn’t sure if it’ll only take one rehab start to be ready to return to NHL action."
-  },
-  {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "Karl-Anthony Towns extends double-double streak in 'bittersweet' return to Minnesota",
@@ -542,14 +550,6 @@
    "url": "https://www.nytimes.com/athletic/7790204/2026/11/17/ryan-jeffers-accepts-twins-qualifying-offer/",
    "ts": "2026-11-17T21:21:57.000Z",
    "desc": "Jeffers returns to the Twins on a one-year deal instead of pursuing a longer-term contract in free agency as was expected."
-  },
-  {
-   "team": "timberwolves",
-   "src": "The Athletic",
-   "title": "NBA Power Rankings: Celtics rise to contenders tier as injuries impact almost every team",
-   "url": "https://www.nytimes.com/athletic/7786874/2026/11/16/nba-power-rankings-celtics-lakers-sixers-injuries/",
-   "ts": "2026-11-16T17:09:22.000Z",
-   "desc": "Coincidentally, Boston has been arguably the healthiest team in the league, a major reason for the C's early success."
   }
  ]
 }
