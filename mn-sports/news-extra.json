@@ -1,20 +1,36 @@
 {
- "updated": "2026-11-26T03:28:50.850Z",
+ "updated": "2026-11-26T04:39:07.335Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15",
   "united|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
   "twins|Twins Daily": "ok 12",
-  "wild|The Athletic": "ok 15",
-  "twins|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "The Athletic",
+   "title": "Reliever Kevin Ginkel agrees to 2-year deal with Twins: Sources",
+   "url": "https://www.nytimes.com/athletic/7813379/2026/11/25/kevin-ginkel-twins-mlb-free-agency/",
+   "ts": "2026-11-26T03:49:54.000Z",
+   "desc": "The 32-year-old Ginkel struck out 72 batters in 67 2/3 innings last season for the Arizona Diamondbacks."
+  },
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "BREAKING: Twins to Sign Reliever Kevin Ginkel to Two-Year Deal",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/breaking-twins-to-sign-reliever-kevin-ginkel-to-two-year-deal-r21516/",
+   "ts": "2026-11-26T03:30:00.000Z",
+   "desc": "The Twins' bullpen has long been a fearsome lair of the slider monsters. That will continue in 2027, as the team signed slider specialist and long-time Diamondbacks setup man Kevin Ginkel to a two-year deal worth $18 million. Mark Feinsand of MLB.com broke the news on Twitter. Ginkel,..."
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -262,14 +278,6 @@
    "url": "https://www.nytimes.com/athletic/7806228/2026/11/23/wild-danila-yurov-dylan-larkin-trade-rumors/",
    "ts": "2026-11-23T15:44:43.000Z",
    "desc": "He has nine goals in 25 games despite not playing on Minnesota’s No. 1 power-play unit — a 30-goal pace after scoring 12 as a rookie."
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Consummate Modern Workhorse Sonny Gray on Pitching Differently in His Late 30s",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/consummate-modern-workhorse-sonny-gray-on-pitching-differently-in-his-late-30s-r21504/",
-   "ts": "2026-11-23T15:03:04.000Z",
-   "desc": "Since 2000, only 11 pitchers have made at least 22 starts in 13 or more seasons. Barring something unforeseen, this year, Sonny Gray will become the 12th. It sounds like a low bar to clear for elite durability and longevity, but that's the nature of the modern game. Gray has started at least 22..."
   },
   {
    "team": "wild",
@@ -542,14 +550,6 @@
    "url": "https://www.nytimes.com/athletic/7786874/2026/11/16/nba-power-rankings-celtics-lakers-sixers-injuries/",
    "ts": "2026-11-16T17:09:22.000Z",
    "desc": "Coincidentally, Boston has been arguably the healthiest team in the league, a major reason for the C's early success."
-  },
-  {
-   "team": "twins",
-   "src": "The Athletic",
-   "title": "Even with 'top-end talent' in hand, Twins could target starting rotation in free agency",
-   "url": "https://www.nytimes.com/athletic/7780631/2026/11/14/twins-starting-pitchers-bullpen-offseason-free-agency/",
-   "ts": "2026-11-14T12:00:38.000Z",
-   "desc": "With practically every team targeting relief pitching this offseason, should the Twins opt for a starting arm despite their deep rotation?"
   }
  ]
 }
