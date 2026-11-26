@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-26T10:58:28.251Z",
+ "updated": "2026-11-26T11:58:13.490Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "timberwolves|The Athletic": "ok 15",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
+  "twins|The Athletic": "ok 15",
   "wild|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "What will Filip Gustavsson's Wild return mean for Jesper Wallstedt? It's fluid",
+   "url": "https://www.nytimes.com/athletic/7809763/2026/11/26/wild-crowded-crease-gustavsson-wallstedt/",
+   "ts": "2026-11-26T11:55:07.000Z",
+   "desc": "Wallstedt is happy to have Gustavsson back but also has thrived with the increased workload and says he could start 70 games."
+  },
   {
    "team": "wild",
    "src": "The Athletic",
@@ -470,14 +478,6 @@
    "url": "https://www.nytimes.com/athletic/7798390/2026/11/20/twins-non-tender-bailey-ober/",
    "ts": "2026-11-20T17:45:19.000Z",
    "desc": "Ober was the odd man out after the Twins’ spending spree."
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "NHL Power Rankings: In honor of 'Grand Theft Auto VI,' let's remember some guys",
-   "url": "https://www.nytimes.com/athletic/7797676/2026/11/20/nhl-power-rankings-grand-theft-auto/",
-   "ts": "2026-11-20T15:19:48.000Z",
-   "desc": "We took a time machine back to the 2013-14 season and reminisced on a bygone era, picking our favorite guy from each team."
   },
   {
    "team": "timberwolves",
