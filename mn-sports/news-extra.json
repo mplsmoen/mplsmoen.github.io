@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-27T08:43:42.591Z",
+ "updated": "2026-11-27T09:58:15.854Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "vikings|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
   "twins|Twins Daily": "ok 12",
+  "twins|The Athletic": "ok 15",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
   "lynx|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15",
-  "twins|The Athletic": "ok 15"
+  "wild|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403"
  },
  "items": [
   {
