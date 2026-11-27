@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-27T14:21:31.680Z",
+ "updated": "2026-11-27T15:26:52.298Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
-  "united|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "wild|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Forum Friday: Bauers' Plan B, 2026 Free Agency, Donaldson's Talk, Pohlads' Sale, Lewis' Farewell",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/forum-friday-bauers-plan-b-2026-free-agency-donaldsons-talk-pohlads-sale-lewis-farewell-r21523/",
+   "ts": "2026-11-27T15:00:00.000Z",
+   "desc": "The forums are buzzing with reactions to the Twins' roster moves and front office news. This week's roundup covers five threads: the search for a Jake Bauers replacement, the impact of Skubal's contract on financial flexibility, Josh Donaldson's podcast remarks, Charley Walters' sale speculation..."
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -254,14 +262,6 @@
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41836/minnesota-football-rowing-to-wisconsin-opponent-preview",
    "ts": "2026-11-24T14:45:00.000Z",
    "desc": "The Minnesota Golden Gophers (6-5) will cross the border on Black Friday to close out the regular season against the Wisconsin Badgers (7-4) in their annual rivalry battle for Paul Bunyan’s Axe. Can they score on offense? Under second-year offensive coordinator Jeff Grimes, Wisconsin has pivoted away from the failed “Dairy Raid” offense to be […]"
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "The Twins and the Death of Pitch to Contact",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/the-twins-and-the-death-of-pitch-to-contact-r21501/",
-   "ts": "2026-11-24T12:35:01.000Z",
-   "desc": "For years, Minnesota Twins pitchers were expected to follow a relatively simple formula. Throw strikes, limit walks, keep the ball on the ground, and let the defense take care of the rest. Strikeouts were nice, but they weren't necessarily the primary objective. That philosophy helped defin..."
   },
   {
    "team": "timberwolves",
