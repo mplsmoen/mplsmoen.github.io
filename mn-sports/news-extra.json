@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-27T16:34:17.572Z",
+ "updated": "2026-11-27T17:49:00.841Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
   "twins|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
-  "twins|Twins Daily": "ok 12",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "twins|Twins Daily": "ok 12",
+  "timberwolves|The Athletic": "ok 15",
   "wild|The Athletic": "ok 15",
-  "timberwolves|The Athletic": "ok 15"
+  "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "4 Ways the Twins Could Get Creative to Reach the Proposed Salary Floor",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/4-ways-the-twins-could-get-creative-to-reach-the-proposed-salary-floor-r21452/",
+   "ts": "2026-11-27T17:40:02.000Z",
+   "desc": "Major League Baseball owners have made it clear that they want a salary cap and floor included in the next Collective Bargaining Agreement. The proposal is designed to address the growing financial disparity between large- and small-market teams, while establishing a more consistent spending str..."
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -238,14 +246,6 @@
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-look-to-recreate-2023-success-with-familiar-blueprint-r21495/",
    "ts": "2026-11-24T18:04:01.000Z",
    "desc": "The Minnesota Twins are hoping history repeats itself. As the organization reshapes its roster for the 2027 season, there are some familiar elements from a team that delivered one of the franchise's most memorable seasons in recent history. In 2023, the Twins built their roster around a talented..."
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Why Twins Should Check in on Brewers Trade Candidate Joey Ortiz",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/why-twins-should-check-in-on-brewers-trade-candidate-joey-ortiz-r21503/",
-   "ts": "2026-11-24T17:15:00.000Z",
-   "desc": "The Minnesota Twins have already addressed two significant roster holes this offseason, bringing back Sonny Gray to solidify the rotation and Ryan Jeffers to maintain continuity at catcher. However, with Royce Lewis off to Los Angeles to join the Dodgers, there is now a hole open on the roster f..."
   },
   {
    "team": "timberwolves",
