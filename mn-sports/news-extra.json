@@ -1,20 +1,36 @@
 {
- "updated": "2026-11-27T11:49:28.286Z",
+ "updated": "2026-11-27T12:59:27.016Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
+  "united|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "wild|The Athletic": "ok 15",
-  "timberwolves|The Athletic": "ok 15",
-  "twins|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "What&#x2019;s Left on the Twins&#x2019; Offseason Shopping List",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/whats-left-on-the-twins-offseason-shopping-list-r21521/",
+   "ts": "2026-11-27T12:37:02.000Z",
+   "desc": "The Minnesota Twins wasted little time getting their offseason started. The team brought back catcher Ryan Jeffers on his $23.15 million qualifying offer, reunited with starting pitcher Sonny Gray on a two-year contract, and added reliever Kevin Ginkel on a two-year deal. Minnesota also traded R..."
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "How Wild coach John Hynes has evolved, Quinn Hughes and Stanley Cup conversation",
+   "url": "https://www.nytimes.com/athletic/7814753/2026/11/27/wild-coach-john-hynes-quinn-hughes-cup/",
+   "ts": "2026-11-27T12:13:18.000Z",
+   "desc": "In an interview to mark his third anniversary, Hynes discussed Hughes' contract situation and whether he believes Minnesota is a contender."
+  },
   {
    "team": "wild",
    "src": "The Athletic",
@@ -296,14 +312,6 @@
    "desc": "Minnesota is looking to add a right-side infielder and a bullpen arm."
   },
   {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Can the Twins Fix Bobby Miller? The Numbers Say There's Reason to Believe.",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/can-the-twins-fix-bobby-miller-the-numbers-say-theres-reason-to-believe-r21507/",
-   "ts": "2026-11-23T23:03:02.000Z",
-   "desc": "Minnesota has a knack for giving pitchers a second chance. The Twins like to take on arms with something to prove, and Bobby Miller could be their newest project. He was once a top Dodgers prospect who made hitters uneasy, but his career has had some nasty twists over the last few years. Injurie..."
-  },
-  {
    "team": "gophers",
    "src": "The Daily Gopher",
    "title": "Staff predictions for Gopher basketball",
@@ -422,14 +430,6 @@
    "url": "https://www.nytimes.com/athletic/7797295/2026/11/22/kyrie-irving-palestinian-teenager-jersey/",
    "ts": "2026-11-22T08:00:21.000Z",
    "desc": "Irving signed a jersey and took a photo with the brothers that has gone viral over several Palestinian and Muslim basketball accounts."
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Quinn Hughes out for rest of Wild road trip with undisclosed injury",
-   "url": "https://www.nytimes.com/athletic/7800922/2026/11/21/quinn-hughes-injury-wild-road-trip/",
-   "ts": "2026-11-21T19:41:40.000Z",
-   "desc": "Hughes was hurt late in Thursday’s 4-1 win in Calgary after being hit into the boards by Flames forward Adam Klapka."
   },
   {
    "team": "twins",
