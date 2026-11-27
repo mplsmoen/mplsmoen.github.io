@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-27T04:57:56.269Z",
+ "updated": "2026-11-27T05:59:40.474Z",
  "status": {
+  "vikings|Pioneer Press": "error: HTTP 403",
   "gophers|The Daily Gopher": "ok 10",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Twins Daily": "ok 12",
+  "twins|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
+  "wild|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
-  "timberwolves|The Athletic": "ok 15"
+  "twins|Twins Daily": "ok 12",
+  "timberwolves|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15",
+  "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Minnesota Golden Gophers Thanksgiving Weekend Viewing Guide",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41881/minnesota-golden-gophers-thanksgiving-weekend-viewing-guide",
+   "ts": "2026-11-26T16:44:13.000Z",
+   "desc": "While Thanksgiving weekend is often a chance for many of us to relax and take some time to be with our families and eat some glorious food, it often is not in the college athletics world. The Minnesota Golden Gophers have a robust weekend of action beginning Thursday night and extending through the NCAA Volleyball […]"
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -22,6 +30,14 @@
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/did-luke-keaschall-have-one-of-mlbs-most-underrated-seasons-in-2026-r21498/",
    "ts": "2026-11-26T16:09:01.000Z",
    "desc": "Luke Keaschall entered the 2026 season with plenty of expectations after an impressive rookie campaign. The young infielder hit .302/.382/.445 with a .827 OPS in 49 games during his debut season. He also demonstrated an ability to impact games with his speed, stealing 14 bases while looking like..."
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Minnesota Football vs. Wisconsin: Staff Predictions",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41877/minnesota-football-vs-wisconsin-staff-predictions",
+   "ts": "2026-11-26T14:35:00.000Z",
+   "desc": "The Minnesota Golden Gophers (6-5) will cross the border on Black Friday to close out the regular season against the Wisconsin Badgers (7-4) in their annual rivalry battle for Paul Bunyan’s Axe. This Week’s Thoughts: GopherNation: P.J. Fleck does un-P.J. things against Wisconsin. Minnesota keeps the Axe. Andy York: One more walk-off for the Drz to […]"
   },
   {
    "team": "twins",
@@ -350,22 +366,6 @@
    "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41801/gophers-beat-the-utes-77-62-in-charleston",
    "ts": "2026-11-23T00:56:59.000Z",
    "desc": "Minnesota trailed 25-28 at the half but controlled the final 20 minutes to cruise to a 77-62 win over Utah in Charleston. The Gophers were led by a barrage of three-pointers and a career-high 31 points from Jaylen Crocker-Johnson. The big man was also 8/8 from three and grabbed 8 rebounds. But Bobby Durkin was […]"
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "OPEN THREAD: Gophers and Utah Utes in the Shriners Children’s Charleston Classic",
-   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41842/open-thread-gophers-and-utah-utes-in-the-shriners-childrens-charleston-classic",
-   "ts": "2026-11-22T22:45:00.000Z",
-   "desc": "Utah if a football school."
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "3 Keys to beating Utah and how to watch the Charleston Classic",
-   "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41744/3-keys-to-beating-utah-and-how-to-watch-the-charleston-classic",
-   "ts": "2026-11-22T20:28:38.000Z",
-   "desc": "Charleston 5:00 ESPN2 Utah Minnesota Golden GophersRecord: 6-0KenPom Rank: 22 Utah UtesRecord: 3-2KenPom Rank: 127 The Utes lost their initial Shriners Children’s Charleston Classic game against Dayton 63-46. KEYS TO A GOPHER WIN Keep up the defense – Minnesota ranks 17th nationally in defensive efficiency; they are keeping opponents’ field goal percentage low and overall […]"
   },
   {
    "team": "timberwolves",
