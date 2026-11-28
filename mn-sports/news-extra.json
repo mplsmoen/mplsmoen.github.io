@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-28T02:14:12.964Z",
+ "updated": "2026-11-28T03:23:16.217Z",
  "status": {
-  "vikings|Pioneer Press": "error: HTTP 403",
   "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "twins|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15",
   "timberwolves|The Athletic": "ok 15",
-  "wild|The Athletic": "ok 15"
+  "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Wild stunningly blow 3-0 late lead to Avalanche: 'Don’t know what happened'",
+   "url": "https://www.nytimes.com/athletic/7817469/2026/11/27/wild-avalanche-blown-lead-nhl/",
+   "ts": "2026-11-28T02:29:29.000Z",
+   "desc": "The Avalanche pulled their goalie three times, scoring on each, to come back and win 4-3 in shootout against the Wild."
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -406,14 +414,6 @@
    "url": "https://www.nytimes.com/athletic/7802018/2026/11/22/wild-road-win-streak-snapped-canucks-rossi-buium/",
    "ts": "2026-11-22T13:00:34.000Z",
    "desc": "Players Minnesota gave up to acquire Quinn Hughes make vital contributions to Canucks' victory."
-  },
-  {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Calvin Pickard's uncertain future looms as Filip Gustavsson returns to Wild",
-   "url": "https://www.nytimes.com/athletic/7801031/2026/11/22/wild-filip-gustavsson-calvin-pickard-return/",
-   "ts": "2026-11-22T12:13:08.000Z",
-   "desc": "Pickard will likely end up on waivers (or be traded), potentially going down to AHL Iowa if he clears."
   },
   {
    "team": "twins",
