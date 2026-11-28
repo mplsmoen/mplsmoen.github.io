@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-28T11:16:32.142Z",
+ "updated": "2026-11-28T12:14:08.500Z",
  "status": {
-  "gophers|The Daily Gopher": "ok 10",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
+  "gophers|The Daily Gopher": "ok 10",
   "twins|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
   "timberwolves|The Athletic": "ok 15",
-  "twins|The Athletic": "ok 15"
+  "twins|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Baseball America Calls 2022 MLB Draft a &#x201C;Dud,&#x201D; But Twins May Have Avoided It",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/baseball-america-calls-2022-mlb-draft-a-%E2%80%9Cdud%E2%80%9D-but-twins-may-have-avoided-it-r21510/",
+   "ts": "2026-11-28T12:13:01.000Z",
+   "desc": "The 2022 MLB Draft isn't going to be remembered as one of the better draft classes in recent baseball history. In fact, Baseball America recently declared the first round &#x201C;a dud&#x201D; after examining how many of those selections have failed to establish themselves in professional baseball. However, t..."
+  },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
@@ -262,14 +270,6 @@
    "url": "https://www.nytimes.com/athletic/7810545/2026/11/24/orioles-freddy-peralta-trevor-rogers-mlb-free-agency/",
    "ts": "2026-11-25T02:39:56.000Z",
    "desc": "Plus: What's next for Baltimore, comparing Kevin Gausman and Sonny Gray and more news and notes."
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Bobby Miller Could Become an Elite Reliever, But He Needs to Change His Arsenal",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/bobby-miller-could-become-an-elite-reliever-but-he-needs-to-change-his-arsenal-r21505/",
-   "ts": "2026-11-24T23:03:02.000Z",
-   "desc": "Acquired from the Los Angeles Dodgers alongside catching prospect Francisco Espinoza for infielder Royce Lewis, right-handed pitcher Bobby Miller joins the Minnesota Twins with the hope of ending the three-season tailspin the former top prospect has endured since his rookie campaign in 2023. Mil..."
   },
   {
    "team": "timberwolves",
