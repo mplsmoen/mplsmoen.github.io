@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-28T00:56:02.859Z",
+ "updated": "2026-11-28T02:14:12.964Z",
  "status": {
+  "vikings|Pioneer Press": "error: HTTP 403",
   "gophers|The Daily Gopher": "ok 10",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
   "gophers|Pioneer Press": "error: HTTP 403",
+  "united|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "wild|The Athletic": "ok 15",
   "twins|The Athletic": "ok 15",
-  "timberwolves|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15",
+  "wild|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Ryan Fitzgerald Returns to the Twins on MLB Deal",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/ryan-fitzgerald-returns-to-the-twins-on-mlb-deal-r21525/",
+   "ts": "2026-11-28T01:28:00.000Z",
+   "desc": "News broke on Friday night that the Twins have veteran utility infielder Ryan Fitzgerald have agreed to terms. It is a one-year, MLB contract, meaning he has a spot on the team's 40-man roster, and he's got two options remaining.&#xA0; Last offseason, the Twins DFAd Fitzgerald and he was claimed..."
+  },
   {
    "team": "gophers",
    "src": "The Daily Gopher",
@@ -246,14 +254,6 @@
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/bobby-miller-could-become-an-elite-reliever-but-he-needs-to-change-his-arsenal-r21505/",
    "ts": "2026-11-24T23:03:02.000Z",
    "desc": "Acquired from the Los Angeles Dodgers alongside catching prospect Francisco Espinoza for infielder Royce Lewis, right-handed pitcher Bobby Miller joins the Minnesota Twins with the hope of ending the three-season tailspin the former top prospect has endured since his rookie campaign in 2023. Mil..."
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Twins Look to Recreate 2023 Success With Familiar Blueprint",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/twins-look-to-recreate-2023-success-with-familiar-blueprint-r21495/",
-   "ts": "2026-11-24T18:04:01.000Z",
-   "desc": "The Minnesota Twins are hoping history repeats itself. As the organization reshapes its roster for the 2027 season, there are some familiar elements from a team that delivered one of the franchise's most memorable seasons in recent history. In 2023, the Twins built their roster around a talented..."
   },
   {
    "team": "timberwolves",
