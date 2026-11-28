@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-28T13:33:01.284Z",
+ "updated": "2026-11-28T14:40:11.084Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "wild|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15",
   "timberwolves|Pioneer Press": "error: HTTP 403",
-  "wild|The Athletic": "ok 15",
+  "twins|Pioneer Press": "error: HTTP 403",
   "lynx|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
-  "timberwolves|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "wild|Pioneer Press": "error: HTTP 403",
+  "wild|The Athletic": "ok 15",
   "twins|Twins Daily": "ok 12",
-  "twins|The Athletic": "ok 15"
+  "timberwolves|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "twins",
+   "src": "Twins Daily",
+   "title": "Walker Jenkins Still Has Work to Do to Claim a Twins Opening Day Job",
+   "url": "https://twinsdaily.com/minnesota-twins-news/twins/walker-jenkins-still-has-work-to-do-to-claim-a-twins-opening-day-job-r21515/",
+   "ts": "2026-11-28T14:08:01.000Z",
+   "desc": "The Minnesota Twins made some significant changes to their outfield last week, removing Trevor Larnach and Matt Wallner from the 40-man roster. Those decisions created additional opportunities for younger players, and Walker Jenkins appears to be one of the biggest beneficiaries. However, an Ope..."
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -238,14 +246,6 @@
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41868/big-ten-football-power-poll-week-twelve",
    "ts": "2026-11-25T13:00:00.000Z",
    "desc": "Welp. The cream went bad. The Big Ten has successfully eaten itself alive. Are there any actual good teams? Are there any actual bad teams? (Unfortunately the answer to that is yes, and Minnesota lost to at least one and maybe two of them…) There seem to be about 15 teams that on any given […]"
-  },
-  {
-   "team": "twins",
-   "src": "Twins Daily",
-   "title": "Why a Connor Prielipp-for-Casey Schmitt Challenge Trade Could Work for Twins, Giants",
-   "url": "https://twinsdaily.com/minnesota-twins-news/twins/why-a-connor-prielipp-for-casey-schmitt-challenge-trade-could-work-for-twins-giants-r21511/",
-   "ts": "2026-11-25T12:37:00.000Z",
-   "desc": "In an article published&#xA0;Monday night,&#xA0;The Athletic&#x2019;s Dan Hayes noted that the Twins front office&#x2019;s primary focus is rounding out its position-player group by adding a first or second baseman via free agency, specifically mentioning free agents Ty France, Brandon Lowe, and Mauricio Dub&#xF3;n. All thr..."
   },
   {
    "team": "twins",
