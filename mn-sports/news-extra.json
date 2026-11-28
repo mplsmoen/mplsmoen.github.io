@@ -1,20 +1,28 @@
 {
- "updated": "2026-11-28T14:40:11.084Z",
+ "updated": "2026-11-28T15:38:57.013Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
-  "vikings|Pioneer Press": "error: HTTP 403",
-  "twins|The Athletic": "ok 15",
-  "timberwolves|Pioneer Press": "error: HTTP 403",
-  "twins|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
-  "united|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
+  "timberwolves|The Athletic": "ok 15",
   "wild|Pioneer Press": "error: HTTP 403",
+  "twins|Pioneer Press": "error: HTTP 403",
+  "timberwolves|Pioneer Press": "error: HTTP 403",
+  "vikings|Pioneer Press": "error: HTTP 403",
   "wild|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "timberwolves|The Athletic": "ok 15"
+  "united|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15"
  },
  "items": [
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Minnesota Football vs. Wisconsin: The Elite, The Meh & The Ugly",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41890/minnesota-football-vs-wisconsin-the-elite-the-meh-the-ugly",
+   "ts": "2026-11-28T14:55:00.000Z",
+   "desc": "The Minnesota Golden Gophers (6-6) played what observers described as something resembling a football game against the Wisconsin Badgers (8-4) and lost in an embarrassing 28-5 rout. The Ugly Paul Bunyan’s Axe is gone. And that sucks. As much as I covet the Little Brown Jug and the Floyd of Rosedale, it’s going to take […]"
+  },
   {
    "team": "twins",
    "src": "Twins Daily",
@@ -30,6 +38,14 @@
    "url": "https://twinsdaily.com/minnesota-twins-news/twins/baseball-america-calls-2022-mlb-draft-a-%E2%80%9Cdud%E2%80%9D-but-twins-may-have-avoided-it-r21510/",
    "ts": "2026-11-28T12:13:01.000Z",
    "desc": "The 2022 MLB Draft isn't going to be remembered as one of the better draft classes in recent baseball history. In fact, Baseball America recently declared the first round &#x201C;a dud&#x201D; after examining how many of those selections have failed to establish themselves in professional baseball. However, t..."
+  },
+  {
+   "team": "wild",
+   "src": "The Athletic",
+   "title": "Minnesota Wild live news: Michael Russo and Joe Smith bring you all the latest updates",
+   "url": "https://www.nytimes.com/athletic/7687434/2026/11/28/minnesota-wild-news-schedule/",
+   "ts": "2026-11-28T10:25:03.000Z",
+   "desc": "Michael Russo and Joe Smith bring you the ultimate fan spot for news, discussion and access to the Wild."
   },
   {
    "team": "gophers",
@@ -312,14 +328,6 @@
    "desc": "We also have an update on Quinn Hughes, take a look at Jared Spurgeon's longevity and consider a benching."
   },
   {
-   "team": "wild",
-   "src": "The Athletic",
-   "title": "Minnesota Wild live news: Michael Russo and Joe Smith bring you all the latest updates",
-   "url": "https://www.nytimes.com/athletic/7687434/2026/11/24/minnesota-wild-news-schedule/",
-   "ts": "2026-11-24T10:25:03.000Z",
-   "desc": "Michael Russo and Joe Smith bring you the ultimate fan spot for news, discussion and access to the Wild."
-  },
-  {
    "team": "timberwolves",
    "src": "The Athletic",
    "title": "The NBA's pleasant surprises: 2 Grizzlies, future Hall of Famers and defensive pests",
@@ -342,14 +350,6 @@
    "url": "https://www.thedailygopher.com/minnesota-gophers-mens-basketball/41656/staff-predictions-for-gopher-basketball",
    "ts": "2026-11-23T22:00:00.000Z",
    "desc": "Gopher basketball is off to a 6-0 start and they are looking like a team that just might have a chance at making the NCAA Tournament. Now that we have had a chance to get a look at this team, it is time for a roundtable of elite basketball minds (and Blake) to predict what […]"
-  },
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "The Monday Perspective is thankful",
-   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41856/the-monday-perspective-is-thankful",
-   "ts": "2026-11-23T20:42:39.000Z",
-   "desc": "It is good to express gratitude and recognize things to be thankful for. Here is my non-exhaustive list of things I am thankful for when it comes to Gopher athletics. Truthfully, I could stop after the first two and be perfectly content. Holding all three rivalry trophies! For many Gopher fans, this is the first […]"
   },
   {
    "team": "timberwolves",
