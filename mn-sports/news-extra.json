@@ -1,28 +1,20 @@
 {
- "updated": "2026-11-28T04:28:44.335Z",
+ "updated": "2026-11-28T05:29:33.569Z",
  "status": {
   "gophers|The Daily Gopher": "ok 10",
   "vikings|Pioneer Press": "error: HTTP 403",
   "timberwolves|Pioneer Press": "error: HTTP 403",
   "twins|Pioneer Press": "error: HTTP 403",
-  "lynx|Pioneer Press": "error: HTTP 403",
   "wild|Pioneer Press": "error: HTTP 403",
+  "lynx|Pioneer Press": "error: HTTP 403",
   "united|Pioneer Press": "error: HTTP 403",
-  "gophers|Pioneer Press": "error: HTTP 403",
   "twins|Twins Daily": "ok 12",
-  "twins|The Athletic": "ok 15",
   "wild|The Athletic": "ok 15",
+  "gophers|Pioneer Press": "error: HTTP 403",
+  "twins|The Athletic": "ok 15",
   "timberwolves|The Athletic": "ok 15"
  },
  "items": [
-  {
-   "team": "gophers",
-   "src": "The Daily Gopher",
-   "title": "Gophers surrender the Axe in 28-5 loss to Wisconsin",
-   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41889/gophers-surrender-the-axe-in-28-5-loss-to-wisconsin",
-   "ts": "2026-11-28T04:00:18.000Z",
-   "desc": "The Minnesota Golden Gophers had the opportunity to beat Michigan, Iowa, and Wisconsin — and possess all three rivalry trophies — in the same season for the first time since 1967. That opportunity evaporated within the first 30 minutes of game time on Friday night, as the Badgers reclaimed Paul Bunyan’s Axe in dominating fashion, […]"
-  },
   {
    "team": "wild",
    "src": "The Athletic",
@@ -350,6 +342,14 @@
    "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41856/the-monday-perspective-is-thankful",
    "ts": "2026-11-23T20:42:39.000Z",
    "desc": "It is good to express gratitude and recognize things to be thankful for. Here is my non-exhaustive list of things I am thankful for when it comes to Gopher athletics. Truthfully, I could stop after the first two and be perfectly content. Holding all three rivalry trophies! For many Gopher fans, this is the first […]"
+  },
+  {
+   "team": "gophers",
+   "src": "The Daily Gopher",
+   "title": "Minnesota Football: Bowl projections after Week 12",
+   "url": "https://www.thedailygopher.com/minnesota-golden-gophers-football/41858/minnesota-football-bowl-projections-after-week-12",
+   "ts": "2026-11-23T17:33:52.000Z",
+   "desc": "The Minnesota Golden Gophers are now bowl-eligible after notching their sixth win of the season on Saturday. Unfortunately, due to their record and the fact that 14 Big Teams are now bowl-eligible, they aren’t likely to be headed to a desirable destination. Current projections are all over the place, with no real consensus on where […]"
   },
   {
    "team": "timberwolves",
